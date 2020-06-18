@@ -65,10 +65,11 @@ features:
       title: Exciting
   title: Features
 review:
-  bottom:
+  bottom: 
+    text: Interested in highlighting your usage?
     button:
       text: Contact Us
-    text: Interested in highlighting your usage?
+      link: '#'
   display: true
   opinions:
     - company: Company

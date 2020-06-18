@@ -167,7 +167,7 @@ collections:
                 {label: Text, name: text, widget: text},
                 {label: Button, name: button, widget: object, fields: [
                   {label: Text, name: text, widget: string},
-                  {label: Text, name: text, widget: string},
+                  {label: Link, name: text, widget: string},
                 ]}
               ]},
               {label: Display, name: display, widget: boolean, required: false}
