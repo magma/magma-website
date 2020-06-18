@@ -2,12 +2,16 @@
   "logo": "",
   "nav": [
     {
-      "text": "Default Page",
+      "text": "Home",
+      "link": "/"
+    },
+    {
+      "text": "A Page",
       "link": "/default/"
-    },    
+    },
     {
       "text": "Blog",
       "link": "/blog/"
-    }    
+    }
   ]
 }
