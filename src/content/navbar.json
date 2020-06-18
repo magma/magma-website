@@ -1,0 +1,13 @@
+{
+  "logo": "",
+  "nav": [
+    {
+      "text": "Default Page",
+      "link": "/default/"
+    },    
+    {
+      "text": "Blog",
+      "link": "/blog/"
+    }    
+  ]
+}
