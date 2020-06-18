@@ -23,48 +23,46 @@ header:
 mainpitch:
   description:
     - text: >-
-        Airship is a collection of loosely coupled but interoperable open source
-        tools that declaratively automate cloud provisioning. Airship is a
-        robust delivery mechanism for organizations who want to embrace
-        containers as the new unit of infrastructure delivery at scale. Starting
-        from raw bare metal infrastructure, Airship manages the full lifecycle
-        of data center infrastructure to deliver a production-grade Kubernetes
-        cluster with Helm deployed artifacts, including OpenStack-Helm. Airship
-        allows operators to manage their infrastructure deployments and
-        lifecycle through the declarative YAML documents that describe an
-        Airship environment.  
+        Social media release startup interaction design first mover advantage
+        iteration gen-z market network effects technology social proof. Startup
+        disruptive MVP business plan. Interaction design angel investor buzz
+        innovator value proposition analytics facebook accelerator ramen network
+        effects. Growth hacking crowdsource facebook conversion assets metrics
+        mass market launch party churn rate monetization alpha stealth. Angel
+        investor MVP burn rate prototype graphical user interface launch party
+        handshake partner network hackathon growth hacking equity freemium sales
+        release. Bandwidth infrastructure infographic venture pitch. Early
+        adopters ecosystem social proof deployment strategy buzz value
+        proposition gamification termsheet return on investment startup
+        accelerator.
   display: true
-  title: About Airship
+  title: About Your Project
 features:
   display: true
   rows:
     - text: >
-        Infrastructure is managed through declarative YAML files and there is
-        one workflow for both  deployments and updates. Airship does not require
-        operators to develop their own set of complex  orchestration tooling to
-        automate Airship.
+        Business model canvas graphical user interface bootstrapping rockstar
+        hackathon leverage learning curve network effects crowdsource direct
+        mailing. 
       title: Simple
     - text: >
-        Containers and Helm charts are the basic unit of deployment for all
-        software including Airship  itself, pushing software orchestration logic
-        to the edge. Expanding the software stack is as  simple as adding new
-        charts to Airship declarations.
+        Gamification interaction design investor equity churn rate launch party
+        partnership funding infrastructure deployment release MVP.
       title: Flexible
     - text: >
-        Platform state including all versions are specified declaratively, and
-        Airship, Helm, and Kubernetes  align containers, dependencies, and
-        configuration in the same way every time.
+        Prototype user experience return on investment ramen startup success
+        disruptive iteration.
       title: Repeatable
     - text: >
-        All jobs and services are running as containers, provide health status,
-        and are healed by Kubernetes  supervision by taking full advantage of
-        native Kubernetes resiliency.
-      title: Resilient
-    - text: >
-        The Airship components themselves are deployed as Helm charts and run as
-        services within Kubernetes.  This allows them to be upgraded like any
-        other software component in the system.
-      title: Self-Hosted
+        Social media release startup interaction design first mover advantage
+        iteration gen-z market network effects technology social proof. 
+      title: Dynamic
+    - text: >-
+        Analytics founders assets incubator gamification. Branding founders
+        social proof. Series A financing founders advisor iPhone user experience
+        validation ecosystem non-disclosure agreement sales alpha disruptive
+        infrastructure. 
+      title: Exciting
   title: Features
 review:
   bottom:
