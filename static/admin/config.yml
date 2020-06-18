@@ -126,7 +126,7 @@ collections:
             ]}
           - {label: Header, name: header, widget: object, fields: [
               {label: Title, name: title, widget: string},
-              {label: Subtitle, name: subTitle, widget: object, fields: [
+              {label: Subtitle, name: subTitle, widget: list, fields: [
                 {label: Text, name: text, widget: string}, 
               ]},              
               {label: Buttons, name: buttons, widget: list, fields: [
