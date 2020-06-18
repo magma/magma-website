@@ -69,6 +69,7 @@ review:
     button:
       text: Contact Us
     text: Interested in highlighting your usage?
+    link: #
   display: true
   opinions:
     - company: Company
