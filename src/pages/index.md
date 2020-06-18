@@ -68,8 +68,8 @@ review:
   bottom:
     button:
       text: Contact Us
+      link: #
     text: Interested in highlighting your usage?
-    link: #
   display: true
   opinions:
     - company: Company
