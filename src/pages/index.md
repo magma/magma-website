@@ -17,8 +17,8 @@ header:
       text: Download
   display: true
   subTitle:
-    - text: Airship makes operating open infrastructure
-    - text: 'simple, repeatable, and resilient.'
+    - text: Your organization makes an exciting addition
+    - text: to elegant open infrastructure.
   title: A Compelling Lede
 mainpitch:
   description:
@@ -65,11 +65,10 @@ features:
       title: Exciting
   title: Features
 review:
-  bottom: 
-    text: Interested in highlighting your usage?
+  bottom:
     button:
       text: Contact Us
-      link: '#'
+    text: Interested in highlighting your usage?
   display: true
   opinions:
     - company: Company
