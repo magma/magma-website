@@ -1,6 +1,8 @@
 import React from 'react'
 
+import { Link } from 'gatsby'
 import leftArrow from '../img/svg/arrow-left.svg'
+import Menu from "../content/navbar.json"
 
 const Header = class extends React.Component {
   constructor(props) {
@@ -20,6 +22,14 @@ const Header = class extends React.Component {
           }}>
           <div className="hero-body">
             <div className="container">
+            {Menu.logo &&
+              <div className="nav-brand">
+                <Link to="/" title="Logo">
+                  <img src={Menu.logo} alt="Magma" />
+                </Link>
+                {/* Hamburger menu */}
+              </div>
+            }
               <div className="hero-content">
                 <h1 className="hero-title">{title}</h1>
                 <div className="hero-subhead">
