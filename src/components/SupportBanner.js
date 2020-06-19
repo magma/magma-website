@@ -20,7 +20,7 @@ const SupportBanner = class extends React.Component {
             <h2 className="support-content-title">
               {content.productName} is supported by OSF
             </h2>
-            <img src={OSFLogo} width='250px' />
+            <img src={OSFLogo} width='250px' alt="OSF Logo" />
           </div>
         </section>
       </React.Fragment>
