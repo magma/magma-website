@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: OpenStackweb/osf-website-template
+  repo: jbryce/mamga-website
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'

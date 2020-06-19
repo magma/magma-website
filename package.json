@@ -1,6 +1,6 @@
 {
-  "name": "osf-website-template",
-  "description": "OSF project website template",
+  "name": "magma-website",
+  "description": "Magma project website",
   "version": "0.0.1",
   "author": "OpenStack Foundation",
   "dependencies": {
@@ -45,7 +45,7 @@
     "uuid": "^3.2.1"
   },
   "keywords": [
-    "OSF Website Template"
+    "Magma Website"
   ],
   "license": "MIT",
   "main": "n/a",

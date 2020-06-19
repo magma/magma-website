@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'OSF Website Template',
+    title: 'Magma',
     description:
-      'OSF Website Template',
+      'Magma is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -107,8 +107,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OSF Website Template`,
-        short_name: `OSF Website Template`,
+        name: `Magma`,
+        short_name: `Magma`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#65C7C2`,
@@ -140,7 +140,7 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,
       options: {
         enableIdentityWidget: true,
-        htmlTitle: `OSF Website Template | Content Manager`,
+        htmlTitle: `Magma | Content Manager`,
         includeRobots: false, 
       }
     }    

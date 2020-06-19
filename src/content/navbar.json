@@ -6,12 +6,16 @@
       "link": "/"
     },
     {
-      "text": "A Page",
-      "link": "/default/"
+      "text": "Docs",
+      "link": "https://facebookincubator.github.io/magma/docs/basics/introduction.html"
     },
     {
-      "text": "Blog",
-      "link": "/blog/"
+      "text": "Code",
+      "link": "https://github.com/magma"
+    } ,
+    {
+      "text": "Community",
+      "link": "https://github.com/magma"
     }
   ]
 }

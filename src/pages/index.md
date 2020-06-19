@@ -1,69 +1,43 @@
 ---
 templateKey: index-page
 seo:
-  description: OSF Website Template
+  description: Magma, open-source mobile core network solution
   image: /img/og-image.jpg
   title: Home
-  twitterUsername: '@airshipproject'
-  url: 'https://yoursite.org/'
+  twitterUsername: '@magmapacketcore'
+  url: 'https://www.magmacore.org/'
 header:
   bottomText:
     subTitle: See the release notes
-    title: v1.x Release available now
+    title: v1.1 Release available now
   buttons:
-    - link: '#'
+    - link: 'https://facebookincubator.github.io/magma/docs/basics/quick_start_guide'
       text: Quick Start Guide
-    - link: '#'
+    - link: 'https://facebookincubator.github.io/magma/docs/basics/prerequisites'
       text: Download
   display: true
   subTitle:
-    - text: Your organization makes an exciting addition
-    - text: to elegant open infrastructure.
-  title: A Compelling Lede
+    - text: Magma is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution. Our mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks.
+  title: Connecting the Next Billion People
 mainpitch:
   description:
-    - text: >-
-        Social media release startup interaction design first mover advantage
-        iteration gen-z market network effects technology social proof. Startup
-        disruptive MVP business plan. Interaction design angel investor buzz
-        innovator value proposition analytics facebook accelerator ramen network
-        effects. Growth hacking crowdsource facebook conversion assets metrics
-        mass market launch party churn rate monetization alpha stealth. Angel
-        investor MVP burn rate prototype graphical user interface launch party
-        handshake partner network hackathon growth hacking equity freemium sales
-        release. Bandwidth infrastructure infographic venture pitch. Early
-        adopters ecosystem social proof deployment strategy buzz value
-        proposition gamification termsheet return on investment startup
-        accelerator.
+    - text: Magma connects 100 to 1,000,000 servers using the same fully distributed network architecture. Designed to be access network (cellular or wifi) and 3GPP release agnostic, it can flexibly support a radio access network with minimal development and deployment effort.
   display: true
-  title: About Your Project
+  title: Distributed Cloud-native Packet Core for Mobile Connectivity
 features:
   display: true
   rows:
     - text: >
-        Business model canvas graphical user interface bootstrapping rockstar
-        hackathon leverage learning curve network effects crowdsource direct
-        mailing. 
-      title: Simple
+        The Access Gateway (AGW) provides network services and policy enforcement. In an LTE network, the AGW implements an evolved packet core (EPC), and a combination of an AAA and a PGW. It works with existing, unmodified commercial radio hardware.
+      title: ACCESS GATEWAY
     - text: >
-        Gamification interaction design investor equity churn rate launch party
-        partnership funding infrastructure deployment release MVP.
-      title: Flexible
+        Orchestrator is a cloud service that provides a simple and consistent way to configure and monitor the wireless network securely. The orchestratory can be hosted on a public or private cloud. The metrics acquired through the platform allow you to see the analytics and traffic flows of the wireless users through the Magma web UI.
+      title: ORCHESTRATOR
     - text: >
-        Prototype user experience return on investment ramen startup success
-        disruptive iteration.
-      title: Repeatable
-    - text: >
-        Social media release startup interaction design first mover advantage
-        iteration gen-z market network effects technology social proof. 
-      title: Dynamic
-    - text: >-
-        Analytics founders assets incubator gamification. Branding founders
-        social proof. Series A financing founders advisor iPhone user experience
-        validation ecosystem non-disclosure agreement sales alpha disruptive
-        infrastructure. 
-      title: Exciting
-  title: Features
+        The federation gateway integrates the MNO core network with Magma by using standard 3GPP interfaces to existing MNO components. It acts as a proxy between the Magma AGW and the operator's network and facilitates core functions, such as authentication, data plans, policy enforcement, and charging to stay uniform between an existing MNO network and the expanded network with Magma.
+
+      title: FEDERATION GATEWAY
+  title: Magma Architecture
 review:
   bottom: 
     text: Interested in highlighting your usage?

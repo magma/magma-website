@@ -4,7 +4,7 @@ seo:
   description: 'Join to contribute code, documentation, and use cases'
   image: /img/og-image.jpg
   title: Generic Page
-  twitterUsername: '@airshipproject'
+  twitterUsername: '@openstack'
   url: 'https://yoursite.org/'
 title: A Page
 subTitle: 'Join to contribute code, documentation, and use cases'

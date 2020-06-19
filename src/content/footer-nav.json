@@ -1,13 +1,21 @@
 {
-  "productName": "OSF Website Template",
+  "productName": "Magma",
   "pages": [
     {
-      "text": "Default Page",
-      "link": "/default/"
+      "text": "Home",
+      "link": "/"
     },
     {
-      "text": "Blog",
-      "link": "/blog/"
-    }    
+      "text": "Docs",
+      "link": "https://facebookincubator.github.io/magma/docs/basics/introduction.html"
+    },
+    {
+      "text": "Code",
+      "link": "https://github.com/magma"
+    } ,
+    {
+      "text": "Community",
+      "link": "https://github.com/magma"
+    } 
   ]
 }

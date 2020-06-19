@@ -1,10 +1,10 @@
-#  OSF website template
+#  Mamga website
 
-This is an OSF project website template.
+This is the Magma opens source project website.
 
 ## Overview
 
-Its built using [starter template](https://github.com/netlify-templates/gatsby-starter-netlify-cms), based on [Gatsby](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org).
+Its based on [Gatsby](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org).
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
@@ -22,7 +22,7 @@ Install yarn on your system: [https://yarnpkg.com/en/docs/install](https://yarnp
 
 Use the button below to build and deploy your own copy of the repository:
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/OpenStackweb/osf-website-template&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/jbryce/magma-website&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from this repository. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
 
