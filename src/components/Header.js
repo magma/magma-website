@@ -37,7 +37,7 @@ const Header = class extends React.Component {
                     return (
                       <a href={button.link} className="button is-primary is-inverted" key={index} style={{ margin: '0 5px' }}>
                         <span>{button.text}</span> <span className="ico">
-                          <img src={leftArrow} alt="Learn More" style={{ filter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }, { WebkitFilter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }} />
+                          <img src={leftArrow} alt="Learn More" style={({ filter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }, { WebkitFilter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' })} />
                         </span>
                       </a>
                     )

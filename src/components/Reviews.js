@@ -68,7 +68,7 @@ const Reviews = class extends React.Component {
               <h3>{bottom.text}</h3>
               <a href={bottom.button.link} className="button is-primary is-inverted" style={{ margin: '0 5px' }}>
                 <span>{bottom.button.text}</span> <span className="ico">
-                <img src={leftArrow} alt="Learn More" style={{ filter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }, { WebkitFilter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }} />
+                <img src={leftArrow} alt="Learn More" style={({ filter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' }, { WebkitFilter: 'invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%)' })} />
                 </span>
               </a>
             </div>
