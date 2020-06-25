@@ -3,10 +3,10 @@
 \* ------------------------------------------------------------ */
 
 .footer {
-  padding: 41px 0 0 0;
-  font-size: 14px;
-  color: $primary;
-  background-color: white;
+  padding: 7rem 0 3rem;
+  font-size: 1em;
+  color: $white;
+  background-color: $primary;
 
   @each $name, $pair in $colors {
     $color: nth($pair, 1);
@@ -46,7 +46,7 @@
     list-style-type: none;
     font-size: 14px;
     font-weight: 400;
-    color: $primary;
+    color: $white;
     margin-bottom: 40px;
     display: flex;
     width: 100%;
@@ -78,7 +78,7 @@
     }
 
     a {
-      color: $primary-blue;
+      color: $white;
       text-decoration: underline;
       &:hover,
       &:focus {

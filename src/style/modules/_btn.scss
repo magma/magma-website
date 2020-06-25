@@ -6,7 +6,7 @@
   height: auto;
   padding: 11px 45px;
   text-transform: uppercase;
-  transition: background 0.3s;
+  transition: background 0.1s;
 
   &.is-rounded {
     padding: 11px 43px;
@@ -29,13 +29,24 @@
 
   &.is-primary {
     background: $primary;
-    color: white;
+    color: $white;
     border: $primary-dark;
   }
 
   &.is-primary-dark {
     background: $primary-dark;
-    color: white;
+    color: $white;
     border: $primary-dark;
+  }
+
+  &.is-outlined {
+    background: transparent;
+    color: $white;
+    border-color: $white;
+    &:hover {
+      background: $white;
+      color: $primary;
+      border-color: $primary;
+    }
   }
 }

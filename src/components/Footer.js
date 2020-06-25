@@ -1,14 +1,13 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import React from "react";
+import { Link } from "gatsby";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 
-import content from '../content/footer-nav.json'
+import content from "../content/footer-nav.json";
 
 const Footer = class extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <hr />
         <footer className="footer">
           <div className="container container-medium">
             <div className="footer-inner">
@@ -21,29 +20,49 @@ const Footer = class extends React.Component {
                           return (
                             <React.Fragment key={index}>
                               <li className="item-no-bullet">
-                                {item.link.match(/^https?:\/\//) ?
-                                  <OutboundLink href={item.link} target="_blank" rel="noopener noreferrer">{item.text}</OutboundLink>
-                                  :
-                                  <Link to={item.link}>
+                                {item.link.match(/^https?:\/\//) ? (
+                                  <OutboundLink
+                                    href={item.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
                                     {item.text}
-                                  </Link>
-                                }
+                                  </OutboundLink>
+                                ) : (
+                                  <Link to={item.link}>{item.text}</Link>
+                                )}
                               </li>
-                              {index < content.pages.length - 1 ? <li className="separator"> | </li> : null}
+                              {index < content.pages.length - 1 ? (
+                                <li className="separator"> | </li>
+                              ) : null}
                             </React.Fragment>
-                          )
+                          );
                         })}
                       </div>
                     </ul>
                   </div>
                   <div className="footer-entry">
                     <p>
-                      {content.productName} is an independent open source community collaboratively developing code under the Apache 2 license.
-                      Supported by the <OutboundLink href="https://osf.dev/" target="_blank" rel="noopener noreferrer">OpenStack Foundation</OutboundLink>.
-                      The community follows the OpenStack Foundation <OutboundLink href="https://www.openstack.org/legal/community-code-of-conduct/" target="_blank" rel="noopener noreferrer">Code of Conduct</OutboundLink>.
+                      {content.productName} is an independent open source
+                      community collaboratively developing code under the Apache
+                      2 license. Supported by the{" "}
+                      <OutboundLink
+                        href="https://osf.dev/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        OpenStack Foundation
+                      </OutboundLink>
+                      . The community follows the OpenStack Foundation{" "}
+                      <OutboundLink
+                        href="https://www.openstack.org/legal/community-code-of-conduct/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Code of Conduct
+                      </OutboundLink>
+                      .
                     </p>
-                    <br/>
-                    <br/>
                   </div>
                 </div>
               </div>
@@ -51,8 +70,8 @@ const Footer = class extends React.Component {
           </div>
         </footer>
       </React.Fragment>
-    )
+    );
   }
-}
+};
 
-export default Footer
+export default Footer;

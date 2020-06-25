@@ -1,0 +1,47 @@
+/* ------------------------------------------------------------ *\
+	Quotes/Reviews
+\* ------------------------------------------------------------ */
+
+.reviews {
+  padding: 5rem 0;
+  text-align: center;
+  .container {
+    .sub-wrapper {
+      max-width: 70%;
+      margin: 1rem auto;
+      @media (max-width: 768px) {
+        & {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  h3 {
+    color: $black;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.8em;
+    font-weight: 500;
+  }
+  p {
+    &.quote-name {
+      font-weight: 700;
+      margin: 0;
+    }
+    &.quote-org {
+      color: $gray;
+    }
+  }
+  .bottom {
+    margin: 2rem 0 0;
+  }
+}
+
+.slider-wrapper {
+  margin: 7rem auto;
+  max-width: 70%;
+  @media (max-width: 768px) {
+    & {
+      max-width: 100%;
+    }
+  }
+}
