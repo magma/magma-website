@@ -2,14 +2,10 @@
 	Search
 \* ------------------------------------------------------------ */
 
-
 .search-content {
-  background-color: $white;
+  background-color: $light-gray;
   text-align: center;
-  font-size: 50px;
-  font-weight: 300;
-  padding-top: 40px;
-  color: $primary;
+  padding: 2rem 0;
 
   .search-content-title {
     font-size: 20px;
@@ -28,7 +24,7 @@
 
   .search-container-submit {
     color: $primary;
-    background: #141F47;
+    background: #141f47;
   }
 
   a.border-search-submit {
@@ -36,8 +32,10 @@
     background: $white;
 
     img {
-      filter: invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%);
-      -webkit-filter: invert(36%) sepia(45%) saturate(953%) hue-rotate(170deg) brightness(98%) contrast(86%);
+      filter: invert(13%) sepia(95%) saturate(4584%) hue-rotate(269deg)
+        brightness(63%) contrast(126%);
+      -webkit-filter: invert(13%) sepia(95%) saturate(4584%) hue-rotate(269deg)
+        brightness(63%) contrast(126%);
     }
   }
 
@@ -49,23 +47,26 @@
   .search-container-input {
     border: 0px;
     padding: 0 19px;
-    border-radius: 4px 0 0 4px;
-    border: solid $primary;
-    border-width: 1px 1px 1px 1px;
+    border-radius: 4px;
+    border: solid $gray;
+    border-width: 1px;
     width: 300px;
     height: 42px;
     box-shadow: none;
     font-size: 16px;
     line-height: 2.13;
-    margin-bottom: 0;
+    margin: 0 1rem 0 0;
+    &::placeholder {
+      color: $gray;
+    }
   }
 
   .button.border-search-submit {
     font-weight: 400;
     height: 42px;
     border: solid $primary;
-    border-width: 1px 1px 1px 0;
-    border-radius: 0 4px 4px 0;
+    border-width: 1px;
+    border-radius: 4px;
     top: 0px;
   }
 
@@ -115,7 +116,7 @@
   input:focus {
     color: $primary;
     border-color: $primary;
-    outline: none !important;    
+    outline: none !important;
     box-shadow: 0 0 3px $primary;
   }
 }

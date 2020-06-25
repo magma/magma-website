@@ -4,16 +4,16 @@ seo:
   description: Magma, open-source mobile core network solution
   image: /img/og-image.jpg
   title: Home
-  twitterUsername: '@magmapacketcore'
-  url: 'https://www.magmacore.org/'
+  twitterUsername: "@magmapacketcore"
+  url: "https://www.magmacore.org/"
 header:
   bottomText:
     subTitle: See the release notes
     title: v1.1 Release available now
   buttons:
-    - link: 'https://facebookincubator.github.io/magma/docs/basics/quick_start_guide'
+    - link: "https://facebookincubator.github.io/magma/docs/basics/quick_start_guide"
       text: Quick Start Guide
-    - link: 'https://facebookincubator.github.io/magma/docs/basics/prerequisites'
+    - link: "https://facebookincubator.github.io/magma/docs/basics/prerequisites"
       text: Download
   display: true
   subTitle:
@@ -23,7 +23,7 @@ mainpitch:
   description:
     - text: Magma connects 100 to 1,000,000 servers using the same fully distributed network architecture. Designed to be access network (cellular or wifi) and 3GPP release agnostic, it can flexibly support a radio access network with minimal development and deployment effort.
   display: true
-  title: Distributed Cloud-native Packet Core for Mobile Connectivity
+  title: Distributed Cloud-Native Packet Core for Mobile Connectivity
 features:
   display: true
   rows:
@@ -39,32 +39,27 @@ features:
       title: FEDERATION GATEWAY
   title: Magma Architecture
 review:
-  bottom: 
+  bottom:
     text: Interested in highlighting your usage?
     button:
       text: Contact Us
-      link: '#'
+      link: "#"
   display: true
   opinions:
     - company: Company
       opinion: >
-        This is a quote from one of the project's users. Ideally, we will have
-        something like this, with substance, to validate the claim that this
-        brand name uses and likes the project if we don't have a logo
+        "I've built my business on top of Magma. I'm excited to watch this open approach to a historically closed solution get more traction around the world."
       person: John Doe
       title: Title
     - company: Company
       opinion: >
-        This is a quote from one of the project's users. Ideally, we will have
-        something like this, with substance, to validate the claim that this
-        brand name uses and likes the project if we don't have a logo
+        "Magma is not only developed in the open, it's actually designed in the open as well. It's a refreshing process that's fitting for a project bringing more of the world online."
       person: John Doe
       title: Title
     - company: Company
       opinion: >
-        This is a quote from one of the project's users. Ideally, we will have
-        something like this, with substance, to validate the claim that this
-        brand name uses and likes the project if we don't have a logo        
+        "These are quotes from one of Magma's users, developers or vendors. Ideally, we will have
+        a few of these to give the viewer a sense of credibility."
       person: John Doe
       title: Title
   text: >
@@ -72,6 +67,5 @@ review:
     Tell the reader that people (or organizations) they know are already using
     it. The most effective way to do that is with logos, but if logos aren't
     available we can use text.
-  title: 'Users show credibility, without logos'
+  title: "Users show credibility, without logos"
 ---
-

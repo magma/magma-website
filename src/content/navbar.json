@@ -1,5 +1,5 @@
 {
-  "logo": "/img/magma_logo-wf.png",
+  "logo": "/img/magma-logo.svg",
   "nav": [
     {
       "text": "Home",
@@ -12,7 +12,7 @@
     {
       "text": "Code",
       "link": "https://github.com/magma"
-    } ,
+    },
     {
       "text": "Community",
       "link": "https://github.com/magma"

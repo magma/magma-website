@@ -15,15 +15,19 @@ $column-gap: 24px;
 $family-primary: "Open Sans", sans-serif;
 $body-size: 14px;
 $body-line-height: 1.2;
+$body-font-color: #333;
 
-$primary: #2d72b6;
+$primary: #5602a4;
 $primary-invert: findColorInvert($primary);
 
-$dark-gray: #333;
+$primary-dark: #1f0044;
+$primary-dark-invert: findColorInvert($primary);
+
+$dark-gray: #222;
 $dark-gray-invert: findColorInvert($dark);
 
-$primary-blue: #141f47;
-$primary-blue-invert: findColorInvert($primary-blue);
+$light-gray: #eee;
+$light-gray-invert: findColorInvert($dark);
 
 $purple-light: #c0a9f7;
 $purple-light-invert: findColorInvert($purple-light);
@@ -36,8 +40,6 @@ $danger-invert: findColorInvert($danger);
 
 $dark-light: #4a4a4a;
 
-$primary-dark: #141F47;
-
 $gray: #9b9b9b;
 $white: #fff;
 $black: #222;
@@ -45,30 +47,34 @@ $black: #222;
 $colors: (
   "white": (
     $white,
-    $black
+    $black,
   ),
   "black": (
     $black,
-    $white
+    $white,
   ),
   "danger": (
     $danger,
-    $danger-invert
+    $danger-invert,
   ),
   "primary": (
     $primary,
-    $primary-invert
+    $primary-invert,
   ),
   "purple-light": (
     $purple-light,
-    $purple-light-invert
+    $purple-light-invert,
   ),
   "dark": (
     $dark,
-    $dark-invert
+    $dark-invert,
   ),
   "dark-gray": (
     $dark-gray,
-    $dark-gray-invert
-  )
+    $dark-gray-invert,
+  ),
+  "light-gray": (
+    $light-gray,
+    $light-gray-invert,
+  ),
 );
