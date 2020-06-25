@@ -4,8 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import leftArrow from "../img/svg/arrow-left.svg";
-
 const Reviews = class extends React.Component {
   render() {
     const {
@@ -47,7 +45,7 @@ const Reviews = class extends React.Component {
     if (display) {
       return (
         <React.Fragment>
-          <section className="reviews">
+          <section className="reviews no-border">
             <div className="container">
               <h2>{title}</h2>
               <div className="sub-wrapper">

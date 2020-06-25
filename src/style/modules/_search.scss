@@ -28,20 +28,12 @@
   }
 
   a.border-search-submit {
-    color: $primary;
-    background: $white;
-
-    img {
-      filter: invert(13%) sepia(95%) saturate(4584%) hue-rotate(269deg)
-        brightness(63%) contrast(126%);
-      -webkit-filter: invert(13%) sepia(95%) saturate(4584%) hue-rotate(269deg)
-        brightness(63%) contrast(126%);
+    background: $secondary;
+    color: $secondary-invert;
+    &:hover {
+      background: $secondary-dark;
+      color: $secondary-dark-invert;
     }
-  }
-
-  a.border-search-submit:hover {
-    color: $white;
-    background: $primary;
   }
 
   .search-container-input {
@@ -62,19 +54,6 @@
   }
 
   .button.border-search-submit {
-    font-weight: 400;
-    height: 42px;
-    border: solid $primary;
-    border-width: 1px;
-    border-radius: 4px;
-    top: 0px;
-  }
-
-  @media (max-width: 767px) {
-    .button.border-search-submit {
-      width: 30%;
-    }
-
     .search-container-input {
       width: 50%;
     }

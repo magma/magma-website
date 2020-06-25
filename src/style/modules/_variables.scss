@@ -20,8 +20,14 @@ $body-font-color: #333;
 $primary: #5602a4;
 $primary-invert: findColorInvert($primary);
 
-$primary-dark: #1f0044;
+$primary-dark: #2b0054;
 $primary-dark-invert: findColorInvert($primary);
+
+$secondary: #4772d9;
+$secondary-invert: findColorInvert($secondary);
+
+$secondary-dark: #193b8e;
+$secondary-dark-invert: findColorInvert($secondary-dark);
 
 $dark-gray: #222;
 $dark-gray-invert: findColorInvert($dark);
