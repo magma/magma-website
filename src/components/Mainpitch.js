@@ -50,9 +50,8 @@ const Mainpitch = class extends React.Component {
                     </h2>
                     {description.map((desc, index) => {
                       return (
-                        <p className="centered" key={index}>
-                          {desc.text}
-                        </p>
+                        <div key={index} className="main-pitch" dangerouslySetInnerHTML={{__html: desc.text}}>
+                        </div>
                       );
                     })}
                   </div>
