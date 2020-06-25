@@ -8,21 +8,20 @@
   .article-image {
     max-width: 50%;
     flex: 0 0 auto;
-    border:1px solid #D3DEE9;
+    border: 1px solid #d3dee9;
   }
-  
+
   .article-content {
-    max-width: 100%;
+    max-width: 70%;
     flex: 1 1 100%;
-    padding: 6px 20px 6px 47px;
+    padding: 3rem 0;
+    margin: 0 auto;
     font-size: 1.2em;
     line-height: 1.3em;
 
     #about-template {
       text-align: center;
-      text-transform: uppercase;
     }
-
   }
 
   .article-title {
@@ -48,8 +47,12 @@
       padding: 0;
       margin-bottom: 30px;
     }
-    .article-title > .article-content {order: 1; } /* Will be displayed first  */
-    .article-title > .article-image {order: 2; } /* Will be displayed second  */
+    .article-title > .article-content {
+      order: 1;
+    } /* Will be displayed first  */
+    .article-title > .article-image {
+      order: 2;
+    } /* Will be displayed second  */
   }
 }
 
@@ -65,14 +68,14 @@
   }
 
   .article-small__title {
-    color: $primary;
+    color: $dark-gray;
     margin-bottom: 15px;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 1.2em;
   }
 
   @media (max-width: 768px) {
     & {
-      max-width: 375px;
       margin: 0 auto;
     }
   }

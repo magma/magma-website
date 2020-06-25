@@ -1,0 +1,11 @@
+.support-content {
+  display: flex;
+  padding: 4rem 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.support-content-title {
+  margin-bottom: 2rem;
+  color: $dark-light;
+}

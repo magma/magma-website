@@ -2,8 +2,8 @@
 	Nav
 \* ------------------------------------------------------------ */
 
-
 .navbar {
+  background: $primary;
   .container {
     min-height: 0;
     justify-content: space-around;
@@ -21,7 +21,7 @@
     align-items: center;
     ul {
       list-style-type: none;
-      margin: 0;      
+      margin: 0;
     }
   }
 
@@ -38,17 +38,22 @@
     color: $primary;
 
     a {
-      color: inherit;
-      transition: color 0.3s;
+      color: $white;
+      transition: color 0.1s;
       display: inline-block;
 
       &:hover {
-        color: $dark-gray;
+        color: $white;
       }
     }
 
     li + li {
-      margin-left: 44px;
+      margin-left: 2rem;
+    }
+
+    .separator {
+      color: $white;
+      opacity: 0.4;
     }
   }
 
@@ -104,7 +109,7 @@
     & {
       position: relative;
       padding: 10px 0;
-      background: $white;
+      background: $primary;
     }
 
     .nav-brand {
@@ -115,6 +120,7 @@
 
     .navbar-burger {
       display: block;
+      color: white;
     }
 
     .nav-menu {
@@ -122,6 +128,10 @@
       font-size: 14px;
       a {
         margin-bottom: 10px;
+        color: $primary;
+        &:hover {
+          color: $primary;
+        }
       }
 
       li + li {
