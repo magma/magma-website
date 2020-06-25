@@ -71,14 +71,6 @@
   }
 
   @media (max-width: 767px) {
-    .search-content {
-      font-size: 30px;
-    }
-
-    .search-content-title {
-      font-size: 20px;
-    }
-
     .button.border-search-submit {
       width: 30%;
     }
@@ -132,10 +124,5 @@
 @media (max-width: 767px) {
   #e2ma_signup {
     margin-bottom: 10px;
-  }
-
-  .section {
-    margin-top: 30px;
-    margin-bottom: -60px;
   }
 }
