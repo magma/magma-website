@@ -100,8 +100,11 @@
   }
 
   .hero-content {
-    max-width: 780px;
+    max-width: 80%;
     margin: 3rem auto;
+    @media (max-width: 767px) {
+      max-width: 100%;
+    }
   }
 
   @media (max-width: 767px) {
@@ -137,6 +140,14 @@
   .hero-body {
     position: relative;
     z-index: 10;
+  }
+}
+
+.hero-actions {
+  .button {
+    @media (max-width: 767px) {
+      padding: 10px 20px;
+    }
   }
 }
 

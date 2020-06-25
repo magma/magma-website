@@ -66,6 +66,9 @@ h4 {
   margin-bottom: 9px;
   font-size: 18px;
   color: $primary;
+  @media (max-width: 468px) {
+    font-size: 15px;
+  }
 }
 
 h5 {
@@ -175,4 +178,8 @@ pre code {
 
 .feature-title {
   align-content: center;
+}
+
+.columns {
+  margin-right: 0;
 }
