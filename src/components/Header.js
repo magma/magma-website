@@ -40,7 +40,7 @@ const Header = class extends React.Component {
                     return (
                       <a
                         href={button.link}
-                        className="button is-secondary"
+                        className="button is-outlined"
                         key={index}
                         style={{ margin: "0 5px" }}
                       >
