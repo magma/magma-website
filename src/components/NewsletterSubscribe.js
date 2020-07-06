@@ -12,7 +12,7 @@ const NewsletterSubscribe = class extends React.Component {
     if (content.subscribe.display) {
       return (
         <React.Fragment>
-          <section className="section search-content border">
+          <section className="section search-content no-border">
             <div className="search-content">
               <h2>{content.subscribe.title}</h2>
               <p>{content.subscribe.subTitle}</p>

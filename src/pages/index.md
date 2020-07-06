@@ -67,5 +67,5 @@ review:
     Tell the reader that people (or organizations) they know are already using
     it. The most effective way to do that is with logos, but if logos aren't
     available we can use text.
-  title: "Users show credibility, without logos"
+  title: "What people are saying"
 ---
