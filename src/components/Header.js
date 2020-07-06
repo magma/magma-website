@@ -1,7 +1,6 @@
 import React from "react";
 
 import { Link } from "gatsby";
-import leftArrow from "../img/svg/arrow-left.svg";
 import Menu from "../content/navbar.json";
 
 const Header = class extends React.Component {
@@ -41,7 +40,7 @@ const Header = class extends React.Component {
                     return (
                       <a
                         href={button.link}
-                        className="button is-outlined"
+                        className="button is-secondary"
                         key={index}
                         style={{ margin: "0 5px" }}
                       >

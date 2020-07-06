@@ -27,9 +27,19 @@
     line-height: 0;
   }
 
+  &.is-secondary {
+    background: $secondary;
+    color: $secondary-invert;
+    border: $secondary;
+    &:hover {
+      background: $secondary-dark;
+      color: $secondary-invert;
+    }
+  }
+
   &.is-primary {
     background: $primary;
-    color: $white;
+    color: $primary-dark-invert;
     border: $primary-dark;
   }
 
@@ -44,9 +54,9 @@
     color: $white;
     border-color: $white;
     &:hover {
-      background: $white;
-      color: $primary;
-      border-color: $primary;
+      background: $secondary;
+      color: $white;
+      border-color: $secondary;
     }
   }
 }
