@@ -44,8 +44,7 @@ const Footer = class extends React.Component {
                   <div className="footer-entry">
                     <p>
                       {content.productName} is an independent open source
-                      community collaboratively developing code under the Apache
-                      2 license. Supported by the{" "}
+                      community collaboratively developing code under the BSD 3-Clause license. Supported by the{" "}
                       <OutboundLink
                         href="https://osf.dev/"
                         target="_blank"
