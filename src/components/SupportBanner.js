@@ -19,29 +19,49 @@ const SupportBanner = class extends React.Component {
               {content.productName} is an open source project supported by
             </h4>
             <div className="columns is-multiline">
-              <div className="column is-one-fifth">
+              <div className="column is-one-fifth centered-logo">
                 <a href="//facebook.com">
-                  <img src={SupporterLogo} width="250px" alt="OSF logo" />
+                  <img
+                    src={SupporterLogo}
+                    alt="logo"
+                    className="supporter-logo"
+                  />
                 </a>
               </div>
-              <div className="column is-one-fifth">
+              <div className="column is-one-fifth centered-logo">
                 <a href="//facebook.com">
-                  <img src={SupporterLogo} width="250px" alt="OSF logo" />
+                  <img
+                    src={SupporterLogo}
+                    alt="logo"
+                    className="supporter-logo"
+                  />
                 </a>
               </div>
-              <div className="column is-one-fifth">
+              <div className="column is-one-fifth centered-logo">
                 <a href="//facebook.com">
-                  <img src={SupporterLogo} width="250px" alt="OSF logo" />
+                  <img
+                    src={SupporterLogo}
+                    alt="logo"
+                    className="supporter-logo"
+                  />
                 </a>
               </div>
-              <div className="column is-one-fifth">
+              <div className="column is-one-fifth centered-logo">
                 <a href="//facebook.com">
-                  <img src={SupporterLogo} width="250px" alt="OSF logo" />
+                  <img
+                    src={SupporterLogo}
+                    alt="logo"
+                    className="supporter-logo"
+                  />
                 </a>
               </div>
-              <div className="column is-one-fifth">
+              <div className="column is-one-fifth centered-logo">
                 <a href="//osf.dev">
-                  <img src={OSFLogo} width="250px" alt="OSF logo" />
+                  <img
+                    src={OSFLogo}
+                    alt="OSF logo"
+                    className="supporter-logo"
+                  />
                 </a>
               </div>
             </div>
