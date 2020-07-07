@@ -9,9 +9,7 @@ const Mainpitch = class extends React.Component {
     this.state = {};
   }
   render() {
-    let {
-      mainpitch: { title, description, display, image, link },
-    } = this.props;
+    let { mainpitch: { title, description, display, image, link } } = this.props;
     if (display) {
       return (
         <React.Fragment>
@@ -23,14 +21,7 @@ const Mainpitch = class extends React.Component {
                     <div>
                       <a href={link}>
                         <Zoom>
-                          <img
-                            alt={title}
-                            src={
-                              !!image.childImageSharp
-                                ? image.childImageSharp.fluid.src
-                                : image
-                            }
-                          />
+                          <img src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} alt={title} />
                         </Zoom>
                       </a>
                     </div>
