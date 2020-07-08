@@ -20,7 +20,7 @@ const SupportBanner = class extends React.Component {
             </h4>
             <div className="columns is-multiline">
               <div className="column is-one-fifth centered-logo">
-                <a href="//facebook.com">
+                <a href="https://connectivity.fb.com/">
                   <img
                     src={SupporterLogo}
                     alt="logo"
@@ -29,7 +29,7 @@ const SupportBanner = class extends React.Component {
                 </a>
               </div>
               <div className="column is-one-fifth centered-logo">
-                <a href="//facebook.com">
+                <a href="https://telecominfraproject.com/">
                   <img
                     src={SupporterLogo}
                     alt="logo"
@@ -38,7 +38,7 @@ const SupportBanner = class extends React.Component {
                 </a>
               </div>
               <div className="column is-one-fifth centered-logo">
-                <a href="//facebook.com">
+                <a href="https://www.openairinterface.org/">
                   <img
                     src={SupporterLogo}
                     alt="logo"
@@ -47,7 +47,7 @@ const SupportBanner = class extends React.Component {
                 </a>
               </div>
               <div className="column is-one-fifth centered-logo">
-                <a href="//facebook.com">
+                <a href="https://connectivity.fb.com/">
                   <img
                     src={SupporterLogo}
                     alt="logo"
