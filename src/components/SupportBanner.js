@@ -27,12 +27,12 @@ const SupportBanner = class extends React.Component {
               </div>
               <div className="column is-one-third vert-centered">
                 <a href="//osf.dev">
-                  <img src={OSFLogo} width="250px" alt="OSF logo" />
+                  <img src={OSFLogo} width="250px"  alt="OSF logo" />
                 </a>
               </div>
               <div className="column is-one-third vert-centered">
-                <a href="https://telecominfraproject.com">
-                  <img src={TIPLogo} width="250px" alt="OSF logo" />
+                <a href="//telecominfraproject.com">
+                  <img src={TIPLogo} width="250px" alt="TIP logo" />
                 </a>
               </div>
             </div>

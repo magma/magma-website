@@ -9,3 +9,13 @@
   margin-bottom: 2rem;
   color: $dark-light;
 }
+.supporter-logo {
+  width: 250px;
+  max-width: 70%;
+  @media (max-width: 767px) {
+    max-width: 100%;
+  }
+}
+.centered-logo {
+  text-align: center;
+}
