@@ -2,7 +2,7 @@ import React from "react";
 import content from "../content/footer-nav.json";
 
 import OSFLogo from "../../static/img/osf-logo.svg";
-import TIPLogo from "../../static/img/TIP_horizontal_rgb_color.png";
+import TIPLogo from "../../static/img/TIP_vertical_rgb_color.png";
 import OAILogo from "../../static/img/oai_final_logo.png";
 
 const SupportBanner = class extends React.Component {
@@ -27,7 +27,7 @@ const SupportBanner = class extends React.Component {
               </div>
               <div className="column is-one-third vert-centered">
                 <a href="//osf.dev">
-                  <img src={OSFLogo} width="250px"  alt="OSF logo" />
+                  <img src={OSFLogo} width="250px" alt="OSF logo" />
                 </a>
               </div>
               <div className="column is-one-third vert-centered">
