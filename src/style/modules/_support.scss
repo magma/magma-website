@@ -9,11 +9,23 @@
   margin-bottom: 2rem;
   color: $dark-light;
 }
-.supporter-logo {
+.support-link {
+  text-align: center;
+  width: 100%;
+}
+.support-logo {
   width: 250px;
-  max-width: 70%;
+  max-width: 90%;
   @media (max-width: 767px) {
     max-width: 100%;
+  }
+  &.vert {
+    max-height: 80px;
+    width: auto;
+    @media (max-width: 767px) {
+      max-height: none;
+      width: 250px;
+    }
   }
 }
 .centered-logo {
