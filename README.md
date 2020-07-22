@@ -1,6 +1,6 @@
 #  Magma website
 
-This is the Magma opens source project website.
+This is the Magma open source project website.
 
 ## Overview
 
