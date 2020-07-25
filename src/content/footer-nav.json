@@ -7,7 +7,7 @@
     },
     {
       "text": "Docs",
-      "link": "https://facebookincubator.github.io/magma/docs/basics/introduction.html"
+      "link": "https://magma.github.io/magma/docs/basics/introduction.html"
     },
     {
       "text": "Code",
@@ -16,6 +16,6 @@
     {
       "text": "Community",
       "link": "https://github.com/magma"
-    } 
+    }
   ]
 }
