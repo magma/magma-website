@@ -44,7 +44,7 @@ review:
     button:
       text: Contact Us
       link: "#"
-  display: true
+  display: false
   opinions:
     - company: Company
       opinion: >

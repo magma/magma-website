@@ -128,24 +128,6 @@ export const pageQuery = graphql`
             text
           }
         }
-        review {
-          title
-          text
-          opinions {
-            person
-            title
-            company
-            opinion
-          } 
-          bottom {
-            text
-            button {
-              text
-              link
-            }
-          }
-          display
-        }
       }
     }
   }
