@@ -181,6 +181,28 @@ section.no-border {
 }
 
 /* ------------------------------------------------------------ *\
+  MainPitch Section
+\* ------------------------------------------------------------ */
+
+.article .article-image {
+    max-width: 50%;
+    float: right;
+    margin-left: 20px;
+    border: 0;
+}
+
+.article .article-image button {
+    border: 0;
+}
+
+
+  @media (max-width: 768px) {
+    .article .article-image {
+      margin-left: 0px;
+    }
+  }
+
+/* ------------------------------------------------------------ *\
 	Learn Page
 \* ------------------------------------------------------------ */
 

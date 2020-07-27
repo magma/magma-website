@@ -6,6 +6,9 @@ import Layout from '../components/Layout'
 import SupportBanner from '../components/SupportBanner'
 import Header from '../components/Header'
 
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
+
 import metadata from '../content/site-metadata.json'
 import Mainpitch from '../components/Mainpitch'
 import Features from '../components/Features'
@@ -110,7 +113,8 @@ export const pageQuery = graphql`
         }                
         mainpitch {
           display
-          title          
+          title
+          image           
           description {
             text
           }
