@@ -11,9 +11,9 @@ header:
     subTitle: See the release notes
     title: v1.1 Release available now
   buttons:
-    - link: "https://facebookincubator.github.io/magma/docs/basics/quick_start_guide"
+    - link: "https://magma.github.io/magma/docs/basics/quick_start_guide"
       text: Quick Start Guide
-    - link: "https://facebookincubator.github.io/magma/docs/basics/prerequisites"
+    - link: "https://github.com/magma/magma"
       text: Download
   display: true
   subTitle:
