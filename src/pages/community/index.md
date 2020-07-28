@@ -22,6 +22,8 @@ Magma is an open-source software platform that gives network operators an open, 
   - Join [magma-announce](https://groups.google.com/forum/#!forum/magma-announce) for announcements
 - Discord:
   - [magma\_dev](https://discord.gg/WDBpebF) channel
+- Magma community documentation and processes: 
+  - [Magma Community on Github](https://github.com/magma/community)
 
 ### Weekly Meetings
 
