@@ -23,6 +23,8 @@ mainpitch:
   description:
     - text: <p>Magma connects 100 to 1,000,000 servers using the same fully distributed network architecture. Designed to be access network (cellular or wifi) and 3GPP release agnostic, it can flexibly support a radio access network with minimal development and deployment effort.</p> <ul><li>Allows operators to offer cellular service without vendor lock-in with a modern, open source core network.</li><li>Enables operators to manage their networks more fficiently with more automation, less downtime, better predicatbility, and more agility to add new services and applications.</li><li>Federate between existing MNOS and new infrastructure providers for expanding rural infrastructure allows operators who are constrained with licensed spectrum to add capacity and reach by using wi-fi and CBRS.</li><li>All parts of the network are stateless except the access gateway, providing greater scale, resiliency, and simplicity. The distributed deployment model limits fault domains and allows more frequent and seamless upgrades.</li></ul>
   display: true
+  image: /img/magma-converged-core.png
+  link: http://www.google.com
   title: Converged Services. Distributed Deployment. Cloud-Native Packet Core for Mobile Connectivity
 features:
   display: true
