@@ -41,6 +41,14 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="nav-inner">
+            {Menu.logo &&
+              <div className="nav-brand">
+                <Link to="/" title="Magma Website Home">
+                  <img src={Menu.logo} alt="Magma Logo" />
+                </Link>
+                {/* Hamburger menu */}
+              </div>
+            }
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"

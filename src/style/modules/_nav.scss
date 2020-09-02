@@ -34,6 +34,15 @@
     flex: 1 1 100%;
   }
 
+  .nav-brand a {
+      padding-right: 30px;
+      float: left;
+    }
+
+  .nav-brand  img {
+      width: 100px;
+  }
+
   .nav-menu {
     font-size: 14px;
     font-weight: 400;
