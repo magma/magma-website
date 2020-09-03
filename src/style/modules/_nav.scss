@@ -35,9 +35,8 @@
   }
 
   .nav-brand a {
-      padding-right: 30px;
-      float: left;
-    }
+    padding-bottom: 5px;
+  }
 
   .nav-brand  img {
       width: 100px;
@@ -76,12 +75,25 @@
   }
 
   .nav-brand {
-    flex: 0 0 auto;
-    padding-right: 40px;
+    left: -80px;
+    position: absolute;
   }
 
   .navbar-burger {
     display: none;
+  }
+
+  @media (max-width: 1300px) {
+    .nav-brand {
+      left: 20px;
+      position: absolute;
+    }
+
+    .nav-content {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: 0;
+    }
   }
 
   @media (max-width: 1023px) {
@@ -92,9 +104,8 @@
     }
 
     .nav-brand {
-      flex: 1 1 100%;
-      padding-right: 0;
-      margin-bottom: 20px;
+      left: 20px;
+      position: absolute;
     }
 
     .nav-content {
