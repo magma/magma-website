@@ -34,6 +34,11 @@
     flex: 1 1 100%;
   }
 
+  .nav-brand {
+    left: 30px;
+    position: fixed;
+  }
+
   .nav-brand a {
     padding-bottom: 5px;
   }
@@ -74,20 +79,11 @@
     margin-left: 30px;
   }
 
-  .nav-brand {
-    left: -80px;
-    position: absolute;
-  }
-
   .navbar-burger {
     display: none;
   }
 
   @media (max-width: 1300px) {
-    .nav-brand {
-      left: 20px;
-      position: absolute;
-    }
 
     .nav-content {
       flex-wrap: wrap;
@@ -102,12 +98,7 @@
       justify-content: center;
       text-align: center;
     }
-
-    .nav-brand {
-      left: 20px;
-      position: absolute;
-    }
-
+    
     .nav-content {
       flex-wrap: wrap;
       justify-content: center;
