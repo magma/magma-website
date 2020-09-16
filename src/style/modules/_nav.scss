@@ -75,8 +75,8 @@
   }
 
   .nav-brand {
-    left: -80px;
-    position: absolute;
+    left: 30px;
+    position: relative;
   }
 
   .navbar-burger {
@@ -84,10 +84,6 @@
   }
 
   @media (max-width: 1300px) {
-    .nav-brand {
-      left: 20px;
-      position: absolute;
-    }
 
     .nav-content {
       flex-wrap: wrap;
@@ -101,11 +97,6 @@
       flex-wrap: wrap;
       justify-content: center;
       text-align: center;
-    }
-
-    .nav-brand {
-      left: 20px;
-      position: absolute;
     }
 
     .nav-content {
