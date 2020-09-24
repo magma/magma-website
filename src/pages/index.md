@@ -33,7 +33,7 @@ features:
         The Access Gateway (AGW) provides network services and policy enforcement. In an LTE network, the AGW implements an evolved packet core (EPC), and a combination of an AAA and a PGW. It works with existing, unmodified commercial radio hardware.
       title: ACCESS GATEWAY
     - text: >
-        Orchestrator is a cloud service that provides a simple and consistent way to configure and monitor the wireless network securely. The orchestratory can be hosted on a public or private cloud. The metrics acquired through the platform allow you to see the analytics and traffic flows of the wireless users through the Magma web UI.
+        Orchestrator is a cloud service that provides a simple and consistent way to configure and monitor the wireless network securely. The orchestrator can be hosted on a public or private cloud. The metrics acquired through the platform allow you to see the analytics and traffic flows of the wireless users through the Magma web UI.
       title: ORCHESTRATOR
     - text: >
         The federation gateway integrates the MNO core network with Magma by using standard 3GPP interfaces to existing MNO components. It acts as a proxy between the Magma AGW and the operator's network and facilitates core functions, such as authentication, data plans, policy enforcement, and charging to stay uniform between an existing MNO network and the expanded network with Magma.
