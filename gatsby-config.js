@@ -111,7 +111,7 @@ module.exports = {
         short_name: `Magma`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#65C7C2`,
+        theme_color: `#5602a4`,
         icon: `src/img/icon.png`,
         display: `standalone`,
       },
