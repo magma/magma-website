@@ -4,7 +4,7 @@ import { CaseStudiesPageTemplate } from '../../templates/case-studies-page'
 
 const CaseStudiesPagePreview = ({ entry, widgetFor }) => {
 
-  const entryCases = entry.getIn(['data', 'supporters'])
+  const entryCases = entry.getIn(['data', 'caseStudies'])
   const casesList = entryCases ? entryCases.toJS() : []
 
   return (

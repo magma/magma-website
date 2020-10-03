@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: tomrndom/magma-website
+  repo: jbryce/mamga-website
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
@@ -195,7 +195,7 @@ collections:
               {label: "Supporters", name: list, widget: list, fields: [
                 {label: "Name", name: alt, widget: string},
                 {label: "CSS Class", name: class, widget: string, required: false},
-                {label: "Logo", name: image, widget: picture}
+                {label: "Logo", name: image, widget: image}
               ]}
             ]}
           - {label: "Body", name: body, widget: markdown}
