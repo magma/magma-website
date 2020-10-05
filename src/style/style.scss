@@ -46,3 +46,18 @@ body {
 .header-anchor {
   display: none;
 }
+
+.case-studies {
+  a {
+    color: $primary;
+  }
+}
+
+.supporters {
+  .columns {
+    flex-wrap: wrap;
+    .logo-supporter {
+      flex: 0 0 33%;
+    }
+  }
+}

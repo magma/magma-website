@@ -171,7 +171,60 @@ collections:
                 ]}
               ]},
               {label: Display, name: display, widget: boolean, required: false}
-            ]}                    
+            ]}
+  - name: "supportersPage"
+    label: "Supporters Page"
+    files:
+      - file: "src/pages/supporters/index.md"
+        name: supportersPage
+        label: "Supporters"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "supporters-page"} 
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},            
+              {label: "Url", name: "url", widget: string},            
+              {label: "Image", name: "image", widget: image},            
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}         
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: "Intro", name: intro, widget: string, required: false}
+          - {label: "Supporters", name: supporters, widget: list, fields: [
+              {label: "Tier Name", name: tierName, widget: string},
+              {label: "Supporters", name: list, widget: list, fields: [
+                {label: "Name", name: alt, widget: string},
+                {label: "CSS Class", name: class, widget: string, required: false},
+                {label: "Logo", name: image, widget: image}
+              ]}
+            ]}
+          - {label: "Body", name: body, widget: markdown}
+  - name: "caseStudiesPage"
+    label: "Case Studies Page"
+    files:
+      - file: "src/pages/case-studies/index.md"
+        name: caseStudiesPage
+        label: "Case Studies"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "case-studies-page"} 
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},            
+              {label: "Url", name: "url", widget: string},            
+              {label: "Image", name: "image", widget: image},            
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}         
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}          
+          - {label: "Case Studies", name: caseStudies, widget: list, fields: [
+              {label: "Title", name: title, widget: string},
+              {label: "Description", name: description, widget: string},
+              {label: "Link", name: link, widget: object, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "URL", name: url, widget: string}
+              ]},
+            ]}
+          - {label: "Body", name: body, widget: markdown}
   - name: "pages"
     label: "Pages"
     folder: "src/pages/pages/"
@@ -187,4 +240,4 @@ collections:
         ]}         
       - {label: "Title", name: title, widget: string}
       - {label: "Sub Title", name: subTitle, widget: string}
-      - {label: "Body", name: body, widget: markdown}      
+      - {label: "Body", name: body, widget: markdown}  
