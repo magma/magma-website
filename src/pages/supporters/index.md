@@ -8,7 +8,7 @@ seo:
   url: 'https://yoursite.org/'
 title: Supporters
 subTitle: 'Advancing Magma and growing the community'
-intro: text before the supporters list
+intro: ''
 supporters:
   - tierName: Tier 1
     list:
@@ -60,5 +60,3 @@ supporters:
         class: img-sponsor-l4
         image: /img/supporter-logo-placeholder.png
 ---
-
-Page content if necesary after supporters
