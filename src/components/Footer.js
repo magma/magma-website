@@ -52,7 +52,7 @@ const Footer = class extends React.Component {
                       >
                         OpenStack Foundation
                       </OutboundLink>
-                      . The community follows the OpenStack Foundation{" "}
+                      . The community follows the Open Infrastructure Foundation{" "}
                       <OutboundLink
                         href="https://www.openstack.org/legal/community-code-of-conduct/"
                         target="_blank"
