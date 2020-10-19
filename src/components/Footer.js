@@ -46,13 +46,13 @@ const Footer = class extends React.Component {
                       {content.productName} is an independent open source
                       community collaboratively developing code under the BSD 3-Clause license. Supported by the{" "}
                       <OutboundLink
-                        href="https://osf.dev/"
+                        href="https://openinfra.dev/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        OpenStack Foundation
+                        Open Infrastructure Foundation
                       </OutboundLink>
-                      . The community follows the OpenStack Foundation{" "}
+                      . The community follows the Open Infrastructure Foundation{" "}
                       <OutboundLink
                         href="https://www.openstack.org/legal/community-code-of-conduct/"
                         target="_blank"
