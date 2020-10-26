@@ -9,16 +9,20 @@
   ],
   "connect": [
     {
-      "text": "Mailing Lists",
-      "link": "#"
+      "text": "Dev Mailing List",
+      "link": "https://groups.google.com/forum/#!forum/magma-dev"
     },
     {
-      "text": "Weekly Calls",
-      "link": "#"
+      "text": "Announcement Mailing List",
+      "link": "https://groups.google.com/forum/#!forum/magma-announce"
     },
     {
-      "text": "Freenode IRC",
-      "link": "#"
+      "text": "Docs",
+      "link": "https://github.com/magma/community"
+    },
+    {
+      "text": "Slack",
+      "link": "https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A"
     }
   ]
 }
