@@ -5,7 +5,7 @@ author: Phil Ritter
 date: 2020-10-15T09:00:00.000Z
 category:
   - label: Release Notice
-    id: Release-A7fnZYrE1
+    id: release-notice
 ---
 # Magma v1.3 Release Notes
 
