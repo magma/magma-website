@@ -11,7 +11,7 @@ subTitle: 'Join to contribute code, documentation, and use cases'
 blogUrl: /
 ---
 
-Magma is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution. Our ethos is user-driven and our culture is welcoming and respectful. We invite you to try out Magma, provide your feedback and get involved in contributing to the code.  
+Magma is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution. Our ethos is user-driven and our culture is welcoming and respectful. We invite you to try out Magma, provide your feedback and get involved in contributing to the code.
 
 ---
 
@@ -22,17 +22,17 @@ Magma is an open-source software platform that gives network operators an open, 
   - Join [magma-announce](https://groups.google.com/forum/#!forum/magma-announce) for announcements
 - Slack:
   - Click here and add your email address for self-signup to the [magma](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A) Slack channel.
-- Magma community documentation and processes: 
+- Magma community documentation and processes:
   - [Magma Community on Github](https://github.com/magma/community)
 
 ### Weekly Meetings
 
 - Magma Engineering Weekly
-  - Wednesdays at 9:00am PDT
+  - Thusdays at 8:30am Pacific Time
   - Meeting for status across all software components
 
 - Worksteam 3: CI/CD
-  - Thursdays at 9:30am PDT
+  - Thursdays at 9:30am Pacific Time
   - Engineering meeting for CI/CD/testing
 
 If you are interested in joining any of the open Magma meetings, please contact Kendall Waters Perez at [kendall@openstack.org](mailto:kendall@openstack.org).
@@ -61,9 +61,9 @@ Maintainers must be nominated and approved by established maintainers through a 
 
 ### Technical Committee
 
-The Technical Committee (TC) is comprised of 5 members who are responsible for architectural decisions and making final decisions if Maintainers cannot come to an agreement. The initial members will be appointed to 12 month terms with a goal of moving to an elected TC membership within 24 months. Once elections begin, the elections will be staggered so that only a portion of the TC seats is up for election in each cycle. 
+The initial Technical Committee (TC) is comprised of 3 members who are responsible for architectural decisions and making final decisions if Maintainers cannot come to an agreement. The initial members will will develop and approve governance rules and proceudres for the project.  The initial TC will also define rules for additional TC membership, with a goal of moving to an elected TC membership within 24 months. Once elections begin, the elections will be staggered so that only a portion of the TC seats is up for election in each cycle.
 
-There are no term limits, but in order to encourage diversity, no more than 2 of the 5 seats can be filled by any one organization. The TC will meet regularly in an open forum with times and locations published in community channels.
+There are no term limits, but in order to encourage diversity, no more than 2 TC seats can be filled by any one organization. The TC will meet regularly in an open forum with times and locations published in community channels.
 
 The exact size and model for the TC may evolve over time based on the needs and growth of the project, but the governing body will always be committed to openness, diversity and the principle that technical decisions are made by technical contributors.
 
