@@ -119,13 +119,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [``, `/blog/*`],
+        precachePages: [`/`, `/blog/*`],
       },
     },
     {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+        htmlTitle: `Magma | Content Manager`,
+        includeRobots: false,      
       },
     },
     {
@@ -137,12 +139,7 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     {
-      resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,
-      options: {
-        enableIdentityWidget: true,
-        htmlTitle: `Magma | Content Manager`,
-        includeRobots: false, 
-      }
+      resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,      
     }    
   ],
 }
