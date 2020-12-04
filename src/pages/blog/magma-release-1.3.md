@@ -9,6 +9,8 @@ category:
 ---
 # Magma v1.3 Release Notes
 
+## Please note: release 1.3 has been deprecated.  We recommend all new installs start with release 1.3.2.  All running instances of 1.3 are encouraged to upgrade to release 1.3.2.
+
 
 This new major release for Magma ships with some great new features and enhanced support for the FWA use-case with federation. See the release page (https://magma.github.io/magma/versions) for more information.
 
