@@ -66,12 +66,15 @@ const Navbar = class extends React.Component {
               className={`nav-content ${this.state.navBarActiveClass}`}
             >
               <ul className="nav-menu nobullet navbar-start has-text-centered">
-                {Menu.nav.map((data, index) => {
+                {Menu.nav.map((data, index) => {                  
                   return (
                     <React.Fragment key={index}>
                       <li>
                         {data.link.match(/^https?:\/\//) ?
-                          <OutboundLink href={data.link} target="_blank" rel="noopener noreferrer">{data.text}</OutboundLink>
+                          data.link.match(/^https?:\/\/docs\./) ?
+                            <OutboundLink href={data.link} rel="noopener noreferrer">{data.text}</OutboundLink>
+                            :
+                            <OutboundLink href={data.link} target="_blank" rel="noopener noreferrer">{data.text}</OutboundLink>
                           :
                           <Link to={data.link}>
                             {data.text}

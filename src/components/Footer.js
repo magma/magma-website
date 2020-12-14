@@ -20,17 +20,27 @@ const Footer = class extends React.Component {
                           return (
                             <React.Fragment key={index}>
                               <li className="item-no-bullet">
-                                {item.link.match(/^https?:\/\//) ? (
-                                  <OutboundLink
-                                    href={item.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                  >
-                                    {item.text}
-                                  </OutboundLink>
-                                ) : (
-                                  <Link to={item.link}>{item.text}</Link>
-                                )}
+                                {item.link.match(/^https?:\/\//) ?
+                                  item.link.match(/^https?:\/\/docs\./) ? (
+                                    <OutboundLink
+                                      href={item.link}                                      
+                                      rel="noopener noreferrer"
+                                    >
+                                      {item.text}
+                                    </OutboundLink>
+                                  )
+                                    :
+                                    (
+                                      <OutboundLink
+                                        href={item.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                      >
+                                        {item.text}
+                                      </OutboundLink>
+                                    ) : (
+                                    <Link to={item.link}>{item.text}</Link>
+                                  )}
                               </li>
                               {index < content.pages.length - 1 ? (
                                 <li className="separator"> | </li>
