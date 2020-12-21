@@ -35,6 +35,12 @@ Magma is an open-source software platform that gives network operators an open, 
   - Thursdays at 9:30am Pacific Time
   - Engineering meeting for CI/CD/testing
 
+### Monthly Meetings
+
+- [Community Meeting](https://magmacommunitymeeting.splashthat.com/)
+  - Subscribe to the [mailing list](https://groups.google.com/forum/#!forum/magma-dev) and [join the Slack Workspace](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A) so you don’t miss the meeting announcements
+  - Meeting where project updates are shared and where you can ask questions directly to the Magma developers. 
+
 If you are interested in joining any of the open Magma meetings, please contact Kendall Waters Perez at [kendall@openstack.org](mailto:kendall@openstack.org).
 
 ---

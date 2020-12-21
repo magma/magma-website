@@ -1,9 +1,9 @@
 {
   "bar": {
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "link": "#",
-    "button": "Sed id",
-    "display": false,
+    "text": "Register for the Magma Developers Conference, Feb 3, 2021.",
+    "link": "https://magmadevelopersconference.splashthat.com/",
+    "button": "Register Now",
+    "display": true,
     "logo": ""
   }
 }
