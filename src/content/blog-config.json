@@ -3,6 +3,10 @@
   "subTitle": "News, announcements, best practices, use cases and more.",
   "categories": [
     {
+      "text": "Announcements",
+      "id": "ct"announcements"
+    },
+    {
       "text": "Release Notice",
       "id": "release-notice"
     }
