@@ -7,8 +7,6 @@ category:
   - label: Release Notice
     id: release-notice
 ---
-# Magma v1.3 Release Notes
-
 ## Please note: release 1.3 has been deprecated.  We recommend all new installs start with release 1.3.2.  All running instances of 1.3 are encouraged to upgrade to release 1.3.2.
 
 
