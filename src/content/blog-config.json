@@ -7,6 +7,10 @@
       "id": "announcements"
     },
     {
+      "text": "Community",
+      "id": "community"
+    },
+    {
       "text": "Release Notice",
       "id": "release-notice"
     }
