@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Open Infrastructure Foundation Magma Community Update 2021
 author: Kendall Waters
-date: 2021-01-297T09:00:00.000Z
+date: 2021-01-29T09:00:00.000Z
 category:
   - label: Community
     id: Magma-Community-Update-01.2021
