@@ -53,22 +53,14 @@ const Footer = class extends React.Component {
                   </div>
                   <div className="footer-entry">
                     <p>
-                      {content.productName} is an independent open source
-                      community collaboratively developing code under the BSD 3-Clause license. Supported by the{" "}
+                      &copy; 2021 Magma Core. Copyright &copy; 2021 Magma Core and Magma are trademarks of LF Projects LLC.
+                      For trademark usage guidelines, terms of use, privacy policy and the coe of conduct, please see
                       <OutboundLink
-                        href="https://openinfra.dev/"
+                        href="https://www.lfprojects.org/policies/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Open Infrastructure Foundation
-                      </OutboundLink>
-                      . The community follows the Open Infrastructure Foundation{" "}
-                      <OutboundLink
-                        href="https://www.openstack.org/legal/community-code-of-conduct/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Code of Conduct
+                        LF Projects Policies
                       </OutboundLink>
                       .
                     </p>
