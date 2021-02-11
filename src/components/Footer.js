@@ -60,7 +60,7 @@ const Footer = class extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        " LF Projects Policies"
+                        LF Projects Policies
                       </OutboundLink>
                       .
                     </p>
