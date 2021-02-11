@@ -54,13 +54,13 @@ const Footer = class extends React.Component {
                   <div className="footer-entry">
                     <p>
                       &copy; 2021 Magma Core. Copyright &copy; 2021 Magma Core and Magma are trademarks of LF Projects LLC.
-                      For trademark usage guidelines, terms of use, privacy policy and the code of conduct, please see\ 
+                      For trademark usage guidelines, terms of use, privacy policy and the code of conduct, please see
                       <OutboundLink
                         href="https://www.lfprojects.org/policies/"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        LF Projects Policies
+                        " LF Projects Policies"
                       </OutboundLink>
                       .
                     </p>
