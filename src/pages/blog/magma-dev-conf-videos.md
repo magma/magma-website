@@ -37,7 +37,7 @@ We had over 580 people join us from 58 countries around the world on February 3r
 <br>&nbsp;&nbsp;Sascha Dech, Deutsche Telekom
 
 [Magma 5G Demo](https://www.youtube.com/watch?v=cFE8pjpDBv8&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=12)
-<br>&nbsp;&nbsp;ansoor Khan, Wavelabs Inc.
+<br>&nbsp;&nbsp;Mansoor Khan, Wavelabs Inc.
 <br>&nbsp;&nbsp;Narendra Dhara, ACL Digital
 
 [Magma on Arm – porting and best practices](https://www.youtube.com/watch?v=-vYtwDDFpdo&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=19)
