@@ -14,14 +14,14 @@ We had over 580 people join us from 58 countries around the world on February 3r
 <br>&nbsp;&nbsp;Yael Maguire, Facebook Connectivity
 
 **Shah, Jonathan, Irfan and Arpit discuss Magma joining Linux Foundation**
-<br>*Video to in production*
+<br>*Video still in production - link will be updated soon*
 <br>&nbsp;&nbsp;Shah Rahmann, Facebook Connectivity
 <br>&nbsp;&nbsp;Jonathan Bryce, OpenInfra Foundation
 <br>&nbsp;&nbsp;Irfan Ghauri, OpenAirInterface Software Alliance / Eurcom
 <br>&nbsp;&nbsp;Arpit Joshipra, Linux Foundation
 
 **Magma Community Project Evolution**
-<br>*Video to in production*
+<br>*Video stil in production - link will be updated soon*
 <br>&nbsp;&nbsp;Shah Rahman, Facebook Connectivity
 
 [Democratizing Cellular Access with Anycell](https://www.youtube.com/watch?v=VSu-osNE26w&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=14)<br>&nbsp;&nbsp;Sylvia Ratnasamy, U.C. Berkeley
