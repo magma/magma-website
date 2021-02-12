@@ -7,9 +7,8 @@ category:
   - label: Announcements
     id: Magma-Dev-Conf-Videos
 ---
-## Mamga Developers Confernece Videos
 
-We had over 580 people join us on February 3rd, 2021, for the Mamga Developer's Conference.  Videos from the event are now posted
+We had over 580 people join us from 58 countries around the world on February 3rd for the Mamga Developer's Conference.  We are pleased to announce that videos of each session from the event are now posted
 
 [Opening Keynote](https://www.youtube.com/watch?v=SaXoLBXUDHs&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=16)
 <br>&nbsp;&nbsp;Yael Maguire, Facebook Connectivity
@@ -48,7 +47,7 @@ We had over 580 people join us on February 3rd, 2021, for the Mamga Developer's 
 [MagmaML: Towards Automated Management for Low-resource 5G Cellular Network Deployments](https://www.youtube.com/watch?v=Ss6s3fSbfqw&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=15)
 <br>&nbsp;&nbsp;Rahman Doost-Mohammady, Rice University
 
-[OpenAirInterface Software Alliance contributions to Magma]()
+[OpenAirInterface Software Alliance contributions to Magma](https://www.youtube.com/watch?v=-96MhOqbguc&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=17)
 <br>&nbsp;&nbsp;Mohit Vyas Open Air Interface Software Alliance / Eurcom
 <br>&nbsp;&nbsp;raphael Defosseux, Open Air Interface Software Alliance / Eurcom
 
