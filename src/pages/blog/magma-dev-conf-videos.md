@@ -21,7 +21,7 @@ We had over 580 people join us from 58 countries around the world on February 3r
 <br>&nbsp;&nbsp;Arpit Joshipra, Linux Foundation
 
 **Magma Community Project Evolution**
-<br>*Video stil in production - link will be updated soon*
+<br>*Video still in production - link will be updated soon*
 <br>&nbsp;&nbsp;Shah Rahman, Facebook Connectivity
 
 [Democratizing Cellular Access with Anycell](https://www.youtube.com/watch?v=VSu-osNE26w&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=14)<br>&nbsp;&nbsp;Sylvia Ratnasamy, U.C. Berkeley
