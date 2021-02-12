@@ -49,7 +49,7 @@ We had over 580 people join us from 58 countries around the world on February 3r
 
 [OpenAirInterface Software Alliance contributions to Magma](https://www.youtube.com/watch?v=-96MhOqbguc&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=17)
 <br>&nbsp;&nbsp;Mohit Vyas Open Air Interface Software Alliance / Eurcom
-<br>&nbsp;&nbsp;raphael Defosseux, Open Air Interface Software Alliance / Eurcom
+<br>&nbsp;&nbsp;Raphael Defosseux, Open Air Interface Software Alliance / Eurcom
 
 [Opportunities for Urban Cooperative Cellular Networks](https://www.youtube.com/watch?v=ZE_sxAGTU1o&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=6)
 <br>&nbsp;&nbsp;Kurtis Heimerl, University of Washington
@@ -57,12 +57,12 @@ We had over 580 people join us from 58 countries around the world on February 3r
 [Tribal Spectrum to Tribal Networks: Magma Enabling Tribes to Control Their Internet Access Future](https://www.youtube.com/watch?v=hNHAz6Km-j0&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=18)
 <br>&nbsp;&nbsp;Mariel Triggs, Muralnet
 <br>&nbsp;&nbsp;Featuring:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phil Fowler repping Bishop Paiute IT
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art Heffern CEO of i9Technologies
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phil Fowler reppresenting Bishop Paiute IT
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art Heffern, CEO, i9Technologies
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bruce Ponce, Bishop Paiute
 <br>&nbsp;&nbsp;Filmaking by:
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mariah David, Big Pine Paiute/Apache repping Lone Pine Paiute Shoshone Tribe
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jesse Archer, Big Pine Paiute repping Lone Pine Paiute Shoshone Tribe
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mariah David, Big Pine Paiute/Apache representing Lone Pine Paiute Shoshone Tribe
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jesse Archer, Big Pine Paiute representing Lone Pine Paiute Shoshone Tribe
 
 [Using Magma and Helium Blockchain to Build The World’s First People’s Neutral Host Network](https://www.youtube.com/watch?v=NSQ1wWtaox4&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=9)
 <br>&nbsp;&nbsp;Boris Renski, FreedomFi
