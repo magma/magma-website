@@ -14,7 +14,6 @@ We had over 580 people join us from 58 countries around the world on February 3r
 <br>&nbsp;&nbsp;Yael Maguire, Facebook Connectivity
 
 [Shah, Jonathan, Irfan and Arpit discuss Magma joining Linux Foundation](https://www.youtube.com/watch?v=d6qvuCL9608&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=19)
-<br>*Video still in production - link will be updated soon*
 <br>&nbsp;&nbsp;Shah Rahmann, Facebook Connectivity
 <br>&nbsp;&nbsp;Jonathan Bryce, OpenInfra Foundation
 <br>&nbsp;&nbsp;Irfan Ghauri, OpenAirInterface Software Alliance / Eurcom
