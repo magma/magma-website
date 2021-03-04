@@ -1,8 +1,8 @@
 {
   "bar": {
-    "text": "Check out the sessions from the Magma Developers Conference, including production use cases and the software roadmap",
-    "link": "https://www.youtube.com/playlist?list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N",
-    "button": "Watch Now",
+    "text": "The Magma Developer Conference 2021 recap is live!",
+    "link": "/community/magma-dev-conference-recap-2021/",
+    "button": "Read more",
     "display": true,
     "logo": ""
   }
