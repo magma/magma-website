@@ -19,7 +19,7 @@ On February 3, over 700 people from over 50 countries and almost 350 companies r
 - Magma developers sharing project updates to the growing Magma community and how the platform enables service providers and systems integrators to deploy faster and more efficient networks
 - Production use cases highlighting the benefits of deploying
 - Magma to build cost-effective and extensible carrier-grade networks, connecting rural towns and tribal nations  
-- The Magma software roadmap…
+- In the magma roadmap session we discuss the core principle of iterative development and the hacker ethos that underpins the development process in the open source project. We also describe the current priority use cases for the project which are fixed wireless, private LTE and WiFi core and provide a snapshot of the current roadmap which includes work in getting the 5G SA code to a minimum viable product offering.
 
 <div style="width:100%; padding: 10px;">
   <div style="width:33%;padding-left:10px; display: inline; float: left;">
