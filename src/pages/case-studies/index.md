@@ -4,7 +4,7 @@ seo:
   description: 'Join to contribute code, documentation, and use cases'
   image: /img/og-image.jpg
   title: Generic Page
-  twitterUsername: '@openstack'
+  twitterUsername: '@magmacommunity'
   url: 'https://yoursite.org/'
 title: Case Studies
 subTitle: 'Join to contribute code, documentation, and use cases'
