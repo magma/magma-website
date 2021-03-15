@@ -4,7 +4,7 @@ seo:
   description: Community - Magma, open-source mobile core network solution
   image: /img/og-image.jpg
   title: Home
-  twitterUsername: "@magmapacketcore"
+  twitterUsername: "@magmacommunity"
   url: "https://www.magmacore.org/"
 title: Community
 subTitle: 'Join to contribute code, documentation, and use cases'
