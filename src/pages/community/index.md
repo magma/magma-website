@@ -30,14 +30,14 @@ Magma is an open-source software platform that gives network operators an open, 
 - Magma Engineering Weekly
   - Thusdays at 8:30am Pacific Time
   - Meeting for status across all software components
-- DevOps Weekly 
+- DevOps Weekly
   - Wednesdays at 9:00am Pacific Time
 
 ### Monthly Meetings
 
 - [Community Meeting](https://magmacommunitymeeting.splashthat.com/)
   - Subscribe to the [mailing list](https://groups.google.com/forum/#!forum/magma-dev) and [join the Slack Workspace](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A) so you don’t miss the meeting announcements
-  - Meeting where project updates are shared and where you can ask questions directly to the Magma developers. 
+  - Meeting where project updates are shared and where you can ask questions directly to the Magma developers.
   - Upcoming Meetings
     - March 24, 2021 at 8:00am PT ([RSVP here](https://magmamarchcommunitymeeting.splashthat.com))
     - April 28, 2021 at 7:00pm PT ([RSVP here](https://magmaaprilcommunitymeeting.splashthat.com))
@@ -48,30 +48,28 @@ If you are interested in joining any of the open Magma meetings, please contact 
 
 ## Governance
 
-Magma strives to operate under an open governance model that encourages contribution and participation from all interested organizations and developers. Technical decisions are made by technical contributors and a representative Technical Committee. The community is committed to diversity, openness, and encouraging new contributors and leaders to rise up.
+Magma strives to operate under an open governance model that encourages contribution and participation from all interested organizations and developers. Technical decisions are made by technical contributors and a representative Technical Steering Committee, as detailed in the project [Technical Charter](https://github.com/magma/tsc/blob/main/CHARTER.md). The community is committed to diversity, openness, and encouraging new contributors and leaders to rise up.
 
 ### Development Roles
 
 #### Contributors
 
-Anyone can become a Contributor by submitting code to the project and having that code accepted through the project’s review process. A Contributor is someone who has had code merged within the last 12 months. Contributors are eligible to vote in the Technical Committee elections. Contributors have access to propose and review code but not merge the code into repos of the project.
+Anyone can become a Contributor by submitting code to the project and having that code accepted through the project’s review process. A Contributor is someone who has had code merged within the last 12 months. Contributors have access to propose and review code but not merge the code into repos of the project.
 
-#### Maintainers
+#### Committers
 
-A Maintainer has the ability to merge code into the project. Maintainers are active Contributors and participants in the project. In order to become a Maintainer, you must be nominated and approved by the established Maintainers. Within the project, sub-components may decide to have additional requirements for the review of code in their repos.
+A Committer has the ability to merge code into the project. Committers are active Contributors and participants in the project. In order to become a Committer, you must be nominated and approved by the established Committers. Within the project, sub-components may decide to have additional requirements for the review of code in their repos.
 
 #### Code review process
-All pull requests require 2 approvals from maintainers for commits as a starting point. Sub groups can evolve this based on what works.
+All pull requests require 2 approvals from committers for commits as a starting point. Sub groups can evolve this based on what works.
 
-#### Maintainers nominations
-Maintainers must be nominated and approved by established maintainers through a simple majority with no existing maintainer objecting.
+#### Committer nominations
+Committers must be nominated and approved by established committers through a simple majority with no existing committer objecting.
 
-### Technical Committee
+### Technical Steering Committee
 
-The initial Technical Committee (TC) is comprised of 3 members who are responsible for architectural decisions and making final decisions if Maintainers cannot come to an agreement. The initial members will will develop and approve governance rules and proceudres for the project.  The initial TC will also define rules for additional TC membership, with a goal of moving to an elected TC membership within 24 months. Once elections begin, the elections will be staggered so that only a portion of the TC seats is up for election in each cycle.
+The Technical Steering Committee (TSC) is comprised of 5 members who are responsible for architectural decisions and making final decisions if the Committers cannot come to an agreement. The TSC will will develop and approve additional governance rules and proceudres for the project, as detailed in the [Technical Charter](https://github.com/magma/tsc/blob/main/CHARTER.md).
 
-There are no term limits, but in order to encourage diversity, no more than 2 TC seats can be filled by any one organization. The TC will meet regularly in an open forum with times and locations published in community channels.
-
-The exact size and model for the TC may evolve over time based on the needs and growth of the project, but the governing body will always be committed to openness, diversity and the principle that technical decisions are made by technical contributors.
+The exact size and model for the TSC may evolve over time based on the needs and growth of the project, but the governing body will always be committed to openness, diversity and the principle that technical decisions are made by technical contributors.
 
 **Any individual may hold multiple roles simultaneously such as being a Maintainer and a member of the TC.**
