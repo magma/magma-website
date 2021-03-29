@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Magma Release 1.4
 author: Phil Ritter
-date: 2021-04-16T09:00:00.000Z
+date: 2021-03-16T09:00:00.000Z
 category:
   - label: Release Notice
     id: release-notice
