@@ -8,7 +8,9 @@ category:
     id: community
 ---
 
-Troubleshooting of cellular networks is contributing billions of dollars to the operational expenditure (OPEX) of mobile network operators (MNOs) every year [1]. This process involves monitoring KPIs throughout the network and detecting anomalies either manually or through automation. In many cases, once such “anomaly” is detected, often manual intervention is needed for root cause analysis that may require site access to investigate the root cause which in turn may take 10s of man-hours to fix.
+Troubleshooting of cellular networks is contributing billions of dollars to the operational expenditure (OPEX) of mobile network operators (MNOs) every year [1].
+
+This process involves monitoring KPIs throughout the network and detecting anomalies either manually or through automation. In many cases, once such 'anomaly' is detected, often manual intervention is needed for root cause analysis that may require site access to investigate the root cause which in turn may take 10s of man-hours to fix.
 
 The rollout of 5G is set to complicate this process even further largely due to three major trends:
 
