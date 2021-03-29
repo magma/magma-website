@@ -8,9 +8,9 @@ category:
     id: community
 ---
 
-Troubleshooting of cellular networks is contributing billions of dollars to the operational expenditure (OPEX) of mobile network operators (MNOs) every year [1].
+Troubleshooting of cellular networks is contributing billions of dollars to the operational expenditure (OPEX) of mobile network operators (MNOs) every year.
 
-This process involves monitoring KPIs throughout the network and detecting anomalies either manually or through automation. In many cases, once such 'anomaly' is detected, often manual intervention is needed for root cause analysis that may require site access to investigate the root cause which in turn may take 10s of man-hours to fix.
+This process involves monitoring KPIs throughout the network and detecting anomalies either manually or through automation [1]. In many cases, once such 'anomaly' is detected, often manual intervention is needed for root cause analysis that may require site access to investigate the root cause which in turn may take 10s of man-hours to fix.
 
 The rollout of 5G is set to complicate this process even further largely due to three major trends:
 
@@ -34,7 +34,7 @@ Such platforms provide a unique opportunity for the open-source community to lev
 
 Many other similar scenarios could hamper the performance of cells in the network. These scenarios are possible to replicate in these open-access testbeds. Through a community effort, relevant datasets could be generated for these scenarios to use in training models for automated network diagnosis.
 
-![Figure 1](/users/helen/repositories/pictures/Figure-1.png "Figure-1")
+![Figure 1](/magma-website/static/img/Figure-1.png "Figure-1")
 ###### Figure 1. Inter-cell interference scenarios between macro and small cells [2]
 
 ## Open-Source 5G Software
@@ -50,7 +50,7 @@ OpenAirInterface is another open-source community software that is being used by
 
 MagmaML is an ongoing project to develop a software module for Magma that uses a variety of rule-based and deep learning techniques to observe, diagnose and provide fixes for the core and radio access network. MagmaML will be part of the Magma orchestrator, as a microservice and will observe the network at every layer through both control-plane and data-plane. When run on a test network, MagmaML enables the user to reconfigure the network to certain states that could lead to faults (Fault injection). Through this process, MagmaML observes various KPIs, probes the data plane, and “learns” from those faults. These observations could be added as data points to a new or existing labeled dataset, which is in turn used to train new ML models or updating existing models, or become part of a reinforcement learning strategy. Lastly, the MagmaML microservice is envisaged to have a fault suggestion tool that provides a diagnosis to the network operator once a fault occurs in the network. The first set of datasets to implement and demonstrate MagmaML will use the Magma core network plus the RENEW RAN run on POWDER-RENEW testbed. A block diagram of the system is sketched below.
 
-![Figure 2](/users/helen/repositories/pictures/Figure-2.png "Figure-2")
+![Figure 2](/magma-website/static/img/Figure-2.png "Figure-2")
 ###### Figure 2. A Block Diagram of MagmaML Deployed in Magma+RENEW-RAN 5G Network
 
 In the future, as Magma is deployed by operators in operational networks, we hope MagmaML will play a key role in keeping different elements of the network in check and providing sound diagnoses when problems occur. We also envisage that MagmaML would pave the way to the ultimate goal of self-organizing networks, where sound decisions for optimal network performance can be made automatically.
@@ -63,6 +63,6 @@ In the future, as Magma is deployed by operators in operational networks, we hop
 
 [3] Jian Ding, Rahman Doost-Mohammady, Anuj Kalia, and Lin Zhong. 2020. Agora: Real-time massive MIMO baseband processing in software. In Proceedings of the 16th International Conference on Emerging Networking EXperiments and Technologies (CoNEXT '20). Association for Computing Machinery, New York, NY, USA, 232–244. DOI:https://doi.org/10.1145/3386367.3431296
 
-![Rahman Doost-Mohammady](/users/helen/repositories/pictures/Rahman-Doost-Mohammady.png "Rahman-Doost-Mohammady") **Rahman Doost-Mohammady** is an assistant research professor at Rice University. His research interests span wireless systems design and networking and embedded reconfigurable computing. He is the technical lead for the Rice RENEW, an NSF PAWR Project developing an open-source massive MIMO community platform.
+![Rahman Doost-Mohammady](/magma-website/static/img/Rahman-Doost-Mohammady.png "Rahman-Doost-Mohammady") **Rahman Doost-Mohammady** is an assistant research professor at Rice University. His research interests span wireless systems design and networking and embedded reconfigurable computing. He is the technical lead for the Rice RENEW, an NSF PAWR Project developing an open-source massive MIMO community platform.
 
-![Ashutosh-Sabharwal](/users/helen/repositories/pictures/Ashutosh-Sabharwal.png "Ashutosh-Sabharwal") **Ashutosh Sabharwal's** research interests are in wireless theory, design, and large-scale deployed testbeds. He is the founder of the WARP project (warp.rice.edu), an open-source project which is now in use at more than 125 research groups worldwide and has been used by more than 500 research articles. He is currently leading several NSF-funded center-scale projects, notably Rice RENEW (renew-wireless.org), to develop an open-source software-defined wireless network platform. He received the 2017 IEEE Jack Neubauer Memorial Award, 2018 IEEE Advances in Communications Award, 2019 ACM Test-of-time Award, and 2019 ACM MobiCom Community Contribution Award. He is a Fellow of IEEE and the National Academy of Inventors.
+![Ashutosh-Sabharwal](/magma-website/static/img/Ashutosh-Sabharwal.png "Ashutosh-Sabharwal") **Ashutosh Sabharwal's** research interests are in wireless theory, design, and large-scale deployed testbeds. He is the founder of the WARP project (warp.rice.edu), an open-source project which is now in use at more than 125 research groups worldwide and has been used by more than 500 research articles. He is currently leading several NSF-funded center-scale projects, notably Rice RENEW (renew-wireless.org), to develop an open-source software-defined wireless network platform. He received the 2017 IEEE Jack Neubauer Memorial Award, 2018 IEEE Advances in Communications Award, 2019 ACM Test-of-time Award, and 2019 ACM MobiCom Community Contribution Award. He is a Fellow of IEEE and the National Academy of Inventors.
