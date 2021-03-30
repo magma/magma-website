@@ -57,9 +57,9 @@ In the future, as Magma is deployed by operators in operational networks, we hop
 
 ## Authors
 
-![Rahman Doost-Mohammady](/img/Rahman-Doost-Mohammady.png "Rahman-Doost-Mohammady")**Rahman Doost-Mohammady** is an assistant research professor at Rice University. His research interests span wireless systems design and networking and embedded reconfigurable computing. He is the technical lead for the Rice RENEW, an NSF PAWR Project developing an open-source massive MIMO community platform.
+**Rahman Doost-Mohammady** is an assistant research professor at Rice University. His research interests span wireless systems design and networking and embedded reconfigurable computing. He is the technical lead for the Rice RENEW, an NSF PAWR Project developing an open-source massive MIMO community platform.
 
-![Ashutosh-Sabharwal](/img/Ashutosh-Sabharwal.png "Ashutosh-Sabharwal")**Ashutosh Sabharwal's** research interests are in wireless theory, design, and large-scale deployed testbeds. He is the founder of the WARP project (warp.rice.edu), an open-source project which is now in use at more than 125 research groups worldwide and has been used by more than 500 research articles. He is currently leading several NSF-funded center-scale projects, notably Rice RENEW (renew-wireless.org), to develop an open-source software-defined wireless network platform. He received the 2017 IEEE Jack Neubauer Memorial Award, 2018 IEEE Advances in Communications Award, 2019 ACM Test-of-time Award, and 2019 ACM MobiCom Community Contribution Award. He is a Fellow of IEEE and the National Academy of Inventors.
+**Ashutosh Sabharwal's** research interests are in wireless theory, design, and large-scale deployed testbeds. He is the founder of the WARP project (warp.rice.edu), an open-source project which is now in use at more than 125 research groups worldwide and has been used by more than 500 research articles. He is currently leading several NSF-funded center-scale projects, notably Rice RENEW (renew-wireless.org), to develop an open-source software-defined wireless network platform. He received the 2017 IEEE Jack Neubauer Memorial Award, 2018 IEEE Advances in Communications Award, 2019 ACM Test-of-time Award, and 2019 ACM MobiCom Community Contribution Award. He is a Fellow of IEEE and the National Academy of Inventors.
 
 ## References
 
