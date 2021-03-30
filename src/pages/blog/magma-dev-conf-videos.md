@@ -8,7 +8,7 @@ category:
     id: Magma-Dev-Conf-Videos
 ---
 
-We had over 580 people join us from 58 countries around the world on February 3rd for the Mamga Developer's Conference.  We are pleased to announce that videos of each session from the event are now posted
+We had over 580 people join us from 58 countries around the world on February 3rd for the Mamga Developer's Conference.  We are pleased to announce that videos of each session from the event are now posted.
 
 [Opening Keynote](https://www.youtube.com/watch?v=SaXoLBXUDHs&list=PLKqaoAnDyfgpCPTI9xDxxx2vuJsB1871N&index=16)
 <br>&nbsp;&nbsp;Yael Maguire, Facebook Connectivity
