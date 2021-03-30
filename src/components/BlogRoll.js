@@ -75,7 +75,7 @@ export default ({customFilter}) => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 350)
+              excerpt(pruneLength: 200)
               id
               fields {
                 slug
