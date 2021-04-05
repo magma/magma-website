@@ -28,7 +28,7 @@ Magma is an open-source software platform that gives network operators an open, 
 ### Weekly Meetings
 
 - Magma Engineering Weekly
-  - Thusdays at 8:30am Pacific Time
+  - Thursdays at 8:30am Pacific Time
   - Meeting for status across all software components
 - DevOps Weekly
   - Wednesdays at 9:00am Pacific Time
