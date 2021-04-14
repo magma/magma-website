@@ -13,7 +13,7 @@ exports.handler = (event, context, callback) => {
 
     const msg = {
         from: GATSBY_SENDGRID_FROM_EMAIL,
-        to: GATSBY_SENDGRID_TO_EMAIL,
+        to: GATSBY_SENDGRID_TO_EMAIL.split(','),
         subject: 'Contact from Magma Website',
         html: body,
     };
