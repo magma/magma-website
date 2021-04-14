@@ -1,3 +1,5 @@
+const fetch = require("node-fetch");
+
 export const validateCaptcha = async (token) => {
 
     const secret = process.env.GATSBY_SECRET_RECAPTCHA_SITE_KEY;

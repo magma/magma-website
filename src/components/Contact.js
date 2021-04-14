@@ -28,10 +28,10 @@ const Contact = () => {
 
         if (subscribe) {
             try {
-                const data = {}; 
+                const data = {};
                 const response = await fetch("/.netlify/functions/subscribe", {
                     method: "POST",
-                    body: JSON.stringify(email),
+                    body: JSON.stringify({ email, name }),
                 })
                 if (!response.ok) {
                     //not 200 response
