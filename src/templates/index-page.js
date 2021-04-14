@@ -67,7 +67,6 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         features={frontmatter.features}
       />
-      <NewsletterSubscribe />
       <SupportBanner />
       <Contact />
     </Layout>
