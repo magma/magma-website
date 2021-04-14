@@ -13,6 +13,7 @@ import metadata from '../content/site-metadata.json'
 import Mainpitch from '../components/Mainpitch'
 import Features from '../components/Features'
 import NewsletterSubscribe from '../components/NewsletterSubscribe'
+import Contact from '../components/Contact'
 
 export const IndexPageTemplate = ({
   seo,
@@ -68,6 +69,7 @@ const IndexPage = ({ data }) => {
       />
       <NewsletterSubscribe />
       <SupportBanner />
+      <Contact />
     </Layout>
   )
 }

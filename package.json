@@ -38,6 +38,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-google-recaptcha": "^2.1.0",
     "react-helmet": "^5.2.0",
     "react-medium-image-zoom": "^4.0.2",
     "react-slick": "^0.26.1",
