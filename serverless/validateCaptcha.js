@@ -1,14 +1,25 @@
-const fetch = require("node-fetch");
+const axios = require('axios');
 
-export const validateCaptcha = async (token) => {
+const { GATSBY_SECRET_RECAPTCHA_SITE_KEY } = process.env;
 
-    const secret = process.env.GATSBY_SECRET_RECAPTCHA_SITE_KEY;
-    const response = await fetch(`https://www.google.com/recaptcha/api/siteverify?secret=${secret}&response=${token}`, {
-        method: 'POST'
-    });
 
-    const data = await response.json();
+exports.handler = async (event, context, callback) => {
 
-    return data.success;
+    const { token } = JSON.parse(event.body);
 
+    const response = await axios.post(`https://www.google.com/recaptcha/api/siteverify?secret=${GATSBY_SECRET_RECAPTCHA_SITE_KEY}&response=${token}`)
+        .then((res) => {
+            return {
+                statusCode: 200,
+                body: JSON.stringify(res.data)
+            }
+        })
+        .catch((err) => {
+            return {
+                statusCode: 500,
+                body: JSON.stringify(err),
+            }
+        });
+
+    return response;
 }

@@ -69,8 +69,7 @@ collections:
               {label: "Social Networks", name: "socialNetworks", widget: list, fields: [                
                 {label: "Link", name: "link", widget: string},
                 {label: "Icon", name: "icon", widget: image},                
-              ]},
-              {label: "Mail List", name: "mailList", widget: text}
+              ]}
             ]}
       - file: "src/content/top-bar.json"
         label: "Top Bar"
