@@ -1,7 +1,7 @@
 const sgMail = require('@sendgrid/mail');
-const { SENDGRID_API_KEY, SENDGRID_TO_EMAIL, SENDGRID_FROM_EMAIL } = process.env;
+const { GATSBY_SENDGRID_API_KEY, GATSBY_SENDGRID_TO_EMAIL, GATSBY_SENDGRID_FROM_EMAIL } = process.env;
 
-sgMail.setApiKey(SENDGRID_API_KEY);
+sgMail.setApiKey(GATSBY_SENDGRID_API_KEY);
 
 exports.handler = (event, context, callback) => {
 
@@ -12,8 +12,8 @@ exports.handler = (event, context, callback) => {
     }).join("<br><br>");
 
     const msg = {
-        from: SENDGRID_FROM_EMAIL,
-        to: SENDGRID_TO_EMAIL,
+        from: GATSBY_SENDGRID_FROM_EMAIL,
+        to: GATSBY_SENDGRID_TO_EMAIL,
         subject: 'Contact from Magma Website',
         html: body,
     };
