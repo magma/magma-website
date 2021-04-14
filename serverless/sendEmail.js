@@ -5,7 +5,7 @@ sgMail.setApiKey(GATSBY_SENDGRID_API_KEY);
 
 exports.handler = (event, context, callback) => {
 
-    const payload = JSON.parse(event.body)    
+    const payload = JSON.parse(event.body);
 
     const body = Object.keys(payload).map((k) => {
         return `${k}: ${payload[k]}`
@@ -20,11 +20,17 @@ exports.handler = (event, context, callback) => {
 
     sgMail
         .send(msg)
-        .then(() => { }, error => {
-            console.error(error);
-
-            if (error.response) {
-                console.error(error.response.body)
-            }
+        .then((res) => {
+            console.log('res sendEmail', res);
+            callback(null, {
+                statusCode: 200,
+                body: JSON.stringify(res.data),
+            });
+        }, (err) => {
+            console.log('err sendEmail', err.response.body.errors);
+            callback(null, {
+                statusCode: 500,
+                body: JSON.stringify(err),
+            });
         });
 };

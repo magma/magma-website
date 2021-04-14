@@ -30,7 +30,6 @@ const Contact = () => {
         if (validate.ok) {
             if (subscribe) {
                 try {
-                    const data = {};
                     const response = await fetch("/.netlify/functions/subscribe", {
                         method: "POST",
                         body: JSON.stringify({ email, name }),
@@ -84,7 +83,7 @@ const Contact = () => {
                                     </a>
                                 )
                             })
-                        }                        
+                        }
                     </div>
                 </div>
                 <div className="form-container">
@@ -102,7 +101,7 @@ const Contact = () => {
                         <button className="button is-primary form-button" type="submit">SUBMIT</button>
                     </form>
                 </div>
-                <ReCAPTCHA sitekey={process.env.GATSBY_PUBLIC_RECAPTCHA_SITE_KEY} size="invisible" ref={recaptchaRef} />;
+                <ReCAPTCHA sitekey={process.env.GATSBY_PUBLIC_RECAPTCHA_SITE_KEY} size="invisible" ref={recaptchaRef} />
             </div>
         </div>
     )
