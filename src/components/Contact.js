@@ -49,7 +49,7 @@ const Contact = () => {
                 if (!response.ok) {
                     setErrorMessage('There was an error sending your message, please try again')
                 } else {
-                    setSuccessMessage('Your message was successfully send');
+                    setSuccessMessage('Your message was successfully sent');
                 }
             } catch (e) {
                 setErrorMessage('There was an error sending your message, please try again')
