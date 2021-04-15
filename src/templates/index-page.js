@@ -11,14 +11,17 @@ import 'react-medium-image-zoom/dist/styles.css'
 
 import metadata from '../content/site-metadata.json'
 import Mainpitch from '../components/Mainpitch'
+import DevelopWithMagma from "../components/DevelopWithMagma"
+import UserStories from '../components/UserStories'
 import Features from '../components/Features'
 import NewsletterSubscribe from '../components/NewsletterSubscribe'
+import Contact from '../components/Contact'
+import GetStarted from '../components/GetStarted'
 
 export const IndexPageTemplate = ({
   seo,
   header,
   mainpitch,
-  features
 }) => (
     <div>
       {seo &&
@@ -44,7 +47,7 @@ export const IndexPageTemplate = ({
       }
       <Header title={header.title} subTitle={header.subTitle} image={header.image} buttons={header.buttons} display={header.display} />
       <Mainpitch mainpitch={mainpitch} />
-      <Features features={features} />  
+
     </div>
   )
 
@@ -64,10 +67,12 @@ const IndexPage = ({ data }) => {
         seo={frontmatter.seo}
         header={frontmatter.header}
         mainpitch={frontmatter.mainpitch}
-        features={frontmatter.features}
       />
-      <NewsletterSubscribe />
+      <DevelopWithMagma />
+      <UserStories />
       <SupportBanner />
+      <NewsletterSubscribe />
+      <Contact />
     </Layout>
   )
 }
@@ -114,13 +119,6 @@ export const pageQuery = graphql`
         mainpitch {
           display
           title
-          image {
-            childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }           
           description {
             text
           }

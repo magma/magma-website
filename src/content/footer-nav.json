@@ -6,16 +6,8 @@
       "link": "/"
     },
     {
-      "text": "Docs",
-      "link": "https://docs.magmacore.org/docs/basics/introduction.html"
-    },
-    {
-      "text": "Code",
-      "link": "https://github.com/magma"
-    } ,
-    {
-      "text": "Community",
-      "link": "https://github.com/magma"
+      "text": "Code of Conduct",
+      "link": "https://lfprojects.org/policies/code-of-conduct/"
     }
   ]
 }
