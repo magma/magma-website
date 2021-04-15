@@ -46,7 +46,7 @@ If you are interested in joining any of the open Magma meetings, please contact 
 
 ---
 
-## Governance
+## <div id="governance"></div> Governance 
 
 Magma strives to operate under an open governance model that encourages contribution and participation from all interested organizations and developers. Technical decisions are made by technical contributors and a representative Technical Steering Committee, as detailed in the project [Technical Charter](https://github.com/magma/tsc/blob/main/CHARTER.md). The community is committed to diversity, openness, and encouraging new contributors and leaders to rise up.
 

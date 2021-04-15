@@ -1,6 +1,7 @@
 [build]
   publish = "public"
   command = "npm run build"
+  functions = "serverless"
 [build.environment]
   YARN_VERSION = "1.13.0"
   YARN_FLAGS = "--no-ignore-optional"

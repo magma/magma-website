@@ -1,0 +1,15 @@
+{
+    "contact": {
+        "text": "Let us know if you would like to receive more information about Magma or if you have questions on how to contribute to the community.",
+        "email": "community@openinfra.dev",
+        "socialNetworks": [{
+                "link": "https://www.linkedin.com/company/magmacore/",
+                "icon": "/img/linkedin-icon.svg"
+            },
+            {
+                "link": "https://twitter.com/MagmaCommunity",
+                "icon": "/img/twitter-icon.svg"
+            }
+        ]
+    }
+}
