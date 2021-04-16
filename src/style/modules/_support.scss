@@ -1,4 +1,6 @@
 .support-content {
+  margin: 0 auto;
+  width: 90%;
   display: flex;
   padding: 4rem 0;
   flex-direction: column;
@@ -8,6 +10,9 @@
 .support-content-title {
   margin-bottom: 2rem;
   color: $dark-light;
+  @media (max-width: 767px) {
+    margin-bottom: 60px;
+  }
 }
 .support-link {
   text-align: center;
@@ -30,4 +35,37 @@
 }
 .centered-logo {
   text-align: center;
+}
+
+.lf-logo {
+  width: 100px;
+}
+
+@media (max-width: 767px) {
+  .lf-logo {
+    width: unset;
+    height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .oai-logo {
+    width: unset;
+    height: 80px;
+  }
+}
+
+.oif-logo {
+  width: 220px;
+}
+
+
+.tip-logo {
+  width: 130px;
+}
+
+@media (max-width: 767px) {
+  .tip-logo {
+    width: 140px;
+  }
 }

@@ -17,9 +17,11 @@ const Header = class extends React.Component {
             <div className="container">
               {Menu.logo && (
                 <div className="nav-brand">
+                {/* Big logo in header
                   <Link to="/" title="Logo" className="main-logo">
                     <img src={Menu.logo} alt="Magma" />
                   </Link>
+                  */}
                   {/* Hamburger menu */}
                 </div>
               )}

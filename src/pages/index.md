@@ -11,21 +11,19 @@ header:
     subTitle: See the release notes
     title: v1.1 Release available now
   buttons:
-    - link: "https://magma.github.io/magma/docs/basics/quick_start_guide"
-      text: Quick Start Guide
-    - link: "https://github.com/magma/magma"
-      text: Download
+    - link: "/community"
+      text: Join The Community
   display: true
   subTitle:
-    - text: Magma is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution. Our mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks.
-  title: Connecting the Next Billion People
-mainpitch:
+    - text: Magma connects the world to a faster network by providing operators an open, flexible, and extendable mobile core network solution. Its simplicity and lower cost structure  empowers innovators to build mobile networks never previously imagined.
+  title: An Open-Source Platform For Building Carrier-Grade Networks 
+mainpitch: 
   description:
-    - text: <p>Magma connects 100 to 1,000,000 servers using the same fully distributed network architecture. Designed to be access network (cellular or wifi) and 3GPP release agnostic, it can flexibly support a radio access network with minimal development and deployment effort.</p> <ul><li>Allows operators to offer cellular service without vendor lock-in with a modern, open source core network.</li><li>Enables operators to manage their networks more efficiently with more automation, less downtime, better predictability, and more agility to add new services and applications.</li><li>Federate between existing MNOS and new infrastructure providers for expanding rural infrastructure allows operators who are constrained with licensed spectrum to add capacity and reach by using wi-fi and CBRS.</li><li>All parts of the network are stateless except the access gateway, providing greater scale, resiliency, and simplicity. The distributed deployment model limits fault domains and allows more frequent and seamless upgrades.</li></ul>
+    - text: Magma connects 100 to 1,000,000 servers using the same fully distributed network architecture. Designed to be access network (cellular or wifi) and 3GPP release agnostic, it can flexibly support a radio access network with minimal development and deployment effort.
   display: true
   image: /img/magma-converged-core2.jpg
   link: http://www.google.com
-  title: Converged Services. Distributed Deployment. Cloud-Native Packet Core for Mobile Connectivity
+  title: Converged Services. Distributed Deployment.
 features:
   display: true
   rows:
@@ -37,7 +35,6 @@ features:
       title: ORCHESTRATOR
     - text: >
         The federation gateway integrates the MNO core network with Magma by using standard 3GPP interfaces to existing MNO components. It acts as a proxy between the Magma AGW and the operator's network and facilitates core functions, such as authentication, data plans, policy enforcement, and charging to stay uniform between an existing MNO network and the expanded network with Magma.
-
       title: FEDERATION GATEWAY
   title: Magma Architecture
 review:

@@ -59,6 +59,18 @@ collections:
               {label: "Title", name: "title", widget: string},              
               {label: "Sub Title", name: "subTitle", widget: string},
             ]}
+      - file: "src/content/contact.json"
+        label: "Contact"
+        name: "contact"
+        fields:
+          - {label: "Contact Info", name: "contact", widget: object, fields: [
+              {label: "Text", name: "text", widget: text},
+              {label: "Email", name: "email", widget: string},
+              {label: "Social Networks", name: "socialNetworks", widget: list, fields: [                
+                {label: "Link", name: "link", widget: string},
+                {label: "Icon", name: "icon", widget: image},                
+              ]}
+            ]}
       - file: "src/content/top-bar.json"
         label: "Top Bar"
         name: "topBar"
