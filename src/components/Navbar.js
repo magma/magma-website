@@ -97,9 +97,9 @@ const Navbar = class extends React.Component {
           </div>*/}
         </div> 
 
-        <div class="subnav">
+        {/*<div class="subnav">
         <Link to="https://connectivity.fb.com/magma/"><button class="subnavbtn">Magma Partner Network<i class="fa fa-caret-down"></i></button></Link>
-        </div> 
+        </div>*/}
 
       </div></div>
     </nav>
