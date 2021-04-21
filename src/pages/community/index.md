@@ -22,6 +22,7 @@ Magma is an open-source software platform that gives network operators an open, 
   - Join [magma-announce](https://groups.google.com/forum/#!forum/magma-announce) for announcements
 - Slack:
   - Click here and add your email address for self-signup to the [magma](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A) Slack channel.
+- [Magma Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_gbiu1t7a67ika1th2smldeh19s@group.calendar.google.com&ctz=America/Chicago)
 - Magma community documentation and processes:
   - [Magma Community on Github](https://github.com/magma/community)
 
