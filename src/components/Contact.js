@@ -6,6 +6,7 @@ import LinkedIn from "../../static/img/linkedin-icon.svg";
 import Twitter from "../../static/img/twitter-icon.svg";
 import Email from "../../static/img/email-icon.svg";
 import Form from "../components/Form"
+import FormEmbed from "../components/FormEmbed"
 
 const Contact = class extends React.Component {
   constructor(props) {
@@ -33,7 +34,7 @@ const Contact = class extends React.Component {
                 <Form />
               </div>*/}
             </div>
-
+            <FormEmbed />
           </div>  
       </React.Fragment>
     );

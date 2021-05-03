@@ -36,11 +36,11 @@ const UserStories = class extends React.Component {
 
             <div className="user-story-lt-rt">
               <div className="img-container-user-story">
-              <a className="img-user-story" href="https://www.youtube.com/watch?v=VybSCeTPf88&list=PLKqaoAnDyfgolzgeREuKrvsPJhQLTt_he&index=13&t=917s"><img className="img-user-story" src={USImageThree} /></a>
+              <a className="img-user-story" href="https://youtu.be/VybSCeTPf88"><img className="img-user-story" src={USImageThree} /></a>
                 </div>
                 <h3 className="user-story-title">Increasing Network Redundancy with Magma Access Gateways</h3>
                 <p>WiConnect Wireless delivers fiber, cable, and wireless-based internet in the southwest region of Wisconsin.</p>
-                <a href="https://www.youtube.com/watch?v=VybSCeTPf88&list=PLKqaoAnDyfgolzgeREuKrvsPJhQLTt_he&index=13&t=917s" className="text-cta">Learn More</a>
+                <a href="https://youtu.be/VybSCeTPf88" className="text-cta">Learn More</a>
             </div>
 
           </div>
