@@ -39,10 +39,10 @@ The next release (v1.6), targeted for the end of the half will represent a major
 
 Fig 1. Magma top-level workspace roadmap<br/>
 
-![Fig 1. Magma top-level workspace roadmap](/img/fig-1-magma-top-level-workspace-roadmap.png "Fig 1. Magma top-level workspace roadmap")
+![Fig 1. Magma top-level workspace roadmap](/img/fig1-1.6.png "Fig 1. Magma top-level workspace roadmap")
 
 
 Fig 2. Workspace toggle<br/>
 
-![Fig 2. Workspace toggle](/img/fig-2.-workspace-toggle.png "Fig 2. Workspace toggle")
+![Fig 2. Workspace toggle](/img/fig2-1.6.png "Fig 2. Workspace toggle")
 
