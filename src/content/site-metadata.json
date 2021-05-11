@@ -3,9 +3,9 @@
     "title": "Magma",
     "titleTemplate": "%s | Magma",
     "description": "Magma",
-    "url": "",
+    "url": "https://www.magmacore.org/",
     "image": "/img/og-image.jpg",
-    "twitterUsername": "",
+    "twitterUsername": "MagmaCommunity",
     "themeColor": "#65C7C2"
   }
 }
