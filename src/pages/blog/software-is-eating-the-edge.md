@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: "Software is Eating the Edge"
-author: Amar Padmanabhan and Bruce Davies
+author: Bruce Davies and Amar Padmanabhan
 date: 2021-05-14T09:00:00.000Z
 category:
   - label: Community
