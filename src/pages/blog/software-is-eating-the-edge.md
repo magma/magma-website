@@ -25,13 +25,20 @@ A mobile core has to support all sorts of standard interfaces, both on the radio
 
 ![Magma terminates protocols specific to the wireless network at the edge](/img/magma-terminates-protocols-specific-to-the-wireless-network-at-the-edge.png "Magma terminates protocols specific to the wireless network at the edge")
 
-Magma terminates protocols specific to the wireless network at the edge; communication among components within Magma is via gRPC
+
+<div style="width:100%;">
+	<div style="margin:0 auto; width: 60%;text-align:center;font-size:.8em;margin-bottom:15px;margin-top:-15px;"><em>Magma terminates protocols specific to the wireless network at the edge; communication among components within Magma is via gRPC</em></div>
+</div>
+
+
 
 The second notable innovation in Magma is its SDN-like approach. Whereas traditional mobile networks are made up of components that are managed individually, Magma adopts a centralized controller, called an orchestrator, that allows an entire mobile network to be centrally managed from a single API. As with other SDN systems, the management and control planes are logically centralized to allow the central API to be used for all configuration and management tasks. The implementation of these planes is distributed for scalability and high availability. The data plane is fully distributed for scale and performance. In the case of Magma, the data plane is implemented in a set of components called Access Gateways, each of which connect to a handful of radio base stations (e.g., eNodeBs). 
 
 ![The SDN-inspired architecture of Magma](/img/the-sdn-inspired-architecture-of-magma.png "The SDN-inspired architecture of Magma")
 
-The SDN-inspired architecture of Magma
+<div style="width:100%;">
+	<div style="margin:0 auto; width: 60%;text-align:center;font-size:.8em;margin-bottom:15px;margin-top:-15px;"><em>The SDN-inspired architecture of Magma</em></div>
+</div>
 
 
 
