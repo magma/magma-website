@@ -102,7 +102,7 @@ const Navbar = class extends React.Component {
         </div>*/}
 
         <div className="subnav">
-        <OutboundLink href="https://magmacore.org" rel="noopener noreferrer"><button className="subnavbtn">Magma Partners</button></OutboundLink>
+        <OutboundLink href="https://magmacore.com" rel="noopener noreferrer"><button className="subnavbtn">Magma Partners</button></OutboundLink>
         </div> 
 
       </div></div>
