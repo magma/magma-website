@@ -101,6 +101,10 @@ const Navbar = class extends React.Component {
         <Link to="https://connectivity.fb.com/magma/"><button class="subnavbtn">Magma Partner Network<i class="fa fa-caret-down"></i></button></Link>
         </div>*/}
 
+        <div className="subnav">
+        <OutboundLink href="https://magmacore.com" rel="noopener noreferrer"><button className="subnavbtn">Magma Partners</button></OutboundLink>
+        </div> 
+
       </div></div>
     </nav>
     )
