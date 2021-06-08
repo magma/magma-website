@@ -27,10 +27,10 @@ module.exports = {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.frontmatter.seo?.description,
+                  description: edge.node.frontmatter.seo ? edge.node.frontmatter.seo.description : null,
                   date: edge.node.frontmatter.date,
-                  url: edge.node.frontmatter.seo?.url,
-                  guid: edge.node.frontmatter.seo?.url,
+                  url: edge.node.frontmatter.seo ? edge.node.frontmatter.seo.url : null,
+                  guid: edge.node.frontmatter.seo ? edge.node.frontmatter.seo.url : null,
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
@@ -141,7 +141,7 @@ module.exports = {
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true,        
+        respectDNT: true,
       },
     },
     {
@@ -153,7 +153,7 @@ module.exports = {
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
-        gtagConfig: {          
+        gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
         },
@@ -191,7 +191,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         htmlTitle: `Magma | Content Manager`,
-        includeRobots: false,      
+        includeRobots: false,
       },
     },
     {
@@ -204,6 +204,6 @@ module.exports = {
     }, // must be after other CSS plugins
     {
       resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,      
-    }    
+    }
   ],
 }
