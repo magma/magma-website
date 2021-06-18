@@ -3,11 +3,74 @@ module.exports = {
     title: 'Magma',
     description:
       'Magma is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution.',
+    url: 'https://www.magmacore.org/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     `gatsby-plugin-fontawesome-css`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                url
+                site_url: url
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.frontmatter.seo ? edge.node.frontmatter.seo.description : null,
+                  date: edge.node.frontmatter.date,
+                  url: edge.node.frontmatter.seo ? edge.node.frontmatter.seo.url : null,
+                  guid: edge.node.frontmatter.seo ? edge.node.frontmatter.seo.url : null,
+                  custom_elements: [{ "content:encoded": edge.node.html }],
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+                ) {
+                  edges {
+                    node {
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                        seo {
+                          description
+                          url
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Magma RSS Feed",
+            // optional configuration to insert feed reference in pages:
+            // if `string` is used, it will be used to create RegExp and then test if pathname of
+            // current page satisfied this regular expression;
+            // if not provided or `undefined`, all pages will have feed reference inserted
+            match: "^/blog/",
+            // optional configuration to specify external rss feed, such as feedburner
+            // link: "https://feeds.feedburner.com/gatsby/blog",
+          },
+        ],
+      },
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -78,7 +141,7 @@ module.exports = {
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true,        
+        respectDNT: true,
       },
     },
     {
@@ -90,7 +153,7 @@ module.exports = {
         ],
         // This object gets passed directly to the gtag config command
         // This config will be shared across all trackingIds
-        gtagConfig: {          
+        gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
         },
@@ -128,7 +191,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         htmlTitle: `Magma | Content Manager`,
-        includeRobots: false,      
+        includeRobots: false,
       },
     },
     {
@@ -141,6 +204,6 @@ module.exports = {
     }, // must be after other CSS plugins
     {
       resolve: 'gatsby-plugin-netlify', // make sure to keep it last in the array,      
-    }    
+    }
   ],
 }
