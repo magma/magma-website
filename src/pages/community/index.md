@@ -18,8 +18,7 @@ Magma is an open-source software platform that gives network operators an open, 
 ## Join the Magma Community
 
 - Mailing lists:
-  - Join [magma-dev](https://groups.google.com/forum/#!forum/magma-dev) for technical discussions
-  - Join [magma-announce](https://groups.google.com/forum/#!forum/magma-announce) for announcements
+  - The TSC for Magma Core Foundation can be reached at their [mailing list](https://lists.magmacore.org/g/magma-tsc)
 - Slack:
   - Click here and add your email address for self-signup to the [magma](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A) Slack channel.
 - [Magma Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_gbiu1t7a67ika1th2smldeh19s@group.calendar.google.com&ctz=America/Chicago)
@@ -28,22 +27,14 @@ Magma is an open-source software platform that gives network operators an open, 
 
 ### Weekly Meetings
 
-- Magma Engineering Weekly
-  - Thursdays at 8:30am Pacific Time
-  - Meeting for status across all software components
-- DevOps Weekly
-  - Wednesdays at 9:00am Pacific Time
+The Magma Core Foundation maintains a [public calendar](https://calendar.google.com/calendar/embed?src=c_gbiu1t7a67ika1th2smldeh19s%40group.calendar.google.com&ctz=America%2FChicago) for TSC and community meetings. These meetings are open for anyone to join.
 
 ### Monthly Meetings
 
-- [Community Meeting](https://magmacommunitymeeting.splashthat.com/)
-  - Subscribe to the [mailing list](https://groups.google.com/forum/#!forum/magma-dev) and [join the Slack Workspace](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A) so you don’t miss the meeting announcements
-  - Meeting where project updates are shared and where you can ask questions directly to the Magma developers.
-- Upcoming Meetings
-  - May 26, 2021 at 8:00am PT ([RSVP here](https://magmamaycommunitymeeting.splashthat.com/))
-  - June 30, 2021 at 7:00pm PT ([RSVP here](https://magmajunecommunitymeeting.splashthat.com/))
+Community Meetings are held on the last Wednesday of every month with the time alternating each month. For more information and to RSVP for these meetings, visit this [page](https://magmacommunitymeeting.splashthat.com/)
 
-If you are interested in joining any of the open Magma meetings, please contact Kendall Waters Perez at [kendall@openstack.org](mailto:kendall@openstack.org). For a list of archived meeting recordings, [please go here](https://etherpad.opendev.org/p/r.2846b991172abd605b49c6366b743b2f).
+
+> Most meetings are recorded and recordings can be found on the [Magma Core Foundation YouTube Channel](https://www.youtube.com/channel/UCXOjPjjgXplvnF6YVHSGNeA)
 
 ---
 
