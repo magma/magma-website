@@ -33,8 +33,8 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <SEO />
-      <TopBar />
       <LFBanner />
+      <TopBar />
       <Navbar />
       <div>{children}</div>
       <Footer />
