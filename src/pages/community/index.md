@@ -18,7 +18,7 @@ Magma is an open-source software platform that gives network operators an open, 
 ## Join the Magma Community
 
 - Mailing lists:
-  - The TSC for Magma Core Foundation can be reached at their [mailing list](https://lists.magmacore.org/g/magma-tsc)
+  - The TSC for Magma Core Foundation can be reached at their [mailing list](https://lists.magmacore.org/g/magma-tsc).
 - Slack:
   - Click here and add your email address for self-signup to the [magma](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A) Slack channel.
 - [Magma Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_gbiu1t7a67ika1th2smldeh19s@group.calendar.google.com&ctz=America/Chicago)
@@ -31,10 +31,10 @@ The Magma Core Foundation maintains a [public calendar](https://calendar.google.
 
 ### Monthly Meetings
 
-Community Meetings are held on the last Wednesday of every month with the time alternating each month. For more information and to RSVP for these meetings, visit this [page](https://magmacommunitymeeting.splashthat.com/)
+Community Meetings are held on the last Wednesday of every month with the time alternating each month. For more information and to RSVP for these meetings, visit this [page](https://magmacommunitymeeting.splashthat.com/).
 
 
-> Most meetings are recorded and recordings can be found on the [Magma Core Foundation YouTube Channel](https://www.youtube.com/channel/UCXOjPjjgXplvnF6YVHSGNeA)
+> Most meetings are recorded and recordings can be found on the [Magma Core Foundation YouTube Channel](https://www.youtube.com/channel/UCXOjPjjgXplvnF6YVHSGNeA).
 
 ---
 
