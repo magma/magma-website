@@ -5,6 +5,7 @@ import SEO from "../components/SEO";
 import TopBar from "../components/TopBar";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import LFBanner from "../components/LFBanner";
 
 import "../style/style.scss";
 
@@ -32,6 +33,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <SEO />
+      <LFBanner />
       <TopBar />
       <Navbar />
       <div>{children}</div>

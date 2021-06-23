@@ -11,7 +11,7 @@ subTitle: 'Magma case studies and more'
 blogUrl: /
 ---
 
-## MuralNet
+<h2 id="users-muralnet">MuralNet</h2>
 
 MuralNet works with native communities across Native America to design, build and implement sustainable tribal networks. They needed a way for critical communications and monitoring cultural resources. Their communities are on the unfortunate end of the digital divide: they do not have wide broadband access for all homes or all students, especially with the distributed learning needed to battle COVID-19. Private LTE networks powered by Magma now allow tribal nations to control their internet access.
 
@@ -20,7 +20,7 @@ MuralNet works with native communities across Native America to design, build an
 <br />
 <br />
 
-## BRCK
+<h2 id="users-brck">BRCK</h2>
 
 BRCK is deploying low cost connectivity both urban and rural markets. Their team operates Magma on their ruggedized SupaBRCK hardware, allowing them to run edge (MEC) platforms that lower the opex of their connectivity platforms and products. The team has developed a number of key tools around Magma that allow it to integrate with their existing site deployment and monitoring platforms.
 
@@ -29,7 +29,7 @@ BRCK is deploying low cost connectivity both urban and rural markets. Their team
 <br />
 <br />
 
-## WiConnect
+<h2 id="users-wiconnect">WiConnect</h2>
 
 WiConnect Wireless delivers fiber, cable, and wireless-based internet in the southwest region of Wisconsin covering seven counties with over 232 wireless sites. Prior to deploying Magma, LTE was sporadically used in areas that needed greater tree penetration. Their team’s goal was to increase network redundancy by adding a Magma Access Gateway at each tower site. After migrating all of the existing sites to Magma, the team is actively installing new sites using Magma EPC Access Gateway for each site.
 

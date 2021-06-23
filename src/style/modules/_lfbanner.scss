@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------ *\
+	Article
+\* ------------------------------------------------------------ */
+
+.lf-banner {
+  width: 100%;
+  height: 50px;
+  background-color: #252525;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .lf-banner {
+    display: none;
+  }
+}
+
+.lf-logo-container {
+  width: 100%;
+  margin: 5px 0 5px 30px;
+  max-width: 270px;
+}
+
+.lf-banner-logo {
+  max-width: 270px;
+  vertical-align: middle;
+}

@@ -18,29 +18,29 @@ const UserStories = class extends React.Component {
 
             <div className="user-story-lt-rt">
               <div className="img-container-user-story">
-              <a className="img-user-story" href="https://www.youtube.com/watch?v=hNHAz6Km-j0&list=PLKqaoAnDyfgolzgeREuKrvsPJhQLTt_he&index=5&t=668s"><img className="img-user-story" src={USImageOne} /></a>
+              <a className="img-user-story" href="/users#users-muralnet"><img className="img-user-story" src={USImageOne} /></a>
                 </div>
                 <h3 className="user-story-title">Connecting Tribal nations to life-saving resources</h3>
                 <p>MuralNet uses private LTE networks powered by Magma to enable tribal nations to control their internet access.</p>
-                <a className="img-user-story" href="https://www.youtube.com/watch?v=hNHAz6Km-j0&list=PLKqaoAnDyfgolzgeREuKrvsPJhQLTt_he&index=5&t=668s" className="text-cta">Learn More</a>
+                <a className="img-user-story" href="/users#users-muralnet" className="text-cta">Learn More</a>
             </div>
 
             <div className="user-story-middle">
               <div className="img-container-user-story">
-              <a className="img-user-story" href="https://brck.com/2019/02/moja-lte-extending-affordable-access-further/"><img className="img-user-story" src={USImageTwo} /></a>
+              <a className="img-user-story" href="/users/brck"><img className="img-user-story" src={USImageTwo} /></a>
                 </div>
                 <h3 className="user-story-title">Deploying Magma to lower network costs</h3>
                 <p>BRCK deploys low cost connectivity in both urban and rural markets in Kenya.</p>
-                <a href="https://brck.com/2019/02/moja-lte-extending-affordable-access-further/" className="text-cta">Learn More</a>
+                <a href="/users/brck" className="text-cta">Learn More</a>
             </div>
 
             <div className="user-story-lt-rt">
               <div className="img-container-user-story">
-              <a className="img-user-story" href="https://youtu.be/VybSCeTPf88"><img className="img-user-story" src={USImageThree} /></a>
+              <a className="img-user-story" href="/users#users-wiconnect"><img className="img-user-story" src={USImageThree} /></a>
                 </div>
                 <h3 className="user-story-title">Increasing Network Redundancy with Magma Access Gateways</h3>
                 <p>WiConnect Wireless delivers fiber, cable, and wireless-based internet in the southwest region of Wisconsin.</p>
-                <a href="https://youtu.be/VybSCeTPf88" className="text-cta">Learn More</a>
+                <a href="/users#users-wiconnect" className="text-cta">Learn More</a>
             </div>
 
           </div>
