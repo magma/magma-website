@@ -7,7 +7,7 @@ seo:
   twitterUsername: "@magmacommunity"
   url: "https://www.magmacore.org/"
 title: Community
-subTitle: 'Join to contribute code, documentation, and use cases'
+subTitle: "Join to contribute code, documentation, and use cases"
 blogUrl: /
 ---
 
@@ -29,16 +29,11 @@ Magma is an open-source software platform that gives network operators an open, 
 
 The Magma Core Foundation maintains a [public calendar](https://calendar.google.com/calendar/embed?src=c_gbiu1t7a67ika1th2smldeh19s%40group.calendar.google.com&ctz=America%2FChicago) for TSC and community meetings. These meetings are open for anyone to join.
 
-### Monthly Meetings
-
-Community Meetings are held on the last Wednesday of every month with the time alternating each month. For more information and to RSVP for these meetings, visit this [page](https://magmacommunitymeeting.splashthat.com/).
-
-
 > Most meetings are recorded and recordings can be found on the [Magma Core Foundation YouTube Channel](https://www.youtube.com/channel/UCXOjPjjgXplvnF6YVHSGNeA).
 
 ---
 
-## <div id="governance"></div> Governance 
+## <div id="governance"></div> Governance
 
 Magma strives to operate under an open governance model that encourages contribution and participation from all interested organizations and developers. Technical decisions are made by technical contributors and a representative Technical Steering Committee, as detailed in the project [Technical Charter](https://github.com/magma/tsc/blob/main/CHARTER.md). The community is committed to diversity, openness, and encouraging new contributors and leaders to rise up.
 
@@ -53,9 +48,11 @@ Anyone can become a Contributor by submitting code to the project and having tha
 A Committer has the ability to merge code into the project. Committers are active Contributors and participants in the project. In order to become a Committer, you must be nominated and approved by the established Committers. Within the project, sub-components may decide to have additional requirements for the review of code in their repos.
 
 #### Code review process
+
 All pull requests require 2 approvals from committers for commits as a starting point. Sub groups can evolve this based on what works.
 
 #### Committer nominations
+
 Committers must be nominated and approved by established committers through a simple majority with no existing committer objecting.
 
 ### Technical Steering Committee
