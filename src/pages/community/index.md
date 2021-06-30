@@ -25,7 +25,7 @@ Magma is an open-source software platform that gives network operators an open, 
 - Magma community documentation and processes:
   - [Magma Community on Github](https://github.com/magma/community)
 
-### Weekly Meetings
+### Public Meetings
 
 The Magma Core Foundation maintains a [public calendar](https://calendar.google.com/calendar/embed?src=c_gbiu1t7a67ika1th2smldeh19s%40group.calendar.google.com&ctz=America%2FChicago) for TSC and community meetings. These meetings are open for anyone to join.
 
