@@ -71,22 +71,15 @@ const Navbar = class extends React.Component {
         </div> */}
 
         <div className="subnav">
-        <Link><button className="subnavbtn">Committee<i className="fa fa-caret-down"></i></button></Link>
-          <div className="subnav-content">
-            <div className="arrow-up"></div>
-              <div className="subnav-item"><Link to="/committee/tac">TAC</Link></div>
-              <div className="subnav-item"><Link to="/committee/tsc">TSC</Link></div>
-              <div className="subnav-item"><Link to="/committee/governing-board">Governing Board</Link></div>
-              <div className="subnav-item"><Link to="/committee/outreach-committees">Outreach Committees</Link></div>              
-            </div>
-        </div> 
-
-        <div className="subnav">
         <Link to="/community"><button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button></Link>
           <div className="subnav-content">
             <div className="arrow-up"></div>
              <div className="subnav-item"><Link to="/community#governance">Governance</Link></div>
               <div className="subnav-item"><Link to="/community/magma-dev-conference-recap-2021/">Magma Dev Conf 2021</Link></div>
+              <div className="subnav-item"><Link to="/committee/tac">TAC</Link></div>
+              <div className="subnav-item"><Link to="/committee/tsc">TSC</Link></div>
+              <div className="subnav-item"><Link to="/committee/governing-board">Governing Board</Link></div>
+              <div className="subnav-item"><Link to="/committee/outreach-committees">Outreach Committees</Link></div>
             </div>
         </div> 
 
