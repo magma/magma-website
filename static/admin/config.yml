@@ -276,7 +276,8 @@ collections:
               {label: Title, name: title, widget: string, required: false},
               {label: Company, name: company, widget: string, required: false},
               {label: Description, name: description, widget: text, required: false},
-              {label: OpenStack Profile, name: openStack, widget: string, required: false},
+              {label: Facebook Profile, name: facebook, widget: string, required: false},
+              {label: Github Profile, name: github, widget: string, required: false},
               {label: Twitter Profile, name: twitter, widget: string, required: false},
               {label: Linkedin Profile, name: linkedin, widget: string, required: false},
             ]}
@@ -300,7 +301,8 @@ collections:
               {label: Title, name: title, widget: string, required: false},
               {label: Company, name: company, widget: string, required: false},
               {label: Description, name: description, widget: text, required: false},
-              {label: OpenStack Profile, name: openStack, widget: string, required: false},
+              {label: Facebook Profile, name: facebook, widget: string, required: false},
+              {label: Github Profile, name: github, widget: string, required: false},
               {label: Twitter Profile, name: twitter, widget: string, required: false},
               {label: Linkedin Profile, name: linkedin, widget: string, required: false},
             ]}
@@ -324,7 +326,8 @@ collections:
               {label: Title, name: title, widget: string, required: false},
               {label: Company, name: company, widget: string, required: false},
               {label: Description, name: description, widget: text, required: false},
-              {label: OpenStack Profile, name: openStack, widget: string, required: false},
+              {label: Facebook Profile, name: facebook, widget: string, required: false},
+              {label: Github Profile, name: github, widget: string, required: false},
               {label: Twitter Profile, name: twitter, widget: string, required: false},
               {label: Linkedin Profile, name: linkedin, widget: string, required: false},
             ]}
@@ -348,7 +351,8 @@ collections:
               {label: Title, name: title, widget: string, required: false},
               {label: Company, name: company, widget: string, required: false},
               {label: Description, name: description, widget: text, required: false},
-              {label: OpenStack Profile, name: openStack, widget: string, required: false},
+              {label: Facebook Profile, name: facebook, widget: string, required: false},
+              {label: Github Profile, name: github, widget: string, required: false},
               {label: Twitter Profile, name: twitter, widget: string, required: false},
               {label: Linkedin Profile, name: linkedin, widget: string, required: false},
             ]}
