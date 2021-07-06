@@ -1,0 +1,13 @@
+
+<svg width="25px" height="16px" viewBox="0 0 25 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OS-Staff---op-2" transform="translate(-1194.000000, -1068.000000)" fill="#133E68" fill-rule="nonzero">
+            <g id="social" transform="translate(1079.000000, 1063.000000)">
+                <g id="Group-4" transform="translate(115.000000, 5.000000)">
+                    <polygon id="Path" points="22.2 7.2 22.2 4 20.8 4 20.8 7.2 18 7.2 18 8.8 20.8 8.8 20.8 12 22.2 12 22.2 8.8 25 8.8 25 7.2"></polygon>
+                    <path d="M7.5,6.4 L7.5,9.6 L11.7435,9.6 C11.124,11.4624 9.456,12.8 7.5,12.8 C5.019,12.8 3,10.6464 3,8 C3,5.3536 5.019,3.2 7.5,3.2 C8.5755,3.2 9.6105,3.6112 10.4145,4.3584 L12.3855,1.9456 C11.0355,0.6912 9.3015,0 7.5,0 C3.3645,0 0,3.5888 0,8 C0,12.4112 3.3645,16 7.5,16 C11.6355,16 15,12.4112 15,8 L15,6.4 L7.5,6.4 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
