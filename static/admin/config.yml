@@ -263,3 +263,102 @@ collections:
       - {label: "Title", name: title, widget: string}
       - {label: "Sub Title", name: subTitle, widget: string}
       - {label: "Body", name: body, widget: markdown}  
+  - name: "committee-pages"
+    label: "Committee Pages"
+    files:
+      - file: "src/pages/committee/tac.md"
+        label: "TAC"
+        name: "tac"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "committee-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}          
+          - {label: "Title", name: title, widget: string},
+          - {label: "Sub Title", name: subTitle, widget: string, required: false}            
+          - {label: "Members", name: members, widget: list, fields: [
+              {label: Name, name: name, widget: string},
+              {label: Picture, name: picture, widget: image, default: '/img/committee/tac/generic-profile-photo.png'},
+              {label: Title, name: title, widget: string, required: false},
+              {label: Company, name: company, widget: string, required: false},
+              {label: Description, name: description, widget: text, required: false},
+              {label: OpenStack Profile, name: openStack, widget: string, required: false},
+              {label: Twitter Profile, name: twitter, widget: string, required: false},
+              {label: Linkedin Profile, name: linkedin, widget: string, required: false},
+            ]}
+      - file: "src/pages/committee/tsc.md"
+        label: "TSC"
+        name: "tsc"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "committee-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}          
+          - {label: "Title", name: title, widget: string},
+          - {label: "Sub Title", name: subTitle, widget: string, required: false}            
+          - {label: "Members", name: members, widget: list, fields: [
+              {label: Name, name: name, widget: string},
+              {label: Picture, name: picture, widget: image, default: '/img/committee/tsc/generic-profile-photo.png'},
+              {label: Title, name: title, widget: string, required: false},
+              {label: Company, name: company, widget: string, required: false},
+              {label: Description, name: description, widget: text, required: false},
+              {label: OpenStack Profile, name: openStack, widget: string, required: false},
+              {label: Twitter Profile, name: twitter, widget: string, required: false},
+              {label: Linkedin Profile, name: linkedin, widget: string, required: false},
+            ]}
+      - file: "src/pages/committee/governing-board.md"
+        label: "Governing Board"
+        name: "governingBoard"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "committee-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}          
+          - {label: "Title", name: title, widget: string},
+          - {label: "Sub Title", name: subTitle, widget: string, required: false}            
+          - {label: "Members", name: members, widget: list, fields: [
+              {label: Name, name: name, widget: string},
+              {label: Picture, name: picture, widget: image, default: '/img/committee/governing-board/generic-profile-photo.png'},
+              {label: Title, name: title, widget: string, required: false},
+              {label: Company, name: company, widget: string, required: false},
+              {label: Description, name: description, widget: text, required: false},
+              {label: OpenStack Profile, name: openStack, widget: string, required: false},
+              {label: Twitter Profile, name: twitter, widget: string, required: false},
+              {label: Linkedin Profile, name: linkedin, widget: string, required: false},
+            ]}
+      - file: "src/pages/committee/outreach-committees.md"
+        label: "Outreach Committees"
+        name: "outreachCommittees"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "committee-page"}
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}          
+          - {label: "Title", name: title, widget: string},
+          - {label: "Sub Title", name: subTitle, widget: string, required: false}            
+          - {label: "Members", name: members, widget: list, fields: [
+              {label: Name, name: name, widget: string},
+              {label: Picture, name: picture, widget: image, default: '/img/committee/outreach-committees/generic-profile-photo.png'},
+              {label: Title, name: title, widget: string, required: false},
+              {label: Company, name: company, widget: string, required: false},
+              {label: Description, name: description, widget: text, required: false},
+              {label: OpenStack Profile, name: openStack, widget: string, required: false},
+              {label: Twitter Profile, name: twitter, widget: string, required: false},
+              {label: Linkedin Profile, name: linkedin, widget: string, required: false},
+            ]}
