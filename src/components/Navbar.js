@@ -71,22 +71,22 @@ const Navbar = class extends React.Component {
         </div> */}
 
         <div className="subnav">
-        <a href=""><button className="subnavbtn">Committee<i className="fa fa-caret-down"></i></button></a>
+        <Link><button className="subnavbtn">Committee<i className="fa fa-caret-down"></i></button></Link>
           <div className="subnav-content">
             <div className="arrow-up"></div>
-              <div className="subnav-item"><a href="/committee/tac">TAC</a></div>
-              <div className="subnav-item"><a href="/committee/tsc">TSC</a></div>
-              <div className="subnav-item"><a href="/committee/governing-board">Governing Board</a></div>
-              <div className="subnav-item"><a href="/committee/outreach-committees">Outreach Committees</a></div>              
+              <div className="subnav-item"><Link to="/committee/tac">TAC</Link></div>
+              <div className="subnav-item"><Link to="/committee/tsc">TSC</Link></div>
+              <div className="subnav-item"><Link to="/committee/governing-board">Governing Board</Link></div>
+              <div className="subnav-item"><Link to="/committee/outreach-committees">Outreach Committees</Link></div>              
             </div>
         </div> 
 
         <div className="subnav">
-        <a href="/community"><button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button></a>
+        <Link to="/community"><button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button></Link>
           <div className="subnav-content">
             <div className="arrow-up"></div>
-             <div className="subnav-item"><a href="/community#governance">Governance</a></div>
-              <div className="subnav-item"><a href="/community/magma-dev-conference-recap-2021/">Magma Dev Conf 2021</a></div>
+             <div className="subnav-item"><Link to="/community#governance">Governance</Link></div>
+              <div className="subnav-item"><Link to="/community/magma-dev-conference-recap-2021/">Magma Dev Conf 2021</Link></div>
             </div>
         </div> 
 
