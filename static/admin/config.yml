@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jbryce/mamga-website
+  repo: magma/magma-website
   branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
