@@ -57,21 +57,26 @@ export const CommitteePageTemplate = ({
                                 return (
                                     <div className="committee-s2-container-border" key={index}>
                                         <div className="card-social-container-icons">
-                                            {member.openStack &&
-                                                <LinkComponent href={member.openStack}>
-                                                    <img src="/img/symbols/icon-1.svg" alt="icon" className="card-social-icons" />
-                                                </LinkComponent>
-                                            }
-                                            {member.twitter &&
-                                                <LinkComponent href={member.twitter}>
-                                                    <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons" />
+                                            {member.github &&
+                                                <LinkComponent href={member.github}>
+                                                    <img src="/img/symbols/icon-6.svg" alt="icon" className="card-social-icons"/>
                                                 </LinkComponent>
                                             }
                                             {member.linkedin &&
                                                 <LinkComponent href={member.linkedin}>
-                                                    <img src="/img/symbols/icon-4.svg" alt="icon" className="card-social-icons" />
+                                                    <img src="/img/symbols/icon-4.svg" alt="icon" className="card-social-icons"/>
+                                                </LinkComponent>
+                                            }                                            
+                                            {member.twitter &&
+                                                <LinkComponent href={member.twitter}>
+                                                    <img src="/img/symbols/icon-3.svg" alt="icon" className="card-social-icons"/>
                                                 </LinkComponent>
                                             }
+                                            {member.facebook &&
+                                                <LinkComponent href={member.facebook}>
+                                                    <img src="/img/symbols/icon-2.svg" alt="icon" className="card-social-icons"/>
+                                                </LinkComponent>
+                                            }                                            
                                         </div>
                                         <div className="card">
                                             <div className="card-content">
@@ -166,7 +171,8 @@ export const committeePageQuery = graphql`
           }
           company
           description
-          openStack
+          github
+          facebook
           twitter
           linkedin
         }
