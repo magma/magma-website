@@ -278,7 +278,7 @@ collections:
               {label: "Image", name: "image", widget: image},
               {label: "Twitter Username", name: "twitterUsername", widget: string},
             ]}          
-          - {label: "Title", name: title, widget: string},
+          - {label: "Title", name: title, widget: string}
           - {label: "Sub Title", name: subTitle, widget: string, required: false}            
           - {label: "Members", name: members, widget: list, fields: [
               {label: Name, name: name, widget: string},
@@ -302,7 +302,7 @@ collections:
               {label: "Image", name: "image", widget: image},
               {label: "Twitter Username", name: "twitterUsername", widget: string},
             ]}          
-          - {label: "Title", name: title, widget: string},
+          - {label: "Title", name: title, widget: string}
           - {label: "Sub Title", name: subTitle, widget: string, required: false}            
           - {label: "Members", name: members, widget: list, fields: [
               {label: Name, name: name, widget: string},
@@ -326,7 +326,7 @@ collections:
               {label: "Image", name: "image", widget: image},
               {label: "Twitter Username", name: "twitterUsername", widget: string},
             ]}          
-          - {label: "Title", name: title, widget: string},
+          - {label: "Title", name: title, widget: string}
           - {label: "Sub Title", name: subTitle, widget: string, required: false}            
           - {label: "Members", name: members, widget: list, fields: [
               {label: Name, name: name, widget: string},
@@ -350,7 +350,7 @@ collections:
               {label: "Image", name: "image", widget: image},
               {label: "Twitter Username", name: "twitterUsername", widget: string},
             ]}          
-          - {label: "Title", name: title, widget: string},
+          - {label: "Title", name: title, widget: string}
           - {label: "Sub Title", name: subTitle, widget: string, required: false}            
           - {label: "Members", name: members, widget: list, fields: [
               {label: Name, name: name, widget: string},
