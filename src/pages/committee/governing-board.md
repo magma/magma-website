@@ -1,11 +1,11 @@
 ---
 templateKey: committee-page
 seo:
-  description: 'Join to contribute code, documentation, and use cases'
+  description: Magma, open-source mobile core network solution  
   image: /img/og-image.jpg
-  title: Generic Page
-  twitterUsername: '@openstack'
-  url: 'https://yoursite.org/'
+  title: Governing Board
+  twitterUsername: "@magmacommunity"
+  url: "https://www.magmacore.org/committee/governing-board"
 title: Governing Board
 subTitle: 'Join to contribute code, documentation, and use cases'
 members: 
