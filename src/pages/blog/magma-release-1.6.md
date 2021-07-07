@@ -8,7 +8,7 @@ category:
     id: release-notice
 ---
 ## Magma v1.6 (Glacier Peak) has shipped!
-It's with great pleasure that we announce the latest version of Magma, Glacier Peaa, has shipped. It has been a great team effort and congrats to everyone for all you valuable contributions!
+It's with great pleasure that we announce the latest version of Magma, Glacier Peak, has shipped. It has been a great team effort and congrats to everyone for all you valuable contributions!
 The [release notes](https://github.com/magma/magma/releases/tag/v1.6.0) has a lot more detail but here is a summary of what's new:
 - Major AGW and platform performance improvements
 - Inbound Roaming enhancements
