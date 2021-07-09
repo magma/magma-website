@@ -1,13 +1,23 @@
 backend:
   name: github
-  repo: jbryce/mamga-website
+  repo: tomrndom/magma-website
   branch: master
   commit_messages:
-    create: 'Create {{collection}} “{{slug}}”'
-    update: 'Update {{collection}} “{{slug}}”'
-    delete: 'Delete {{collection}} “{{slug}}”'
-    uploadMedia: '[skip ci] Upload “{{path}}”'
-    deleteMedia: '[skip ci] Delete “{{path}}”'
+    create: |
+      'Create {{collection}} “{{slug}}”'
+      Signed-off-by: {{author-name}} <bots@magmacore.org>
+    update: |
+      'Update {{collection}} “{{slug}}”'
+      Signed-off-by: {{author-name}} <bots@magmacore.org>
+    delete: |
+      'Delete {{collection}} “{{slug}}”'
+      Signed-off-by: {{author-name}} <bots@magmacore.org>
+    uploadMedia: |
+      '[skip ci] Upload “{{path}}”'
+      Signed-off-by: {{author-name}} <bots@magmacore.org>
+    deleteMedia: |
+      '[skip ci] Delete “{{path}}”'
+      Signed-off-by: {{author-name}} <bots@magmacore.org>
 
 publish_mode: editorial_workflow
 media_folder: static/img
