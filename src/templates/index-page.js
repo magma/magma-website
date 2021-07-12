@@ -17,6 +17,7 @@ import Features from '../components/Features'
 import NewsletterSubscribe from '../components/NewsletterSubscribe'
 import Contact from '../components/Contact'
 import GetStarted from '../components/GetStarted'
+import OverviewVideo from '../components/OverviewVideo'
 
 export const IndexPageTemplate = ({
   seo,
@@ -69,6 +70,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
       />
       <DevelopWithMagma />
+      <OverviewVideo />
       <UserStories />
       <SupportBanner />
       <NewsletterSubscribe />
