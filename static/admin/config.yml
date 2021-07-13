@@ -282,7 +282,7 @@ collections:
           - {label: "Sub Title", name: subTitle, widget: string, required: false}            
           - {label: "Members", name: members, widget: list, fields: [
               {label: Name, name: name, widget: string},
-              {label: Picture, name: picture, widget: image, default: '/img/committee/tac/generic-profile-photo.png'},
+              {label: Picture, name: picture, widget: image, default: ''},
               {label: Title, name: title, widget: string, required: false},
               {label: Company, name: company, widget: string, required: false},
               {label: Description, name: description, widget: text, required: false},
@@ -307,7 +307,7 @@ collections:
           - {label: "Sub Title", name: subTitle, widget: string, required: false}            
           - {label: "Members", name: members, widget: list, fields: [
               {label: Name, name: name, widget: string},
-              {label: Picture, name: picture, widget: image, default: '/img/committee/tsc/generic-profile-photo.png'},
+              {label: Picture, name: picture, widget: image, default: ''},
               {label: Title, name: title, widget: string, required: false},
               {label: Company, name: company, widget: string, required: false},
               {label: Description, name: description, widget: text, required: false},
@@ -332,7 +332,7 @@ collections:
           - {label: "Sub Title", name: subTitle, widget: string, required: false}            
           - {label: "Members", name: members, widget: list, fields: [
               {label: Name, name: name, widget: string},
-              {label: Picture, name: picture, widget: image, default: '/img/committee/governing-board/generic-profile-photo.png'},
+              {label: Picture, name: picture, widget: image, default: ''},
               {label: Title, name: title, widget: string, required: false},
               {label: Company, name: company, widget: string, required: false},
               {label: Description, name: description, widget: text, required: false},
@@ -357,7 +357,7 @@ collections:
           - {label: "Sub Title", name: subTitle, widget: string, required: false}            
           - {label: "Members", name: members, widget: list, fields: [
               {label: Name, name: name, widget: string},
-              {label: Picture, name: picture, widget: image, default: '/img/committee/outreach-committees/generic-profile-photo.png'},
+              {label: Picture, name: picture, widget: image, default: ''},
               {label: Title, name: title, widget: string, required: false},
               {label: Company, name: company, widget: string, required: false},
               {label: Description, name: description, widget: text, required: false},
