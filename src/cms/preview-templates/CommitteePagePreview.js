@@ -11,7 +11,7 @@ const CommitteePagePreview = ({ entry, widgetFor }) => {
     <CommitteePageTemplate
       title={entry.getIn(['data', 'title'])}
       subTitle={entry.getIn(['data', 'subTitle'])}      
-      supporters={membersList}      
+      members={membersList}      
     />
   )
 }
