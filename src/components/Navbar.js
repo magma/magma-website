@@ -112,7 +112,7 @@ const Navbar = class extends React.Component {
       </div></div>
     </nav>
     )
-  }    
+  }
 }
 
 export default Navbar
