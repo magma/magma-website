@@ -7,7 +7,7 @@ seo:
   twitterUsername: "@magmacommunity"  
   url: "https://www.magmacore.org/committee/tsc"
 title: TSC
-subTitle: 'he Technical Steering Committee (TSC) is responsible for coordinating the technical direction of the project.'
+subTitle: 'The Technical Steering Committee (TSC) is responsible for coordinating the technical direction of the project.'
 members:
   - company: Facebook	Software 
     title: Engineer		
