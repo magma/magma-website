@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: tomrndom/magma-website
-  branch: about-our-team
+  repo: magma/magma-website
+  branch: main
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
