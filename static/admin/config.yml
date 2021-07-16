@@ -341,9 +341,9 @@ collections:
               {label: Twitter Profile, name: twitter, widget: string, required: false},
               {label: Linkedin Profile, name: linkedin, widget: string, required: false},
             ]}
-      - file: "src/pages/committee/outreach-committees.md"
-        label: "Outreach Committees"
-        name: "outreachCommittees"
+      - file: "src/pages/committee/outreach-committee.md"
+        label: "Outreach Committee"
+        name: "outreachCommittee"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "committee-page"}
           - {label: SEO, name: seo, widget: object, fields: [

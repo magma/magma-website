@@ -7,8 +7,18 @@ seo:
   twitterUsername: "@magmacommunity"
   url: "https://www.magmacore.org/committee/governing-board"
 title: Governing Board
-subTitle: 'Join to contribute code, documentation, and use cases'
+subTitle: 'The Governing Board is responsible for strategic direction, business oversight, and business decisions.'
 members: 
+  - company: "Facebook"
+    description: >
+        Michael is a product manager at Facebook, currently supporting open source and standards work across the company. Michael is former network engineer, investment banker, car salesman and M&A attorney. He previously led the Product and IP function on Facebook’s M&A legal team. While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.
+    linkedin: https://www.linkedin.com/in/priorart/
+    name: Michael Cheng, Chair
+    github: ''
+    facebook: ''
+    picture: /img/committee/governing-board/Michael-Cheng.jpg
+    title: Product Manager
+    twitter: ''
   - company: "OpenAir Interface Software Alliance"
     description: >
         Irfan is a critical-thinking, diligent business leader who has a reputation of challenging the status quo for innovation and progress. He is a rampart against the dark forces of inertia and fear of change. His tremendously international exposure and diverse educational background and professional experience have helped him develop strategic thinking. Innovation and Entrepreneurship are his key focus.. His current areas of interest and expertise are New Business Models in the changing Telecom arena, and Organizational and Social Change that is coming about due to large scale connectivity and digitalization.
@@ -29,16 +39,6 @@ members:
     picture: /img/committee/governing-board/Marc-Meunier.jpeg
     title: Sr. Manager SW Ecosystem Development
     twitter: ''    
-  - company: "Facebook"
-    description: >
-        Michael is a product manager at Facebook, currently supporting open source and standards work across the company. Michael is former network engineer, investment banker, car salesman and M&A attorney. He previously led the Product and IP function on Facebook’s M&A legal team. While at Facebook, Michael has established and/or now actively serving on the boards of 20+ open source foundations, non-profits, standards setting organizations, including: ML Commons, Confidential Computing Consortium, Libra/Diem Association, Urban Computing Foundation, OpenChain, Open Invention Network Technical Advisory Committee, Magma Foundation, and others.
-    linkedin: https://www.linkedin.com/in/priorart/
-    name: Michael Cheng
-    github: ''
-    facebook: ''
-    picture: /img/committee/governing-board/Michael-Cheng.jpg
-    title: Product Manager
-    twitter: ''
   - company: "Deutsche Telekom"
     description: ''
     linkedin: ''

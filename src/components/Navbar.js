@@ -79,7 +79,7 @@ const Navbar = class extends React.Component {
               <div className="subnav-item"><Link to="/committee/governing-board">Governing Board</Link></div>
               <div className="subnav-item"><Link to="/committee/tsc">TSC</Link></div>
               <div className="subnav-item"><Link to="/committee/tac">TAC</Link></div>
-              <div className="subnav-item"><Link to="/committee/outreach-committees">Outreach Committees</Link></div>
+              <div className="subnav-item"><Link to="/committee/outreach-committee">Outreach Committee</Link></div>
             </div>
         </div> 
 
