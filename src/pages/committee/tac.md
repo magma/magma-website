@@ -7,7 +7,7 @@ seo:
   twitterUsername: "@magmacommunity"
   url: "https://www.magmacore.org/committee/tac"
 title: TAC
-subTitle: 'Join to contribute code, documentation, and use cases'
+subTitle: 'The Technical Advisory Committee (TAC) is responsible for driving the longer term technical vision of the project on behalf of the Technical Steering Committee.'
 members: 
   - company: ""
     description: >
@@ -15,7 +15,7 @@ members:
       Amar led the controller implementation at Nicira which was subsequently acquired by VMware and has been involved in software networking for over a decade.</br>
       Amar holds a masters from the University of Wisconsin, Madison and an undergraduate degree from IIT Kharagpur, India.
     linkedin: ''
-    name: Amar Padmanabhan
+    name: Amar Padmanabhan, Chair
     github: ''
     facebook: ''
     picture: /img/committee/tac/Amar-Padmanabhan.jpeg
@@ -41,7 +41,11 @@ members:
     twitter: https://twitter.com/_drbruced
     linkedin: https://www.linkedin.com/in/bruce-davie/
     github: https://github.com/drbruced12
-  - name: Hunter Gatewood	
+  - name: Hunter Gatewood
+    description: >
+      Connecting the world to a faster internet through open-source, cloud-native solutions.
+    github: https://github.com/hcgatewood
+    linkedin: https://www.linkedin.com/in/hcgatewood/
     company: Facebook
     title: Software Engineer
     picture: /img/committee/tac/Hunter-Gatewood.jpeg

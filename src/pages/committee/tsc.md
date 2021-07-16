@@ -7,11 +7,15 @@ seo:
   twitterUsername: "@magmacommunity"  
   url: "https://www.magmacore.org/committee/tsc"
 title: TSC
-subTitle: 'Join to contribute code, documentation, and use cases'
+subTitle: 'he Technical Steering Committee (TSC) is responsible for coordinating the technical direction of the project.'
 members:
   - company: Facebook	Software 
     title: Engineer		
-    name: Hunter Gatewood
+    name: Hunter Gatewood, Chair
+    description: >
+      Connecting the world to a faster internet through open-source, cloud-native solutions.
+    github: https://github.com/hcgatewood
+    linkedin: https://www.linkedin.com/in/hcgatewood/
     picture: /img/committee/tsc/Hunter-Gatewood.jpeg
   - company: Facebook	Software 
     title: Engineer		
