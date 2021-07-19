@@ -71,11 +71,15 @@ const Navbar = class extends React.Component {
         </div> */}
 
         <div className="subnav">
-        <a href="/community"><button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button></a>
+        <Link to="/community"><button className="subnavbtn">Community<i className="fa fa-caret-down"></i></button></Link>
           <div className="subnav-content">
             <div className="arrow-up"></div>
-             <div className="subnav-item"><a href="/community#governance">Governance</a></div>
-              <div className="subnav-item"><a href="/community/magma-dev-conference-recap-2021/">Magma Dev Conf 2021</a></div>
+             <div className="subnav-item"><Link to="/community#governance">Governance</Link></div>
+              <div className="subnav-item"><Link to="/community/magma-dev-conference-recap-2021/">Magma Dev Conf 2021</Link></div>
+              <div className="subnav-item"><Link to="/committee/governing-board">Governing Board</Link></div>
+              <div className="subnav-item"><Link to="/committee/tsc">TSC</Link></div>
+              <div className="subnav-item"><Link to="/committee/tac">TAC</Link></div>
+              <div className="subnav-item"><Link to="/committee/outreach-committee">Outreach Committee</Link></div>
             </div>
         </div> 
 
@@ -83,8 +87,8 @@ const Navbar = class extends React.Component {
         <OutboundLink href="https://docs.magmacore.org/docs/basics/introduction.html" rel="noopener noreferrer"><button className="subnavbtn">Docs</button></OutboundLink>
         </div> 
 
-        <div class="subnav">
-        <Link to="/users"><button class="subnavbtn">Users<i class="fa fa-caret-down"></i></button></Link>
+        <div className="subnav">
+        <Link to="/users"><button className="subnavbtn">Users<i className="fa fa-caret-down"></i></button></Link>
         </div> 
 
         {/*    
@@ -93,16 +97,16 @@ const Navbar = class extends React.Component {
         </div> 
         */}
 
-        <div class="subnav">
-        <Link to="/blog"><button class="subnavbtn">Blog<i class="fa fa-caret-down"></i></button></Link>
-          {/*<div class="subnav-content-news">
+        <div className="subnav">
+        <Link to="/blog"><button className="subnavbtn">Blog<i className="fa fa-caret-down"></i></button></Link>
+          {/*<div className="subnav-content-news">
             <div className="arrow-up-news"></div>
             <div className="subnav-item"><a href="/blog">Blog</a></div>
           </div>*/}
         </div> 
 
-        {/*<div class="subnav">
-        <Link to="https://connectivity.fb.com/magma/"><button class="subnavbtn">Magma Partner Network<i class="fa fa-caret-down"></i></button></Link>
+        {/*<div className="subnav">
+        <Link to="https://connectivity.fb.com/magma/"><button className="subnavbtn">Magma Partner Network<i className="fa fa-caret-down"></i></button></Link>
         </div>*/}
 
         <div className="subnav">

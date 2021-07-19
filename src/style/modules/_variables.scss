@@ -2,6 +2,18 @@
 	Variables
 \* ------------------------------------------------------------ */
 
+
+// SCREEN SIZE DEFINITIOS
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+// Tablets and small desktops
+$screen-lg-min: 992px;
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+$screen-md: 1023px; //1023px;
+
 $container-max-width: 1140px;
 $container-small-max-width: 996px;
 $container-medium-max-width: 1093px;
@@ -16,6 +28,8 @@ $family-primary: "Open Sans", sans-serif;
 $body-size: 14px;
 $body-line-height: 1.2;
 $body-font-color: #333;
+
+$back-darkest: #161616;
 
 $primary: #5602a4;
 $primary-invert: findColorInvert($primary);
