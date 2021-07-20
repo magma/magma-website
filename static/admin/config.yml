@@ -5,19 +5,19 @@ backend:
   commit_messages:
     create: |
       'Create {{collection}} “{{slug}}”'
-      Signed-off-by: {{author-name}} <bots@magmacore.org>
+      Signed-off-by: {{c}} <{{author-login}}>
     update: |
       'Update {{collection}} “{{slug}}”'
-      Signed-off-by: {{author-name}} <bots@magmacore.org>
+      Signed-off-by: {{author-name}} <{{author-login}}>
     delete: |
       'Delete {{collection}} “{{slug}}”'
-      Signed-off-by: {{author-name}} <bots@magmacore.org>
+      Signed-off-by: {{author-name}} <{{author-login}}>
     uploadMedia: |
       '[skip ci] Upload “{{path}}”'
-      Signed-off-by: {{author-name}} <bots@magmacore.org>
+      Signed-off-by: {{author-name}} <{{author-login}}>
     deleteMedia: |
       '[skip ci] Delete “{{path}}”'
-      Signed-off-by: {{author-name}} <bots@magmacore.org>
+      Signed-off-by: {{author-name}} <{{author-login}}>
 
 publish_mode: editorial_workflow
 media_folder: static/img
