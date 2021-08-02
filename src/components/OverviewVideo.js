@@ -18,7 +18,7 @@ const OverviewVideo = class extends React.Component {
         <h2>Learn Why Service Providers Are Using Magma</h2>
 
         <div className="overview-video-container">
-        <iframe className="overview-video" title="Magma Overview Video" src="https://www.youtube.com/embed/qInT3ZXLr9U" allowfullscreen></iframe>
+        <iframe className="overview-video" title="Magma Overview Video" src="https://www.youtube.com/embed/1JZOh-jSMls" allowfullscreen></iframe>
         </div>
       </section>
     )
