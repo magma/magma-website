@@ -22,7 +22,7 @@ const NewsletterSubscribe = class extends React.Component {
                 method="post"
                 id="e2ma_signup"
                 onSubmit="return signupFormObj.checkForm(this)"
-                action="https://signup.e2ma.net/signup/1926355/1771360/"
+                action={content.subscribe.signupLink}
               >
                 <input
                   id="id_prev_member_email"

@@ -15,29 +15,37 @@ const Contact = class extends React.Component {
   }
 
   render() {
-    return (
-      <React.Fragment>
+
+    const { contact: { display, email, linkedin, twitter, formUrl } } = this.props;
+
+    if (display) {
+      return (
+        <React.Fragment>
           <div className="two-col contact-section">
             <div className="container-one">
               <div className="contact-text">
                 <h2>Contact</h2>
-                <p className="section-paragraph contact-info">Let us know if you would like to receive more information about Magma or if you have questions on how to contribute to the community. 
+                <p className="section-paragraph contact-info">Let us know if you would like to receive more information about Magma or if you have questions on how to contribute to the community.
                 </p>
-                <a href="mailto: community@openinfra.dev" className="text-cta">Send us an email</a>
+                <a href={`mailto: ${email}`} className="text-cta">Send us an email</a>
                 <div className="social-icons">
-                  <a href="mailto: community@openinfra.dev"><img className="social-icon" src={Email} /></a>
-                  <a href="https://www.linkedin.com/company/magmacore/"><img className="social-icon" src={LinkedIn} /></a>
-                  <a href="https://twitter.com/MagmaCommunity"><img className="social-icon" src={Twitter} /></a>
+                  <a href={`mailto: ${email}`}><img className="social-icon" src={Email} /></a>
+                  <a href={linkedin}><img className="social-icon" src={LinkedIn} /></a>
+                  <a href={twitter}><img className="social-icon" src={Twitter} /></a>
                 </div>
               </div>
-               {/*<div className="form-container">
-                <Form />
-              </div>*/}
+              {/*<div className="form-container">
+                  <Form />
+                </div>*/}
             </div>
-            <FormEmbed />
-          </div>  
-      </React.Fragment>
-    );
+            <FormEmbed formUrl={formUrl} />
+          </div>
+        </React.Fragment>
+      );
+    } else {
+      return null;
+    }
+
   }
 };
 

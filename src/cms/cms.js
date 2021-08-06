@@ -17,6 +17,8 @@ CMS.registerPreviewStyle('style/styles.scss');
 
 CMS.registerPreviewTemplate('indexPage', IndexPagePreview)
 CMS.registerPreviewTemplate('pages', DefaultPagePreview)
+CMS.registerPreviewTemplate('communityPages', DefaultPagePreview)
+CMS.registerPreviewTemplate('userPages', DefaultPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPostPreview)
 CMS.registerPreviewTemplate('supportersPage', SupportersPagePreview)
 CMS.registerPreviewTemplate('caseStudiesPage', CaseStudiesPagePreview)

@@ -8,7 +8,6 @@ seo:
   url: "https://www.magmacore.org/"
 title: Community
 subTitle: "Join to contribute code, documentation, and use cases"
-blogUrl: /
 ---
 
 Magma is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution. Our ethos is user-driven and our culture is welcoming and respectful. We invite you to try out Magma, provide your feedback and get involved in contributing to the code.

@@ -10,43 +10,34 @@ const UserStories = class extends React.Component {
   }
 
   render() {
-    return (
-      <React.Fragment>
-        <section className="user-stories">
-        <h5 id="user-stories" className="section-tag">USER STORIES</h5>
-          <div className="three-col">
 
-            <div className="user-story-lt-rt">
-              <div className="img-container-user-story">
-              <a className="img-user-story" href="/users#users-muralnet"><img className="img-user-story" src={USImageOne} /></a>
-                </div>
-                <h3 className="user-story-title">Connecting Tribal nations to life-saving resources</h3>
-                <p>MuralNet uses private LTE networks powered by Magma to enable tribal nations to control their internet access.</p>
-                <a className="img-user-story" href="/users#users-muralnet" className="text-cta">Learn More</a>
+    const { userStories: { display, tag, stories } } = this.props;
+
+    if (display) {
+      return (
+        <React.Fragment>
+          <section className="user-stories">
+            <h5 id="user-stories" className="section-tag">{tag}</h5>
+            <div className="three-col">
+              {stories.map((s, index) => {
+                return (
+                  <div className={`user-story-lt-rt ${index === 1 ? 'user-story-middle' : 'user-story-lt-rt'}`} key={index}>
+                    <div className="img-container-user-story">
+                      <a className="img-user-story" href={s.link}><img className="img-user-story" src={s.image.publicURL} /></a>
+                    </div>
+                    <h3 className="user-story-title">{s.title}</h3>
+                    <p>{s.description}</p>
+                    <a className="img-user-story" href={s.link} className="text-cta">Learn More</a>
+                  </div>
+                )
+              })}
             </div>
-
-            <div className="user-story-middle">
-              <div className="img-container-user-story">
-              <a className="img-user-story" href="/users/brck"><img className="img-user-story" src={USImageTwo} /></a>
-                </div>
-                <h3 className="user-story-title">Deploying Magma to lower network costs</h3>
-                <p>BRCK deploys low cost connectivity in both urban and rural markets in Kenya.</p>
-                <a href="/users/brck" className="text-cta">Learn More</a>
-            </div>
-
-            <div className="user-story-lt-rt">
-              <div className="img-container-user-story">
-              <a className="img-user-story" href="/users#users-wiconnect"><img className="img-user-story" src={USImageThree} /></a>
-                </div>
-                <h3 className="user-story-title">Increasing Network Redundancy with Magma Access Gateways</h3>
-                <p>WiConnect Wireless delivers fiber, cable, and wireless-based internet in the southwest region of Wisconsin.</p>
-                <a href="/users#users-wiconnect" className="text-cta">Learn More</a>
-            </div>
-
-          </div>
-        </section>  
-      </React.Fragment>
-    );
+          </section>
+        </React.Fragment>
+      );
+    } else {
+      return null;
+    }
   }
 };
-export default UserStories ;
+export default UserStories;
