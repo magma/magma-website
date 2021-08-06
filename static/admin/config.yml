@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: tomrndom/magma-website
-  branch: cms-previews
+  repo: magma/magma-website
+  branch: main
   commit_messages:
     create: |
       'Create {{collection}} “{{slug}}”'
