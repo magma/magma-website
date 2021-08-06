@@ -13,10 +13,8 @@ import metadata from '../content/site-metadata.json'
 import Mainpitch from '../components/Mainpitch'
 import DevelopWithMagma from "../components/DevelopWithMagma"
 import UserStories from '../components/UserStories'
-import Features from '../components/Features'
 import NewsletterSubscribe from '../components/NewsletterSubscribe'
 import Contact from '../components/Contact'
-import GetStarted from '../components/GetStarted'
 import OverviewVideo from '../components/OverviewVideo'
 
 export const IndexPageTemplate = ({
@@ -26,7 +24,7 @@ export const IndexPageTemplate = ({
   develop,
   overview,
   userStories,
-  supportBanner,  
+  supportBanner,
   contact,
 }) => (
   <div>
@@ -65,6 +63,12 @@ export const IndexPageTemplate = ({
 IndexPageTemplate.propTypes = {
   seo: PropTypes.object,
   header: PropTypes.object,
+  mainpitch: PropTypes.object,
+  develop: PropTypes.object,
+  overview: PropTypes.object,
+  userStories: PropTypes.object,
+  supportBanner: PropTypes.object,
+  contact: PropTypes.object,
 }
 
 const IndexPage = ({ data }) => {
@@ -79,7 +83,7 @@ const IndexPage = ({ data }) => {
         develop={frontmatter.develop}
         overview={frontmatter.overview}
         userStories={frontmatter.userStories}
-        supportBanner={frontmatter.supportBanner}        
+        supportBanner={frontmatter.supportBanner}
         contact={frontmatter.contact}
       />
     </Layout>
@@ -198,6 +202,7 @@ export const pageQuery = graphql`
                 }
               }
               publicURL
+              extension
             }
           }
         }        

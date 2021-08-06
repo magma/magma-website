@@ -16,7 +16,7 @@ const ImageLeft = class extends React.Component {
         <div className="two-col">
           <div className="container-two">
             <div className="img-container-lt">
-                <img className="img-lt" src={image.publicURL} />
+              <img className="img-lt" src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} />
               </div>
               <div className="section-text-right">
                 <h5 className="section-tag">{tag}</h5>

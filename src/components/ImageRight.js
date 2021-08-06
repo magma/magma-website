@@ -21,7 +21,7 @@ const ImageRight = class extends React.Component {
               <p className="section-paragraph">{description}</p>
             </div>
             <div className="img-container-rt">
-              <img className="img-rt" src={image.publicURL} />
+              <img className="img-rt" src={!!image.childImageSharp ? image.childImageSharp.fluid.src : image} />
             </div>
           </div>
 

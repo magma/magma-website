@@ -23,7 +23,7 @@ const UserStories = class extends React.Component {
                 return (
                   <div className={`user-story-lt-rt ${index === 1 ? 'user-story-middle' : 'user-story-lt-rt'}`} key={index}>
                     <div className="img-container-user-story">
-                      <a className="img-user-story" href={s.link}><img className="img-user-story" src={s.image.publicURL} /></a>
+                      <a className="img-user-story" href={s.link}><img className="img-user-story" src={!!s.image.childImageSharp ? s.image.childImageSharp.fluid.src : s.image} /></a>                      
                     </div>
                     <h3 className="user-story-title">{s.title}</h3>
                     <p>{s.description}</p>
