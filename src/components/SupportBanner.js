@@ -30,13 +30,13 @@ const SupportBanner = class extends React.Component {
                     <div className="column is-one-quarter vert-centered horiz-centered">
                       <a href={c.link} className="support-link">
                         <img src={(c.image.extension === 'svg' || c.image.extension === 'gif') && !c.image.childImageSharp ?
-                                  c.image.publicURL
-                                  :
-                                  !!c.image.childImageSharp ? c.image.childImageSharp.fluid.src : c.image} className={`support-logo ${c.className}`} alt={c.alt} />
+                          c.image.publicURL
+                          :
+                          !!c.image.childImageSharp ? c.image.childImageSharp.fluid.src : c.image} className={`support-logo ${c.className}`} alt={c.alt} />
                       </a>
                     </div>
                   )
-                })}                
+                })}
               </div>
             </div>
           </section>

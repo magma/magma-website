@@ -156,10 +156,6 @@ collections:
                 {label: Text, name: text, widget: string}, 
                 {label: Link, name: link, widget: string}
               ]},
-              {label: "Bottom Text", name: bottomText, widget: object, fields: [
-                {label: Title, name: title, widget: string},
-                {label: Text, name: subTitle, widget: string},
-              ]},
               {label: Display, name: display, widget: boolean, required: false}
             ]}          
           - {label: Mainpitch, name: mainpitch, widget: object, fields: [              
@@ -191,22 +187,24 @@ collections:
               {label: Title, name: title, widget: string, required: false},
               {label: Video Url, name: videoUrl, widget: string, required: false},
             ]}
-          - {label: User's Stories, name: userStories, widget: list, fields: [
+          - {label: User Stories, name: userStories, widget: object, fields: [
               {label: Display, name: display, widget: boolean, required: false},
               {label: Tag, name: tag, widget: string, required: false},
-              {label: Stories, name: stories, widget: object, create: false, fields: [
+              {label: Stories, name: stories, widget: list, fields: [
                 {label: Title, name: title, widget: string},
                 {label: Image, name: image, widget: image},
                 {label: Description, name: description, widget: string},
-                {label: Link, name: link, widget: string},
-              ]},
+                {label: Link, name: link, widget: string}
+              ]}
             ]}
           - {label: Support Banner, name: supportBanner, widget: object, fields: [
               {label: Display, name: display, widget: boolean, required: false},
-              {label: Image, name: image, widget: image, required: false},
-              {label: Alt image, name: alt, widget: string, required: false},
-              {label: Link, name: link, widget: string, required: false},
-              {label: CSS Class, name: className, widget: string, required: false},
+              {label: Columns, name: columns, widget: list, fields: [
+                {label: Image, name: image, widget: image, required: false},
+                {label: Alt image, name: alt, widget: string, required: false},
+                {label: Link, name: link, widget: string, required: false},
+                {label: CSS Class, name: className, widget: string, required: false},
+              ]}
             ]}
           - {label: Subscribe, name: subscribe, widget: object, fields: [
               {label: Display, name: display, widget: boolean, required: false},
