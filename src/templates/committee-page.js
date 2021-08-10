@@ -83,7 +83,6 @@ export const CommitteePageTemplate = ({
                                                 <div className="media">
                                                     <div className="media-left">
                                                         <figure className="image is-128x128">
-                                                            {console.log('member picture', member)}
                                                             {member.picture ?
                                                                 <img src={!!member.picture.childImageSharp ? member.picture.childImageSharp.fluid.src : member.picture} alt="" />
                                                                 :

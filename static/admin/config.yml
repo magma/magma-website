@@ -68,6 +68,7 @@ collections:
           - {label: "Subscribe Info", name: "subscribe", widget: object, fields: [
               {label: "Title", name: "title", widget: string},              
               {label: "Sub Title", name: "subTitle", widget: string},
+              {label: "Subscribe Link", name: signupLink, widget: string}
             ]}
       - file: "src/content/contact.json"
         label: "Contact"
@@ -155,114 +156,116 @@ collections:
                 {label: Text, name: text, widget: string}, 
                 {label: Link, name: link, widget: string}
               ]},
-              {label: "Bottom Text", name: bottomText, widget: object, fields: [
-                {label: Title, name: title, widget: string},
-                {label: Text, name: subTitle, widget: string},
-              ]},
               {label: Display, name: display, widget: boolean, required: false}
             ]}          
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [
-              {label: Title, name: title, widget: string},               
-              {label: Description, name: description, widget: list, fields: [
-                {label: Text, name: text, widget: text}
+          - {label: Mainpitch, name: mainpitch, widget: object, fields: [              
+              {label: Image Right, name: imageRight, widget: object, fields: [                
+                {label: tag, name: tag, widget: string, required: false },
+                {label: title, name: title, widget: string, required: false },
+                {label: description, name: description, widget: string, required: false },
+                {label: image, name: image, widget: image, required: false }
+              ]},
+              {label: Image Left, name: imageLeft, widget: object, fields: [                
+                {label: Tag, name: tag, widget: string, required: false },
+                {label: Title, name: title, widget: string, required: false },
+                {label: Description, name: description, widget: string, required: false },
+                {label: Image, name: image, widget: image, required: false }
               ]},
               {label: Display, name: display, widget: boolean, required: false}
             ]}
-          - {label: Features, name: features, widget: object, fields: [
-              {label: Title, name: title, widget: string},
-              {label: Rows, name: rows, widget: list, fields: [                
+          - {label: Develop, name: develop, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false },
+              {label: Title, name: title, widget: string },
+              {label: Button, name: button, widget: object, fields: [
+                {label: Text, name: text, widget: string },
+                {label: Link, name: link, widget: string },
+              ]},
+            ]}
+          - {label: Overview, name: overview, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Tag, name: tag, widget: string, required: false},
+              {label: Title, name: title, widget: string, required: false},
+              {label: Video Url, name: videoUrl, widget: string, required: false},
+            ]}
+          - {label: User Stories, name: userStories, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Tag, name: tag, widget: string, required: false},
+              {label: Stories, name: stories, widget: list, fields: [
                 {label: Title, name: title, widget: string},
-                {label: Text, name: text, widget: text},
-              ]},              
-              {label: Display, name: display, widget: boolean, required: false}
-            ]}
-          - {label: Review, name: review, widget: object, fields: [
-              {label: Title, name: title, widget: string},
-              {label: Text, name: text, widget: text},
-              {label: Opinions, name: opinions, widget: list, fields: [
-                {label: Person, name: person, widget: string},
-                {label: Title, name: title, widget: string},
-                {label: Company, name: company, widget: string},
-                {label: Opinion, name: opinion, widget: text},
-              ]},
-              {label: Bottom Text, name: bottom, widget: object, fields: [
-                {label: Text, name: text, widget: text},
-                {label: Button, name: button, widget: object, fields: [
-                  {label: Text, name: text, widget: string},
-                  {label: Link, name: link, widget: string},
-                ]}
-              ]},
-              {label: Display, name: display, widget: boolean, required: false}
-            ]}
-  - name: "supportersPage"
-    label: "Supporters Page"
-    files:
-      - file: "src/pages/supporters/index.md"
-        name: supportersPage
-        label: "Supporters"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "supporters-page"} 
-          - {label: SEO, name: seo, widget: object, fields: [
-              {label: "Title", name: "title", widget: string},
-              {label: "Description", name: "description", widget: string},            
-              {label: "Url", name: "url", widget: string},            
-              {label: "Image", name: "image", widget: image},            
-              {label: "Twitter Username", name: "twitterUsername", widget: string},
-            ]}         
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sub Title", name: subTitle, widget: string}
-          - {label: "Intro", name: intro, widget: string, required: false}
-          - {label: "Supporters", name: supporters, widget: list, fields: [
-              {label: "Tier Name", name: tierName, widget: string},
-              {label: "Supporters", name: list, widget: list, fields: [
-                {label: "Name", name: alt, widget: string},
-                {label: "CSS Class", name: class, widget: string, required: false},
-                {label: "Logo", name: image, widget: image}
+                {label: Image, name: image, widget: image},
+                {label: Description, name: description, widget: string},
+                {label: Link, name: link, widget: string}
               ]}
             ]}
-          - {label: "Body", name: body, widget: markdown}
-  - name: "caseStudiesPage"
-    label: "Case Studies Page"
-    files:
-      - file: "src/pages/case-studies/index.md"
-        name: caseStudiesPage
-        label: "Case Studies"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "case-studies-page"} 
-          - {label: SEO, name: seo, widget: object, fields: [
-              {label: "Title", name: "title", widget: string},
-              {label: "Description", name: "description", widget: string},            
-              {label: "Url", name: "url", widget: string},            
-              {label: "Image", name: "image", widget: image},            
-              {label: "Twitter Username", name: "twitterUsername", widget: string},
-            ]}         
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sub Title", name: subTitle, widget: string}          
-          - {label: "Case Studies", name: caseStudies, widget: list, fields: [
-              {label: "Title", name: title, widget: string},
-              {label: "Description", name: description, widget: string},
-              {label: "Link", name: link, widget: object, fields: [
-                {label: "Text", name: text, widget: string},
-                {label: "URL", name: url, widget: string}
-              ]},
+          - {label: Support Banner, name: supportBanner, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Columns, name: columns, widget: list, fields: [
+                {label: Image, name: image, widget: image, required: false},
+                {label: Alt image, name: alt, widget: string, required: false},
+                {label: Link, name: link, widget: string, required: false},
+                {label: CSS Class, name: className, widget: string, required: false},
+              ]}
             ]}
-          - {label: "Body", name: body, widget: markdown}
-  - name: "pages"
-    label: "Pages"
-    folder: "src/pages/pages/"
+          - {label: Subscribe, name: subscribe, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+            ]}
+          - {label: Contact, name: contact, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Email, name: email, widget: string, required: false},
+              {label: LinkedIn, name: linkedin, widget: string, required: false},
+              {label: Twitter, name: twitter, widget: string, required: false},
+              {label: Form Url, name: formUrl, widget: string, required: false},
+            ]}
+  - name: "communityPages"
+    label: "Community Pages"
+    folder: "src/pages/community/"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "community-page"} 
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"} 
       - {label: SEO, name: seo, widget: object, fields: [
           {label: "Title", name: "title", widget: string},
-          {label: "Description", name: "description", widget: string},            
-          {label: "Url", name: "url", widget: string},            
-          {label: "Image", name: "image", widget: image},            
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
           {label: "Twitter Username", name: "twitterUsername", widget: string},
-        ]}         
+        ]}
       - {label: "Title", name: title, widget: string}
       - {label: "Sub Title", name: subTitle, widget: string}
-      - {label: "Body", name: body, widget: markdown}  
+      - {label: "Body", name: body, widget: markdown}
+  - name: "userPages"
+    label: "User Pages"
+    folder: "src/pages/users/"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"} 
+      - {label: SEO, name: seo, widget: object, fields: [
+          {label: "Title", name: "title", widget: string},
+          {label: "Description", name: "description", widget: string},
+          {label: "Url", name: "url", widget: string},
+          {label: "Image", name: "image", widget: image},
+          {label: "Twitter Username", name: "twitterUsername", widget: string},
+        ]}
+      - {label: "Title", name: title, widget: string}
+      - {label: "Sub Title", name: subTitle, widget: string}
+      - {label: "Body", name: body, widget: markdown}
+  - name: "caseStudy"
+    label: "Case Studies"
+    files:
+      - file: "src/pages/users/brck/index.md"    
+        name: brckCaseStudy
+        label: BRCK Case Study
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"} 
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: "Body", name: body, widget: markdown}
   - name: "committee-pages"
     label: "Committee Pages"
     files:

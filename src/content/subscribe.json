@@ -1,7 +1,8 @@
 {
   "subscribe": {
     "title": "Subscribe to News",
-    "subTitle": "Stay up to date with the community news.",
+    "subTitle": "Stay up to date with the community news.",    
+    "signupLink": "https://signup.e2ma.net/signup/1926355/1771360/",
     "display": true
   }
 }

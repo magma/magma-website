@@ -8,21 +8,28 @@ const DevelopWithMagma = class extends React.Component {
   }
 
   render() {
-    return (
-      <React.Fragment>
-        
-        <div className="magma-logo-bg">
-          <div className="develop">
-            <h2 className="dev-with-magma">Develop with Magma</h2>
-            <div className="contribute-button"><a href="https://github.com/magma/magma" className="button is-outlined">Start Contributing</a></div>
+
+    const { develop: { display, title, button: { text, link } } } = this.props;
+
+    if (display) {
+      return (
+        <React.Fragment>
+
+          <div className="magma-logo-bg">
+            <div className="develop">
+              <h2 className="dev-with-magma">{title}</h2>
+              <div className="contribute-button"><a href={link} className="button is-outlined">{text}</a></div>
+            </div>
+
+            <img className="magma-icon" src={MagmaLogo} />
+
           </div>
 
-          <img className="magma-icon" src={MagmaLogo} />
-          
-        </div>
-
-      </React.Fragment>
-    );
+        </React.Fragment>
+      );
+    } else {
+      return null;
+    }
   }
 };
 
