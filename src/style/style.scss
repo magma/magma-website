@@ -39,7 +39,6 @@
 @import "./modules/overview-video";
 @import "./modules/committee";
 
-
 body {
   color: $body-font-color;
   font-size: 1rem;
@@ -103,10 +102,14 @@ body {
   width: 50%;
   padding-right: 30px;
   order: 1;
+  a {
+    font-weight: bold;
+    color: #5602a4;
+  }
 }
 
 @media (max-width: 720px) {
-  .section-text-left{
+  .section-text-left {
     order: 2;
     width: 100%;
     padding-right: unset;
@@ -119,10 +122,14 @@ body {
   width: 50%;
   padding-left: 30px;
   order: 2;
+  a {
+    font-weight: bold;
+    color: #5602a4;
+  }
 }
 
 @media (max-width: 720px) {
-  .section-text-right{
+  .section-text-right {
     width: 100%;
     padding-left: unset;
     margin-top: 30px;
@@ -136,7 +143,6 @@ body {
 
 .section-paragraph {
   margin-bottom: 60px;
-  
 }
 
 .form-container {
@@ -144,7 +150,7 @@ body {
   border-radius: 25px;
   padding-left: 30px;
   display: flex;
-  justify-content:  flex-end;
+  justify-content: flex-end;
   order: 2;
 }
 
@@ -173,7 +179,7 @@ body {
   border-radius: 25px;
   padding-left: 30px;
   display: flex;
-  justify-content:  flex-end;
+  justify-content: flex-end;
   order: 2;
 }
 
@@ -190,7 +196,7 @@ body {
   border-radius: 25px;
   padding-right: 30px;
   display: flex;
-  justify-content:  flex-start;
+  justify-content: flex-start;
   order: 1;
 }
 
@@ -237,7 +243,7 @@ body {
 
 .cta-banner {
   margin: 0 auto;
-  background-color: #A100FF;
+  background-color: #a100ff;
   height: 200px;
   text-align: center;
   position: relative;
@@ -264,7 +270,7 @@ body {
 .magma-icon {
   position: relative;
   z-index: -1;
-  opacity: .08;
+  opacity: 0.08;
   width: 60%;
   margin-top: -260px;
   margin-right: -10%;
@@ -272,7 +278,7 @@ body {
 }
 
 @media (max-width: 720px) {
-  .magma-icon{
+  .magma-icon {
     width: 65%;
     margin-top: -180px;
     margin-right: -15%;
@@ -296,7 +302,7 @@ body {
 }
 
 @media (max-width: 720px) {
-  .three-col{
+  .three-col {
     width: 80%;
     flex-direction: column;
   }
@@ -320,17 +326,16 @@ body {
 @media (max-width: 720px) {
   .user-story-middle {
     width: 100%;
-    margin: 30px 0 30px 0 ;
+    margin: 30px 0 30px 0;
   }
 }
-
 
 .img-container-user-story {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 25px;
   display: flex;
-  justify-content:  flex-start;
+  justify-content: flex-start;
   order: 1;
   object-fit: cover;
 }
@@ -404,7 +409,6 @@ body {
 .message:not(:last-child) {
   margin-bottom: 15px;
 }
-
 
 .form-button {
   width: 100%;
