@@ -27,6 +27,8 @@ mainpitch:
     title: An Active Community For The Network Core
     description: >
       Magma is produced by an open-source software community who is user-driven  with a welcoming, respectful culture. We invite you to try out Magma, provide your feedback and get involved in contributing to the code.
+      <br /><br />
+      <a href="/community" class="text-cta">Join The Community</a>
     image: /img/tower.jpg
 develop:
   display: true
@@ -56,7 +58,7 @@ userStories:
     - title: Increasing Network Redundancy with Magma Access Gateways
       image: /img/usi3.jpg
       description: >
-        WiConnect Wireless delivers fiber, cable, and wireless-based internet in the southwest region of Wisconsin.
+        WiConnect Wireless delivers fiber, cable, and wireless-based internet in the southwest region of Wisconsin.        
       link: /users#users-wiconnect
 supportBanner:
   display: true

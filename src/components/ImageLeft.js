@@ -21,8 +21,7 @@ const ImageLeft = class extends React.Component {
               <div className="section-text-right">
                 <h5 className="section-tag">{tag}</h5>
                 <h2>{title}</h2>
-                <p>{description}</p>
-                <a href="/community" className="text-cta">Join The Community</a>
+                <p dangerouslySetInnerHTML={{__html: description}} />                
               </div>
 
           </div>  
