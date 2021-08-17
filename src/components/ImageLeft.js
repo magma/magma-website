@@ -22,7 +22,7 @@ const ImageLeft = class extends React.Component {
                 <h5 className="section-tag">{tag}</h5>
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <a href="/community" className="text-cta">Join The Community</a>
+                <a href="/community" className="text-cta">Get Involved</a>
               </div>
 
           </div>  
