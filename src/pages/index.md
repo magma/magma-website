@@ -16,7 +16,7 @@ header:
         open, flexible, and extendable mobile core network solution. Its
         simplicity and lower cost structure  empowers innovators to build mobile
         networks never previously imagined.
-  title: An Open-Source Platform For Building Carrier-Grade Networks
+  title: An Open Source Platform For Building Carrier-Grade Networks
 mainpitch:
   display: true
   imageRight:
