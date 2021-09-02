@@ -1,7 +1,7 @@
 ---
 templateKey: committee-page
 seo:
-  description: Magma, open-source mobile core network solution  
+  description: Magma, open source mobile core network solution  
   image: /img/og-image.jpg
   title: TSC
   twitterUsername: "@magmacommunity"  
@@ -13,7 +13,7 @@ members:
     title: Engineer		
     name: Hunter Gatewood, Chair
     description: >
-      Connecting the world to a faster internet through open-source, cloud-native solutions.
+      Connecting the world to a faster internet through open source, cloud-native solutions.
     github: https://github.com/hcgatewood
     linkedin: https://www.linkedin.com/in/hcgatewood/
     picture: /img/committee/tsc/Hunter-Gatewood.jpeg

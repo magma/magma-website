@@ -1,7 +1,7 @@
 ---
 templateKey: committee-page
 seo:
-  description: Magma, open-source mobile core network solution  
+  description: Magma, open source mobile core network solution  
   image: /img/og-image.jpg
   title: TAC
   twitterUsername: "@magmacommunity"
@@ -25,7 +25,7 @@ members:
     company: Facebook	
     title: Software Engineering Manager	
     description: |
-      Brian Barritt is a software engineering manager at Facebook Connectivity where he supports the open-source Magma project.  Magma’s mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. </br>
+      Brian Barritt is a software engineering manager at Facebook Connectivity where he supports the open source Magma project.  Magma’s mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks. </br>
       Prior to joining Facebook last year, he was a Senior Staff Software Engineer at Alphabet.  At Google he founded the Temporospatial Software Defined Networking infrastructure that powered terrestrial millimeter-wave and several non-terrestrial networks, including Loon.  Brian has more than 15 years of experience in advanced wireless networks. Prior to joining Google in 2014, he led engineering programs at Cisco and for NASA's Space Communications and Navigation program. </br>
       Brian earned an MBA in Management of Technology & Innovation from the University of Minnesota and BS, MS, and Ph.D. degrees in Computer Engineering from Case Western Reserve University.
     picture: /img/committee/tac/Brian-Barritt.jpeg
@@ -43,7 +43,7 @@ members:
     github: https://github.com/drbruced12
   - name: Hunter Gatewood
     description: >
-      Connecting the world to a faster internet through open-source, cloud-native solutions.
+      Connecting the world to a faster internet through open source, cloud-native solutions.
     github: https://github.com/hcgatewood
     linkedin: https://www.linkedin.com/in/hcgatewood/
     company: Facebook

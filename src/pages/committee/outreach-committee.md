@@ -1,7 +1,7 @@
 ---
 templateKey: committee-page
 seo:
-  description: Magma, open-source mobile core network solution  
+  description: Magma, open source mobile core network solution  
   image: /img/og-image.jpg
   title: Outreach Committee
   twitterUsername: "@magmacommunity"

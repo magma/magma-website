@@ -10,7 +10,7 @@ title: Magma Dev Conference
 subTitle: '2021 Recap'
 ---
 
-On February 3, over 700 people from over 50 countries and almost 350 companies registered to learn about Magma, an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution.
+On February 3, over 700 people from over 50 countries and almost 350 companies registered to learn about Magma, an open source software platform that gives network operators an open, flexible and extendable mobile core network solution.
 
 
 ## The Magma Developers Conference featured:

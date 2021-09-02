@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 seo:
-  description: Magma, open-source mobile core network solution
+  description: Magma, open source mobile core network solution
   image: /img/og-image.jpg
   title: Home
   twitterUsername: "@magmacommunity"
@@ -32,7 +32,7 @@ mainpitch:
     tag: ABOUT THE COMMUNITY
     title: An Active Community For The Network Core
     description: >
-      Magma is produced by an open-source software community who is
+      Magma is produced by an open source software community who is
       user-driven  with a welcoming, respectful culture. We invite you to try
       out Magma, provide your feedback and get involved in contributing to the
       code.

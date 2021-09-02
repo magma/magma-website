@@ -1,7 +1,7 @@
 ---
 templateKey: default-page
 seo:
-  description: Community - Magma, open-source mobile core network solution
+  description: Community - Magma, open source mobile core network solution
   image: /img/og-image.jpg
   title: Home
   twitterUsername: "@magmacommunity"
