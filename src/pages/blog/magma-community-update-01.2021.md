@@ -7,9 +7,9 @@ category:
   - label: Community
     id: Magma-Community-Update-01.2021
 ---
-[Magma](https://github.com/magma/) is an open-source software platform that delivers an open, flexible and extendable mobile network core solution. Magma’s mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks.  It is designed to be access network agnostic (4G, 5G or WiFi), flexibly supporting a radio access network with minimal development and deployment effort.
+[Magma](https://github.com/magma/) is an open source software platform that delivers an open, flexible and extendable mobile network core solution. Magma’s mission is to connect the world to a faster network by enabling service providers to build cost-effective and extensible carrier-grade networks.  It is designed to be access network agnostic (4G, 5G or WiFi), flexibly supporting a radio access network with minimal development and deployment effort.
 
-Magma was developed as an open-source project as part of Facebook Connectivity’s incubator program, with significant contributions from the OpenAirInterface Software Alliance.  In July of 2020 Magma’s code and documentation was contributed to a new, independent software project magmacore.org.
+Magma was developed as an open source project as part of Facebook Connectivity’s incubator program, with significant contributions from the OpenAirInterface Software Alliance.  In July of 2020 Magma’s code and documentation was contributed to a new, independent software project magmacore.org.
 
 Magma’s architecture consists of three major subsystems:
 

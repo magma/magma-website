@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Magma',
     description:
-      'Magma is an open-source software platform that gives network operators an open, flexible and extendable mobile core network solution.',
+      'Magma is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution.',
     url: 'https://www.magmacore.org/'
   },
   plugins: [
