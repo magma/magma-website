@@ -26,12 +26,12 @@ members:
     twitter: https://twitter.com/realpratikdas
     linkedin: https://linkedin.com/in/pratikdas
     picture: /img/committee/outreach-committee/Pratik-Das.jpg
-  - name: Phil Ritter	
+  - name: Doug Cheline	
     company: Facebook	
-    title: Contractor to Facebook Connectivity
+    title: Product Marketing, Magma
     description: >
-      Phil Ritter spent nearly 30 years at a US based Tier 1 Wireless Service Provider, designing and deploying network core and transport systems starting with Analog Cellular (AMPS) through each generation of digital wireless systems (2g -> 5g), eventually serving as their national Director of Network Planning for the wireless data core systems and then Director of Network Virtualization Planning before taking an early retirement.  In his role as Planning Director Phil led the deployment of the network core systems for the first nationwide 4G-LTE network in the USA.  After a brief period of relaxation he returned to the workforce, Joining the Magma team as Community Manager for the Magma Core Foundation.  Phil holds a BS Computer Science from the University of California at Irvine and spent about 10 years doing software development on various communications system projects prior his work developing wireless networks.
-    picture: /img/committee/outreach-committee/Phil-Ritter.jpg
+      As the Product Marketing Manager for Magma, Doug leads the GTM transition of Magma from an in-house initiative to the open-source community under the Magma Core Foundation.   Prior to Facebook, Doug held various leadership positions in Engineering, Product Management, and Sales and Marketing in companies such as Motorola, DirecTV, Genuity and various startups in Silicon Valley.
+    picture: /img/committee/outreach-committee/Doug-Cheline.jpg
   - name: Jeff Hodge	
     company: Vapor IO
     picture: /img/committee/outreach-committee/Jeff-Hodge.jpeg

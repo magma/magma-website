@@ -43,7 +43,7 @@ members:
     github: https://github.com/drbruced12
   - name: Hunter Gatewood
     description: >
-      Connecting the world to a faster internet through open source, cloud-native solutions.
+      Hunter Gatewood is a software enginer at Facebook Connectivity, supporting the open-source Magma project. Magma's mission is to connect the world to a faster internet by enabling service providers to build cost-effective and extensible carrier-grade networks. Prior to Facebook, his work spanned IoT, edtech, satellites, and network security at Microsoft, Zearn, MIT Space Systems Lab, and MIT Lincoln Lab, respectively. He has a B.S. from MIT in Computer Science and an M.Eng. from MIT in Computer Systems, with a thesis targeting scalable secure communication for resource-constrained systems.
     github: https://github.com/hcgatewood
     linkedin: https://www.linkedin.com/in/hcgatewood/
     company: Facebook
