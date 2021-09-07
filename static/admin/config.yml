@@ -24,16 +24,6 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "authors"
-    label: "Authors"
-    folder: "/src/pages/author"
-    create: true    
-    editor:
-      preview: false
-    identifier_field: authorName
-    fields:
-      - {label: "Name", name: authorName, widget: string}
-      - {label: "Company", name: company, widget: string}
   - name: "configurations"
     label: "Configurations"
     editor:
@@ -128,7 +118,7 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "relation", collection: "authors", searchFields: ["authorName"], valueField: "authorName" }
+      - {label: "Author", name: "author", widget: "string" }
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Category", name: "category", widget: ncw-file-relation, collection: configurations, file: blogConfig, target_field: categories, id_field: id, display_fields: text }      
       - {label: "Body", name: "body", widget: "markdown"}
