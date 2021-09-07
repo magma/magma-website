@@ -48,4 +48,12 @@ members:
     company: Arm
     title: Senior Product Marketing Manager
     picture: /img/committee/outreach-committee/Chaitanya-Kadiyala.jpeg
+  - name: Lisa Caywood
+    company: Red Hat
+    title: Principal Community Architect	
+    description: >
+      Lisa Caywood is a Principal Community Architect at Red Hat, focusing on projects and communities of interest to the telco and manufacturing industries. She serves as the Red Hat representative on the LF Edge Board and Magmacore Outreach Committee. She has a long history with Linux Foundation networking and telco communities, starting with OpenDaylight while with a founding member company, and later serving as Marketing Director for LF Networking and LF Edge while at the Linux Foundation itself.
+    twitter: https://twitter.com/RealLisaC
+    linkedin: 
+    picture: /img/committee/outreach-committee/Lisa-Caywood.jpg
 ---
