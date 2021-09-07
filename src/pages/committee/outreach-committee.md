@@ -26,12 +26,12 @@ members:
     twitter: https://twitter.com/realpratikdas
     linkedin: https://linkedin.com/in/pratikdas
     picture: /img/committee/outreach-committee/Pratik-Das.jpg
-  - name: Phil Ritter	
+  - name: Doug Cheline	
     company: Facebook	
-    title: Contractor to Facebook Connectivity
+    title: Product Marketing, Magma
     description: >
-      Phil Ritter spent nearly 30 years at a US based Tier 1 Wireless Service Provider, designing and deploying network core and transport systems starting with Analog Cellular (AMPS) through each generation of digital wireless systems (2g -> 5g), eventually serving as their national Director of Network Planning for the wireless data core systems and then Director of Network Virtualization Planning before taking an early retirement.  In his role as Planning Director Phil led the deployment of the network core systems for the first nationwide 4G-LTE network in the USA.  After a brief period of relaxation he returned to the workforce, Joining the Magma team as Community Manager for the Magma Core Foundation.  Phil holds a BS Computer Science from the University of California at Irvine and spent about 10 years doing software development on various communications system projects prior his work developing wireless networks.
-    picture: /img/committee/outreach-committee/Phil-Ritter.jpg
+      As the Product Marketing Manager for Magma, Doug leads the GTM transition of Magma from an in-house initiative to the open-source community under the Magma Core Foundation.   Prior to Facebook, Doug held various leadership positions in Engineering, Product Management, and Sales and Marketing in companies such as Motorola, DirecTV, Genuity and various startups in Silicon Valley.
+    picture: /img/committee/outreach-committee/Doug-Cheline.jpg
   - name: Jeff Hodge	
     company: Vapor IO
     picture: /img/committee/outreach-committee/Jeff-Hodge.jpeg
@@ -39,7 +39,8 @@ members:
     company: Aarna Networks	
     title: Senior Member Technical Staff	
     description: >
-      Prabhjot is Senior Member Technical Staff at Aarna Networks, responsible for delivery of some of the key components for Aarna Multi Cluster Orchestration Platform(AMCOP) that is based on EMCO and LF Networking project ONAP. where AMCOP plays a vital role in enabling Private 5G deployment solutions for Aarna Networks. </br>
+      Prabhjot is Senior Member Technical Staff at Aarna Networks, responsible for delivery of some of the key components for Aarna Multi Cluster Orchestration Platform(AMCOP) that is based on EMCO and LF Networking project ONAP. where AMCOP plays a vital role in enabling Private 5G deployment solutions for Aarna Networks.
+      <br /><br />
       Prior to Aarna, Prabhjot has worked extensively in the domain of SDN and traditional routing/switch platforms, providing solutions using various open source projects ODL, VPP, OpenVswitch, Istio along with being one of the early key contributors to Tungsten Fabric. He has also extended his services to the community as Chairperson for Tungsten Fabric TSC, contributions to Linux Foundation Networking whitepaper, presentations at various DTF events and Solution showcases using integrated open source projects at various ONES events.
     linkedin: https://www.linkedin.com/in/prabhjot-sethi
     picture: /img/committee/outreach-committee/Prabhjot-Singh-Sethi.jpg
@@ -47,4 +48,12 @@ members:
     company: Arm
     title: Senior Product Marketing Manager
     picture: /img/committee/outreach-committee/Chaitanya-Kadiyala.jpeg
+  - name: Lisa Caywood
+    company: Red Hat
+    title: Principal Community Architect	
+    description: >
+      Lisa Caywood is a Principal Community Architect at Red Hat, focusing on projects and communities of interest to the telco and manufacturing industries. She serves as the Red Hat representative on the LF Edge Board and Magmacore Outreach Committee. She has a long history with Linux Foundation networking and telco communities, starting with OpenDaylight while with a founding member company, and later serving as Marketing Director for LF Networking and LF Edge while at the Linux Foundation itself.
+    twitter: https://twitter.com/RealLisaC
+    linkedin: 
+    picture: /img/committee/outreach-committee/Lisa-Caywood.jpg
 ---
