@@ -39,7 +39,8 @@ members:
     company: Aarna Networks	
     title: Senior Member Technical Staff	
     description: >
-      Prabhjot is Senior Member Technical Staff at Aarna Networks, responsible for delivery of some of the key components for Aarna Multi Cluster Orchestration Platform(AMCOP) that is based on EMCO and LF Networking project ONAP. where AMCOP plays a vital role in enabling Private 5G deployment solutions for Aarna Networks. </br>
+      Prabhjot is Senior Member Technical Staff at Aarna Networks, responsible for delivery of some of the key components for Aarna Multi Cluster Orchestration Platform(AMCOP) that is based on EMCO and LF Networking project ONAP. where AMCOP plays a vital role in enabling Private 5G deployment solutions for Aarna Networks.
+      <br /><br />
       Prior to Aarna, Prabhjot has worked extensively in the domain of SDN and traditional routing/switch platforms, providing solutions using various open source projects ODL, VPP, OpenVswitch, Istio along with being one of the early key contributors to Tungsten Fabric. He has also extended his services to the community as Chairperson for Tungsten Fabric TSC, contributions to Linux Foundation Networking whitepaper, presentations at various DTF events and Solution showcases using integrated open source projects at various ONES events.
     linkedin: https://www.linkedin.com/in/prabhjot-sethi
     picture: /img/committee/outreach-committee/Prabhjot-Singh-Sethi.jpg
