@@ -33,7 +33,7 @@ Consider the figure below of Magma’s SDN-based system. The management plane si
 
 ![Magma applies SDN to management, control, and user planes](/img/1-Magma_Control-User-Plane.jpg "Magma applies SDN to management, control, and user planes")
 
-<span style="text-align:center; font-size:0.8em;display:block;">Magma applies SDN to management, control, and user planes.</span>
+<div style="margin:0 auto 3rem;width:80%;text-align:center;font-size:.8em;"><em>Magma applies SDN to management, control, and user planes.</em></div
 
 Note the “desired state” model shown here. It’s a common pattern in cloud-native systems. The control plane’s main job is to continuously reconcile the actual state of the system with the desired state in the face of configuration changes, failures of components, or other events, such as the arrival and roaming of user equipment (UE) like smartphones.
 
@@ -50,7 +50,7 @@ SDN-based control planes save us from having to continually reinvent techniques 
 In telecom networks, the control plane often refers to signaling protocols used to set up the user plane channel. For example, before a UE (like a smartphone) can start exchanging data with the internet, it needs to authenticate itself, a user profile needs to be looked up, and the device needs to be assigned an IP address. All of these are control plane functions. Once they are complete, the UE can send and receive data via the user plane. If the UE roams to a different base station, more signaling needs to take place to set up the user plane state so the UE can send and receive data via the new base station.
 
 ![Separation of the user plane and control plane](/img/2-Magma_Control-User-Plane.jpg "Separation of the user plane and control plane")
-<span style="text-align:center; font-size:0.8em;display:block;">Separation of the user plane and control plane</span>
+<div style="margin:0 auto 3rem;width:80%;text-align:center;font-size:.8em;">Separation of the user plane and control plane</em></div>
 
 Under the formal definition of CUPS, some devices may be dedicated to user plane functions (e.g., moving packets between a UE and the internet) while others may be dedicated to control plane functions (e.g., authentication of UEs). This separation is a helpful principle for building a network, but it does not, on its own, deliver the benefits of SDN. These benefits come from a more expansive view of the control plane.
 
