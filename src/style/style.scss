@@ -469,11 +469,17 @@ table {
   line-height: 25px;
   text-align: center;
   letter-spacing: 0.3px;
-  margin-right: 30px;
+  margin-right: 30px;  
   color: #ffffff !important;  
   text-decoration: none !important;
   &:hover {
     color: #ffffff;
     background-color: #a100ff;    
+  }
+}
+
+@media (max-width: 767px) {
+  .join-button:first-of-type {
+    margin-bottom: 30px;
   }
 }
