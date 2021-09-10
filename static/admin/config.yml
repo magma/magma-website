@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: magma/magma-website
-  branch: main
+  repo: tomrndom/magma-website
+  branch: feature/join-page
   commit_messages:
     create: |
       'Create {{collection}} “{{slug}}”'
@@ -201,6 +201,8 @@ collections:
             ]}
           - {label: Contact, name: contact, widget: object, fields: [
               {label: Display, name: display, widget: boolean, required: false},
+              {label: Title, name: title, widget: string, required: false},
+              {label: Sub Title, name: subTitle, widget: string, required: false},
               {label: Email, name: email, widget: string, required: false},
               {label: LinkedIn, name: linkedin, widget: string, required: false},
               {label: Twitter, name: twitter, widget: string, required: false},
@@ -359,3 +361,26 @@ collections:
               {label: Twitter Profile, name: twitter, widget: string, required: false},
               {label: Linkedin Profile, name: linkedin, widget: string, required: false},
             ]}
+  - name: "join"
+    label: "Join"
+    files:
+      - file: "src/pages/join/index.md"    
+        name: joinPage
+        label: Join Page
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"} 
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: Contact, name: contact, widget: object, fields: [
+              {label: Display, name: display, widget: boolean, required: false},
+              {label: Title, name: title, widget: string, required: false},              
+              {label: Form Url, name: formUrl, widget: string, required: false},
+            ]}
+          - {label: "Body", name: body, widget: markdown}

@@ -93,6 +93,8 @@ subscribe:
   display: true
 contact:
   display: true
+  title: Contact
+  subTitle: Let us know if you would like to receive more information about Magma or if you have questions on how to contribute to the community.
   email: community@openinfra.dev
   linkedin: https://www.linkedin.com/company/magmacore/
   twitter: https://twitter.com/MagmaCommunity

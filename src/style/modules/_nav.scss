@@ -11,7 +11,10 @@
 }
 
 .nav {
-  padding: 12px 0 12px;
+  padding: 12px 0 12px;  
+  height: 90px;
+  display: flex;
+  justify-content: center;
 
   .nav-content,
   .nav-inner,
@@ -161,7 +164,7 @@
       position: absolute;
       left: 0;
       width: 100%;
-      top: calc(100% + 10px);
+      top: calc(100%);
       // padding: 20px 10px;
       background: $white;
       z-index: -1;
@@ -196,6 +199,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .navbar a {
