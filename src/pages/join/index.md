@@ -48,7 +48,7 @@ Organizations join the Magma Core Foundation because they want to take an active
 
 <br/><br/>
 
-| Consolidated Employees  | Annual General Membership Fees |
+| Consolidated Employees  | Annual Membership Fees (USD)   |
 | ----------------------- | ------------------------------ |
 | 5,000 and above         | \$50,000                       |
 | Between 2,000 and 4,999 | \$25,000                       |
