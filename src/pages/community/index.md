@@ -5,24 +5,26 @@ seo:
   image: /img/og-image.jpg
   title: Home
   twitterUsername: "@magmacommunity"
-  url: "https://www.magmacore.org/"
+  url: https://www.magmacore.org/
 title: Community
-subTitle: "Join to contribute code, documentation, and use cases"
+subTitle: Join to contribute code, documentation, and use cases
 ---
-
 Magma is an open source software platform that gives network operators an open, flexible and extendable mobile core network solution. Our ethos is user-driven and our culture is welcoming and respectful. We invite you to try out Magma, provide your feedback and get involved in contributing to the code.
 
----
+- - -
 
 ## Join the Magma Community
 
-- Mailing lists:
-  - The TSC for Magma Core Foundation can be reached at their [mailing list](https://lists.magmacore.org/g/magma-tsc).
-- Slack:
-  - Click here and add your email address for self-signup to the [magma](https://join.slack.com/t/magmacore/shared_invite/zt-g76zkofr-g6~jYiS3KRzC9qhAISUC2A) Slack channel.
-- [Magma Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_gbiu1t7a67ika1th2smldeh19s@group.calendar.google.com&ctz=America/Chicago)
-- Magma community documentation and processes:
-  - [Magma Community on Github](https://github.com/magma/community)
+* Mailing lists:
+
+  * The TSC for Magma Core Foundation can be reached at their [mailing list](https://lists.magmacore.org/g/magma-tsc).
+* Slack:
+
+  * Click here and add your email address for self-signup to the [magma](https://slack.magmacore.org) Slack channel.
+* [Magma Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_gbiu1t7a67ika1th2smldeh19s@group.calendar.google.com&ctz=America/Chicago)
+* Magma community documentation and processes:
+
+  * [Magma Community on Github](https://github.com/magma/community)
 
 ### Public Meetings
 
@@ -30,7 +32,7 @@ The Magma Core Foundation maintains a [public calendar](https://calendar.google.
 
 > Most meetings are recorded and recordings can be found on the [Magma Core Foundation YouTube Channel](https://www.youtube.com/channel/UCXOjPjjgXplvnF6YVHSGNeA).
 
----
+- - -
 
 ## <div id="governance"></div> Governance
 
