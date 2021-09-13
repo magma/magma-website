@@ -482,4 +482,18 @@ table {
   .join-button:first-of-type {
     margin-bottom: 30px;
   }
+
+  table {    
+    thead {      
+      th {
+        font-size: 14px;
+      }
+    }
+    tbody {
+      td {
+        font-size: 14px;
+        padding: 9px 23px;
+      }
+    }
+  }
 }
