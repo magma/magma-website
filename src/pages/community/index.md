@@ -20,7 +20,7 @@ Magma is an open source software platform that gives network operators an open, 
   * The TSC for Magma Core Foundation can be reached at their [mailing list](https://lists.magmacore.org/g/magma-tsc).
 * Slack:
 
-  * Click here and add your email address for self-signup to the [magma](slack.magmacore.org) Slack channel.
+  * Click here and add your email address for self-signup to the [magma](https://slack.magmacore.org) Slack channel.
 * [Magma Community Calendar](https://calendar.google.com/calendar/u/0/embed?src=c_gbiu1t7a67ika1th2smldeh19s@group.calendar.google.com&ctz=America/Chicago)
 * Magma community documentation and processes:
 
