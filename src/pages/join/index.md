@@ -64,4 +64,4 @@ Your organization will need to be a current member of the Linux Foundation. If y
 
 The success of Magma is due to the contributions and support of the developer community and member companies. Join your industry peers and help connect the next billion people.
 
-<a href="#" class="join-button">Preview Agreement</a> <a href="#" class="join-button">Become a Member</a>
+<a href="/PREVIEW - Magma Participation Agreement.pdf" target="_blank" class="join-button">Preview Agreement</a> <a href="https://join.magmacore.org" target="_blank" class="join-button">Become a Member</a>
