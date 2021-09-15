@@ -211,6 +211,8 @@ export const pageQuery = graphql`
           linkedin
           twitter
           display
+          title
+          subTitle
           formUrl 
         }
       }
