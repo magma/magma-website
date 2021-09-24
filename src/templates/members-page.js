@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
 
 import metadata from '../content/site-metadata.json'
+
+import LinkComponent from '../components/LinkComponent'
 
 export const MembersPageTemplate = ({ seo, title, subTitle, members, cta }) => {
 
@@ -54,17 +56,31 @@ export const MembersPageTemplate = ({ seo, title, subTitle, members, cta }) => {
                       </div>
                       <div className="container container-center member-grid">
                         {
-                          member.membersList.map((d, listIndex) => {
+                          member.membersList?.map((d, listIndex) => {
                             return (
-                              <div className="" key={listIndex}>
-                                {d.logo ? d.logo.extension === 'svg' && !d.logo.childImageSharp ?
-                                  <img src={!!d.logo.publicURL ? d.logo.publicURL : d.logo} alt={d.name} style={{ width: 164 }} />
-                                  :
-                                  <img src={!!d.logo.childImageSharp ? d.logo.childImageSharp.fluid.src : d.logo} alt={d.name} style={{ width: 164 }} />
-                                  :
-                                  ''
-                                }
-                              </div>
+
+                              d.url ?
+                                <div className="" key={listIndex}>
+                                  <LinkComponent href={d.url}>
+                                    {d.logo ? d.logo.extension === 'svg' && !d.logo.childImageSharp ?
+                                      <img src={!!d.logo.publicURL ? d.logo.publicURL : d.logo} alt={d.name} style={{ width: 164 }} />
+                                      :
+                                      <img src={!!d.logo.childImageSharp ? d.logo.childImageSharp.fluid.src : d.logo} alt={d.name} style={{ width: 164 }} />
+                                      :
+                                      ''
+                                    }
+                                  </LinkComponent>
+                                </div>
+                                :
+                                <div className="" key={listIndex}>
+                                    {d.logo ? d.logo.extension === 'svg' && !d.logo.childImageSharp ?
+                                      <img src={!!d.logo.publicURL ? d.logo.publicURL : d.logo} alt={d.name} style={{ width: 164 }} />
+                                      :
+                                      <img src={!!d.logo.childImageSharp ? d.logo.childImageSharp.fluid.src : d.logo} alt={d.name} style={{ width: 164 }} />
+                                      :
+                                      ''
+                                    }
+                                </div>
                             )
                           })
                         }
@@ -82,9 +98,9 @@ export const MembersPageTemplate = ({ seo, title, subTitle, members, cta }) => {
         <div class="search-content members-cta">
           <h2 className="members-title">{cta.title}</h2>
           <p className="members-description">{cta.description}</p>
-          <Link className="button is-primary members-button" to={cta.button.url} title={cta.button.text}>
+          <LinkComponent className="button is-primary members-button" to={cta.button.url} title={cta.button.text}>
             {cta.button.text}
-          </Link>
+          </LinkComponent>
         </div>
       </section>
     </main>

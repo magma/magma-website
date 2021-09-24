@@ -9,7 +9,7 @@ seo:
 title: Members
 subTitle: Thank you to all our members
 members:
-  - category: Premier
+  - category: premier
     membersList:
       - name: Arm
         logo: /img/members/premier/arm-limited.svg
@@ -23,7 +23,7 @@ members:
       - name: Red Hat Inc.
         logo: /img/members/premier/red-hat-inc.svg
         url: ''  
-  - category: General
+  - category: general
     membersList:
       - name: 0Chain
         logo: /img/members/general/0chain Text Black.svg
@@ -61,7 +61,7 @@ members:
       - name: Wavelabs
         logo: /img/members/general/wavelabs-logo.svg
         url: ''
-  - category: Ecosystem
+  - category: ecosystem
     membersList:
       - name: FREE 5GC
         logo: /img/members/ecosystem/free5GC.png
