@@ -384,3 +384,37 @@ collections:
               {label: Form Url, name: formUrl, widget: string, required: false},
             ]}
           - {label: "Body", name: body, widget: markdown}
+  - name: "members"
+    label: "Members"
+    files:
+      - file: "src/pages/members/index.md"    
+        name: membersPage
+        label: Members Page
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "members-page"} 
+          - {label: SEO, name: seo, widget: object, fields: [
+              {label: "Title", name: "title", widget: string},
+              {label: "Description", name: "description", widget: string},
+              {label: "Url", name: "url", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: "Twitter Username", name: "twitterUsername", widget: string},
+            ]}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sub Title", name: subTitle, widget: string}
+          - {label: "Members", name: "members", widget: list, fields: [
+              {label: "Category", name: category, widget: string},
+              {label: "Members List", name: membersList, widget: list, fields: [
+                {label: "Name", name: name, widget: string},
+                {label: "Logo", name: logo, widget: image},
+                {label: "URL", name: url, widget: string, required: false},
+              ]}
+            ]}
+          - {label: "Call to Action", name: cta, widget: object, fields: [
+              {label: "Title", name: title, widget: string},
+              {label: "Description", name: description, widget: text},
+              {label: "Button", name: button, widget: object, fields: [
+                {label: "Text", name: text, widget: string},
+                {label: "URL", name: url, widget: string},
+              ]}
+            ]}
+            ]}
