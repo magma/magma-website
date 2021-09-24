@@ -98,7 +98,7 @@ export const MembersPageTemplate = ({ seo, title, subTitle, members, cta }) => {
         <div class="search-content members-cta">
           <h2 className="members-title">{cta.title}</h2>
           <p className="members-description">{cta.description}</p>
-          <LinkComponent className="button is-primary members-button" to={cta.button.url} title={cta.button.text}>
+          <LinkComponent className="button is-primary members-button" href={cta.button.url} title={cta.button.text}>
             {cta.button.text}
           </LinkComponent>
         </div>
