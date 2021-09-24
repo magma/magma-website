@@ -26,40 +26,40 @@ members:
   - category: General
     membersList:
       - name: 0Chain
-        logo: /img/members/premier/0chain Text Black.svg
+        logo: /img/members/general/0chain Text Black.svg
         url: ''      
       - name: Aarna Networks
-        logo: /img/members/premier/aarnanetworks.svg
+        logo: /img/members/general/aarnanetworks.svg
         url: ''
       - name: AQSACOM
-        logo: /img/members/premier/AQSACOM.jpg
+        logo: /img/members/general/AQSACOM.jpg
         url: ''
       - name: Connect 5G
-        logo: /img/members/premier/Connect 5G logo.png
+        logo: /img/members/general/Connect 5G logo.png
         url: ''
       - name: Black Orange Hex
-        logo: /img/members/premier/delivered-by_black-orange_hex.svg
+        logo: /img/members/general/delivered-by_black-orange_hex.svg
         url: ''
       - name: Helium
-        logo: /img/members/premier/Helium.svg
+        logo: /img/members/general/Helium.svg
         url: ''
       - name: Highway 9 Networks
-        logo: /img/members/premier/highway9-networks.svg
+        logo: /img/members/general/highway9-networks.svg
         url: ''
       - name: Platform9
-        logo: /img/members/premier/platform9-systems-inc.svg
+        logo: /img/members/general/platform9-systems-inc.svg
         url: ''
       - name: Radtonics
-        logo: /img/members/premier/radtonics_logo2.svg
+        logo: /img/members/general/radtonics_logo2.svg
         url: ''
       - name: Sempre
-        logo: /img/members/premier/Sempre.ai.svg
+        logo: /img/members/general/Sempre.ai.svg
         url: ''
       - name: Shoelace Wireless
-        logo: /img/members/premier/shoelace-wireless-inc.svg
+        logo: /img/members/general/shoelace-wireless-inc.svg
         url: ''
       - name: Wavelabs
-        logo: /img/members/premier/wavelabs-logo.svg
+        logo: /img/members/general/wavelabs-logo.svg
         url: ''
   - category: Ecosystem
     membersList:

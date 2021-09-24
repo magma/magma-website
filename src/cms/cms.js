@@ -7,6 +7,7 @@ import SupportersPagePreview from './preview-templates/SupportersPagePreview'
 import CaseStudiesPagePreview from './preview-templates/CaseStudiesPagePreview'
 import CommitteePagePreview from './preview-templates/CommitteePagePreview'
 import JoinPagePreview from './preview-templates/JoinPagePreview'
+import MembersPagePreview from './preview-templates/MembersPagePreview'
 
 import { Widget as FileRelationWidget } from '@ncwidgets/file-relation'
 import { Widget as IdWidget } from '@ncwidgets/id'
@@ -28,3 +29,4 @@ CMS.registerPreviewTemplate('tsc', CommitteePagePreview)
 CMS.registerPreviewTemplate('governingBoard', CommitteePagePreview)
 CMS.registerPreviewTemplate('outreachCommittee', CommitteePagePreview)
 CMS.registerPreviewTemplate('joinPage', JoinPagePreview)
+CMS.registerPreviewTemplate('membersPage', MembersPagePreview)

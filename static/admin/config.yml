@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: magma/magma-website
-  branch: main
+  repo: tomrndom/magma-website
+  branch: feature/members-page
   commit_messages:
     create: |
       'Create {{collection}} “{{slug}}”'
@@ -387,7 +387,7 @@ collections:
   - name: "members"
     label: "Members"
     files:
-      - file: "src/pages/members/index.md"    
+      - file: "src/pages/members/index.md"
         name: membersPage
         label: Members Page
         fields:
@@ -416,5 +416,4 @@ collections:
                 {label: "Text", name: text, widget: string},
                 {label: "URL", name: url, widget: string},
               ]}
-            ]}
-            ]}
+            ]}            
