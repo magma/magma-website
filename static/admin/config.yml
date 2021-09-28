@@ -386,6 +386,8 @@ collections:
           - {label: "Body", name: body, widget: markdown}
   - name: "members"
     label: "Members"
+    media_folder: '../../../{{media_folder}}/members'
+    public_folder: '{{public_folder}}/members'
     files:
       - file: "src/pages/members/index.md"
         name: membersPage
