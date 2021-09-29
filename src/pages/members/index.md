@@ -38,7 +38,7 @@ members:
         logo: /img/members/general/Connect 5G logo.png
         url: ''
       - name: Black Orange Hex
-        logo: /img/members/general/delivered-by_black-orange_hex.svg
+        logo: /img/members/general/ubuntu-logo.svg
         url: ''
       - name: Helium
         logo: /img/members/general/Helium.svg
