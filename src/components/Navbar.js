@@ -98,6 +98,10 @@ const Navbar = class extends React.Component {
         */}
 
         <div className="subnav">
+        <Link to="/members"><button className="subnavbtn">Members<i className="fa fa-caret-down"></i></button></Link>
+        </div> 
+
+        <div className="subnav">
         <Link to="/blog"><button className="subnavbtn">Blog<i className="fa fa-caret-down"></i></button></Link>
           {/*<div className="subnav-content-news">
             <div className="arrow-up-news"></div>
