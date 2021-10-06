@@ -1,0 +1,46 @@
+/* ------------------------------------------------------------ *\
+	Member Logos Page
+\* ------------------------------------------------------------ */
+
+
+// Toggles Netlify CMS integration of member logos. Switch between iframe-generated logos or CMS-generated logos.
+
+.member-logos-cms {
+  display: none; // Delete to display logos generated from CMS
+}
+
+// Styles for iframe containeing member logos
+
+.iframe-logos-section {
+  // Change to "display: none;" to hide this section
+}
+
+.member-logos-iframe {
+  display: none;
+  margin: 0 auto;
+  max-width: 880px;
+  display: flex;
+  justify-content: center;
+}
+
+.embedded-logos {
+  height: 1717px;
+  margin: 0 auto;
+  margin-top: 60px;
+  min-width: 100%; 
+  opacity: 1; 
+  visibility: visible; 
+  overflow: hidden; 
+}
+
+@media (max-width: 840px) {
+  .embedded-logos{
+    height: 2200px;
+  }
+}
+
+@media (max-width: 564px) {
+  .embedded-logos{
+    height: 2800px;
+  }
+}

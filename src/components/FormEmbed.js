@@ -1,5 +1,4 @@
 import React from "react";
-import Paperwork from "../../static/img/paperwork.jpg";
 
 const FormEmbed = class extends React.Component {
   constructor(props) {
