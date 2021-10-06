@@ -13,6 +13,13 @@
 
 .iframe-logos-section {
   // Change to "display: none;" to hide this section
+  margin-top: 60px;
+}
+
+@media (max-width: 840px) {
+  .iframe-logos-section{
+    margin-top: unset;
+  }
 }
 
 .member-logos-iframe {
@@ -26,7 +33,6 @@
 .embedded-logos {
   height: 1717px;
   margin: 0 auto;
-  margin-top: 60px;
   min-width: 100%; 
   opacity: 1; 
   visibility: visible; 
