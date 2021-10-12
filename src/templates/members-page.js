@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/Layout'
+import MemberLogosIframe from '../components/Member-Logos-Iframe'
 
 import metadata from '../content/site-metadata.json'
 
@@ -44,7 +45,7 @@ export const MembersPageTemplate = ({ seo, title, subTitle, members, cta }) => {
           </div>
         </div>
       </section>
-      <section className="section section-article-simple">
+      <section className="section section-article-simple member-logos-cms">
         <div className="container container-thin">
           <div className="section-body">
             <article className="article-simple default-page">
@@ -93,6 +94,9 @@ export const MembersPageTemplate = ({ seo, title, subTitle, members, cta }) => {
             </article>
           </div>
         </div>
+      </section>
+      <section className="iframe-logos-section">
+        <MemberLogosIframe />
       </section>
       <section class="section search-content no-border">
         <div class="search-content members-cta">
