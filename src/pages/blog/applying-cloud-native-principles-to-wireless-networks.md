@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Applying Cloud Native Principles to Wireless Networks
 author: Bruce Davie and Amar Padmanabhan
-date: 2021-12-15T00:00:00.000Z
+date: 2021-12-16T00:00:00.000Z
 category:
   - label: Community
     id: applying-cloud-native-principles-to-wireless-networks
