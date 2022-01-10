@@ -12,24 +12,6 @@ subTitle: The Governing Board is responsible for strategic direction, business
 members:
   - github: ""
     facebook: ""
-    name: Michael Cheng, Chair
-    twitter: ""
-    title: Product Manager
-    description: >
-      Michael is a product manager at Facebook, currently supporting open source
-      and standards work across the company. Michael is former network engineer,
-      investment banker, car salesman and M&A attorney. He previously led the
-      Product and IP function on Facebook’s M&A legal team. While at Facebook,
-      Michael has established and/or now actively serving on the boards of 20+
-      open source foundations, non-profits, standards setting organizations,
-      including: ML Commons, Confidential Computing Consortium, Libra/Diem
-      Association, Urban Computing Foundation, OpenChain, Open Invention Network
-      Technical Advisory Committee, Magma Foundation, and others.
-    company: Facebook
-    linkedin: https://www.linkedin.com/in/priorart/
-    picture: /img/committee/governing-board/Michael-Cheng.jpg
-  - github: ""
-    facebook: ""
     name: Irfan Ghauri
     twitter: ""
     title: Director of Operations
@@ -131,4 +113,14 @@ members:
     company: Red Hat
     linkedin: https://www.linkedin.com/in/azharsayeed/
     picture: /img/committee/governing-board/Azhar-Sayeed.png
+  - picture: /img/emily-yousling-headshot.jpg
+    description: "Emily is a Product Manager at Meta Connectivity, supporting the
+      open source Magma project. She spent the last 5 years driving product
+      strategy for Google's Loon balloon-powered internet company, including
+      launching a crisis connectivity service in partnership with AT&T. Before
+      that, she worked in business innovation at Google's X R&D Lab, strategic
+      partnerships at Google Singapore, and Morgan Stanley in NYC. "
+    name: Emily Yousling
+    title: Product Manager
+    company: Meta Connectivity
 ---
