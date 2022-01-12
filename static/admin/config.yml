@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: magma/magma-website
-  branch: main
+  repo: tomrndom/magma-website
+  branch: hotfix/overview-videos
   commit_messages:
     create: |
       'Create {{collection}} “{{slug}}”'
