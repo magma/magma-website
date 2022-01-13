@@ -49,7 +49,9 @@ overview:
   title: Learn Why Service Providers Are Using Magma
   videos:
    - videoUrl: https://www.youtube.com/embed/1JZOh-jSMls
+     title: Magma Overview
    - videoUrl: https://www.youtube.com/embed/59U5mL6saXs
+     title: Inside Magma
 userStories:
   display: true
   tag: USER STORIES

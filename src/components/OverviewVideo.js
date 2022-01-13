@@ -23,9 +23,12 @@ const OverviewVideo = class extends React.Component {
           <div className="overview-video-container">
             {videos.map((video, index) => {
               return (
-                <iframe key={index} className="overview-video" title="Magma Overview Video" src={video.videoUrl} allowFullScreen></iframe>
+                <div className="overview-video">
+                  <iframe key={index} title="Magma Overview Video" src={video.videoUrl} allowFullScreen></iframe>
+                  <h2>{video.title}</h2>
+                </div>
               )
-              })}
+            })}
           </div>
         </section>
       )

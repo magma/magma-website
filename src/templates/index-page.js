@@ -172,6 +172,7 @@ export const pageQuery = graphql`
           title
           videos {
             videoUrl
+            title
           }
         }
         userStories {

@@ -22,7 +22,19 @@
   position: relative;
   border: 0;
   width: 48.5%;
-  aspect-ratio: 16/9;
+  flex-direction: column;
+  iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+  }
+  h2 {
+    display: inline-block;
+    width: 48.5%;
+    color: #121212;
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -32,7 +44,7 @@
   }
   .overview-video {
     width: 100%;
-    &:first-of-type{
+    &:first-of-type {
       margin-bottom: 45px;
     }
   }
