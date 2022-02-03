@@ -25,7 +25,7 @@ const OverviewVideo = class extends React.Component {
               return (
                 <div className="overview-video">
                   <iframe key={index} title="Magma Overview Video" src={video.videoUrl} allowFullScreen></iframe>
-                  <h2>{video.title}</h2>
+                  <h3>{video.title}</h3>
                 </div>
               )
             })}
