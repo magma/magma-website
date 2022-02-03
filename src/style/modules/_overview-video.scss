@@ -22,9 +22,13 @@
 .overview-video {
   position: relative;
   border: 0;
-  width: 48.5%;
+  width: 31%;
   flex-direction: column;
   margin-bottom: 25px;
+  &:first-of-type {
+    width: 100%;
+    margin-bottom: 50px;
+  }
   iframe {
     aspect-ratio: 16/9;
     width: 100%;
