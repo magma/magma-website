@@ -170,7 +170,10 @@ export const pageQuery = graphql`
           display
           tag
           title
-          videoUrl
+          videos {
+            videoUrl
+            title
+          }
         }
         userStories {
           display

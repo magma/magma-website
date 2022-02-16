@@ -175,7 +175,10 @@ collections:
               {label: Display, name: display, widget: boolean, required: false},
               {label: Tag, name: tag, widget: string, required: false},
               {label: Title, name: title, widget: string, required: false},
-              {label: Video Url, name: videoUrl, widget: string, required: false},
+              {label: Videos, name: videos, widget: list, fields: [
+                {label: Video Url, name: videoUrl, widget: string, required: false},
+                {label: Title, name: title, widget: string, required: false},
+              ]}
             ]}
           - {label: User Stories, name: userStories, widget: object, fields: [
               {label: Display, name: display, widget: boolean, required: false},

@@ -47,7 +47,15 @@ overview:
   display: true
   tag: OVERVIEW
   title: Learn Why Service Providers Are Using Magma
-  videoUrl: https://www.youtube.com/embed/1JZOh-jSMls
+  videos:
+   - videoUrl: https://www.youtube.com/embed/1JZOh-jSMls
+     title: Magma Overview
+   - videoUrl: https://www.youtube.com/embed/59U5mL6saXs
+     title: Inside Magma
+   - videoUrl: https://www.youtube.com/embed/vI_O3J4twr4
+     title: Get started developing for Magma
+   - videoUrl: https://www.youtube.com/embed/AQeTeE3nK8g
+     title: Depoy Magma for Fixed Wireless Access
 userStories:
   display: true
   tag: USER STORIES

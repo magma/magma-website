@@ -12,16 +12,48 @@
 
 .overview-video-container {
   margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%;
+  flex-wrap: wrap;
 }
 
 .overview-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  position: relative;
   border: 0;
+  width: 31%;
+  flex-direction: column;
+  margin-bottom: 25px;
+  &:first-of-type {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+  }
+  h3 {
+    color: #121212;
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+  }  
+  &:last-child, &:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .overview-video-container {
+    flex-direction: column;
+    align-content: space-between;
+  }
+  .overview-video {
+    width: 100%;
+    &:first-of-type {
+      margin-bottom: 45px;
+    }
+  }
 }

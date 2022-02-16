@@ -13,7 +13,7 @@ const OverviewVideo = class extends React.Component {
 
   render() {
 
-    const { overview: { display, tag, title, videoUrl } } = this.props;
+    const { overview: { display, tag, title, videos } } = this.props;
 
     if (display) {
       return (
@@ -21,7 +21,14 @@ const OverviewVideo = class extends React.Component {
           <h5 id="user-stories" className="section-tag">{tag}</h5>
           <h2>{title}</h2>
           <div className="overview-video-container">
-            <iframe className="overview-video" title="Magma Overview Video" src={videoUrl} allowfullscreen></iframe>
+            {videos.map((video, index) => {
+              return (
+                <div className="overview-video">
+                  <iframe key={index} title="Magma Overview Video" src={video.videoUrl} allowFullScreen></iframe>
+                  <h3>{video.title}</h3>
+                </div>
+              )
+            })}
           </div>
         </section>
       )
