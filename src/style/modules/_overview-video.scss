@@ -39,21 +39,30 @@
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
-  }  
-  &:last-child, &:nth-last-child(2) {
+  }
+  &:last-child,
+  &:nth-last-child(2) {
     margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .overview-video-section{
+    padding-bottom: 5px;
+  }
   .overview-video-container {
     flex-direction: column;
     align-content: space-between;
   }
   .overview-video {
     width: 100%;
+    margin-bottom: 25px;
     &:first-of-type {
-      margin-bottom: 45px;
+      margin-bottom: 25px;
+    }
+    &:last-child,
+    &:nth-last-child(2) {
+      margin-bottom: 25px;
     }
   }
 }
