@@ -38,17 +38,6 @@ members:
     twitter: https://twitter.com/realpratikdas
     linkedin: https://linkedin.com/in/pratikdas
     picture: /img/committee/outreach-committee/Pratik-Das.jpg
-  - name: Doug Cheline
-    company: Facebook
-    title: Product Marketing, Magma
-    description: >
-      As the Product Marketing Manager for Magma, Doug leads the GTM transition
-      of Magma from an in-house initiative to the open-source community under
-      the Magma Core Foundation.   Prior to Facebook, Doug held various
-      leadership positions in Engineering, Product Management, and Sales and
-      Marketing in companies such as Motorola, DirecTV, Genuity and various
-      startups in Silicon Valley.
-    picture: /img/committee/outreach-committee/Doug-Cheline.jpg
   - name: Jeff Hodge
     company: Vapor IO
     picture: /img/committee/outreach-committee/Jeff-Hodge.jpeg
@@ -71,4 +60,15 @@ members:
     twitter: https://twitter.com/RealLisaC
     linkedin: null
     picture: /img/committee/outreach-committee/Lisa-Caywood.jpg
+  - picture: /img/adry.jfif
+    name: Adry Elmilady
+    title: Product Marketing Manager
+    company: Meta Platforms
+    description: "Adry leads product marketing activities for 5G edge architectures
+      at Meta Platforms.  Prior to Meta, Adry was Samsung Networks’ Technology
+      Partnerships head for North America and Europe.  Before Samsung, he held a
+      variety of leadership roles in engineering, product marketing,
+      partnerships, and business development at Qualcomm and Nokia
+      Networks.  Adry received an MSEE degree from the University of Virginia
+      and an MBA from UC Berkeley. "
 ---
