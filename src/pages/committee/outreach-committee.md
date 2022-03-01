@@ -60,7 +60,7 @@ members:
     twitter: https://twitter.com/RealLisaC
     linkedin: null
     picture: /img/committee/outreach-committee/Lisa-Caywood.jpg
-  - picture: /img/adry.jfif
+  - picture: /img/adry.jpg
     name: Adry Elmilady
     title: Product Marketing Manager
     company: Meta Platforms
