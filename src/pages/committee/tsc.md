@@ -9,9 +9,9 @@ seo:
 title: TSC
 subTitle: 'The Technical Steering Committee (TSC) is responsible for coordinating the technical direction of the project.'
 members:
-  - company: Facebook	Software 
+  - company: Meta 
     title: Engineer		
-    name: Hunter Gatewood, Chair
+    name: Hunter Gatewood
     description: >
       Hunter Gatewood is a software enginer at Facebook Connectivity, supporting the open-source Magma project. Magma's mission is to connect the world to a faster internet by enabling service providers to build cost-effective and extensible carrier-grade networks. Prior to Facebook, his work spanned IoT, edtech, satellites, and network security at Microsoft, Zearn, MIT Space Systems Lab, and MIT Lincoln Lab, respectively. He has a B.S. from MIT in Computer Science and an M.Eng. from MIT in Computer Systems, with a thesis targeting scalable secure communication for resource-constrained systems.
     github: https://github.com/hcgatewood
@@ -46,12 +46,12 @@ members:
     picture: /img/committee/tsc/Nick_Yurchenko.png
   - company: Meta
     title: Engineer
-    name: Shruti Sanadhya
+    name: Shruti Sanadhya, Chair
     description: >
       Shruti Sanadhya has been working on the Magma project for over 4 years with a focus on the MME service on Magma Access Gateway. She led the Converged MME effort to align MME service across Magma and OAI core, and facilitated creation of the Magma open source project. She has been supporting the design and development of multiple features, such as Stateless MME, 5G NSA, X2 handover, Inbound Roaming, among others.
     picture: /img/committee/tsc/Shruti_Sanadhya.jpg
   - company: Magma Core Foundation
-    title: AWS Certified Solutions Architect and Certified Kubernetes Administrator (CKA)
+    title: DevOps Engineer
     name: Shubham Tatvamasi
     description: >
       Shubham Tatvamasi is an AWS Certified Solutions Architect and Certified Kubernetes Administrator (CKA). Presently, he is working at the Magma Core Foundation as a DevOps engineer. Prior to that, he was a Research Associate at the University of Delhi, researching on the 5G Super Blueprint. He has several years of experience in Open-source, research, and Cloud platforms (AWS, GCP, Azure, and OpenStack). He is actively involved in community-building, knowledge-sharing and inspiring others to pursue a career in Cloud-native technologies. Furthermore, he created the Magma India Meetup group for collaboration and to help developers learn and contribute to the telco cloud.
