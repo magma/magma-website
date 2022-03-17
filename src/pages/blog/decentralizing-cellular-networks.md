@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Decentralizing Cellular Networks
 author: Bruce Davie and Amar Padmanabhan
-date: 2022-07-03T09:00:00.000Z
+date: 2022-03-07T09:00:00.000Z
 category:
   - label: Community
     id: decentralizing-cellular-networks
